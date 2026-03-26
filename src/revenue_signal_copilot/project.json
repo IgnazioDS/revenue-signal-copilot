@@ -1,0 +1,24 @@
+{
+  "slug": "revenue-signal-copilot",
+  "name": "Revenue Signal Copilot",
+  "category": "Business Tool",
+  "track": "AI/ML",
+  "stage": "Ready to build",
+  "summary": "A lead intelligence and prioritization system that scores accounts using public signals and internal notes.",
+  "problem": "Outbound teams chase low-signal leads because enrichment and prioritization are fragmented across tools.",
+  "users": "Sales teams, agencies, founder-led GTM teams",
+  "stack": [
+    "Python",
+    "FastAPI",
+    "Pandas",
+    "PostgreSQL",
+    "LLMs"
+  ],
+  "why_now": "Small teams need leverage from AI systems that can turn scattered signals into action.",
+  "mvp": [
+    "Ingest CRM exports and website data",
+    "Score leads with transparent factors",
+    "Generate account briefs and outreach angles",
+    "Track conversion feedback to refine scoring"
+  ]
+}

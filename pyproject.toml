@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "revenue-signal-copilot"
+version = "0.1.0"
+description = "A lead intelligence and prioritization system that scores accounts using public signals and internal notes."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+  { name = "Ignazio De Santis" }
+]
+dependencies = []
+
+[project.scripts]
+revenue-signal-copilot = "revenue_signal_copilot.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+revenue_signal_copilot = ["project.json"]
