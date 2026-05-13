@@ -2,9 +2,10 @@
 
 ## Phase 1
 
-- Ingest CRM exports and website data
-- Score leads with transparent factors
-- Generate account briefs and outreach angles
+- Ship local CSV ingestion with a typed signal schema
+- Score accounts with transparent factors and recency decay
+- Generate account briefs and outreach angles from the score trace
+- Add real CRM and website-data integrations
 - Track conversion feedback to refine scoring
 
 ## Phase 2

@@ -6,9 +6,9 @@
 
 ---
 
-## Status: showcase-state
+## Status: showcase-state plus local MVP
 
-**This repository is in showcase-state.** The copilot itself — the signal taxonomy, the scoring engine, the trace generator, the CRM integrations — is not yet in this repo. What ships now is a public dashboard, a stdlib-only telemetry endpoint, and a Python CLI scaffold that exposes the project contract. See [What ships right now](#what-ships-right-now) for the audit.
+**The public dashboard is still in showcase-state, but the Python layer is no longer just a scaffold.** This repository now ships a local MVP slice of the copilot: a typed signal taxonomy, CSV ingestion, recency-decayed scoring, an explainable score trace, and a deterministic account brief built from that trace. CRM integrations, a persistent signal ledger, and a production scoring service are still not in the repo. See [What ships right now](#what-ships-right-now) for the audit.
 
 For an example of what one of these projects looks like once graduated to production, see [NexusRAG](https://github.com/IgnazioDS/NexusRAG) — same operator, same engineering bar, fully shipped.
 
@@ -80,9 +80,9 @@ Next.js 14 App Router app at the live URL above. Five routes:
 
 Stdlib-only Vercel Python serverless function. Reports honest GitHub-derived signals — commits, stars, last commit, primary language, lines of code. Never simulated workload metrics. Contract documented in [TELEMETRY_SCHEMA.md](https://github.com/IgnazioDS/IgnazioDS/blob/main/TELEMETRY_SCHEMA.md).
 
-### 3. Python CLI scaffold (`src/revenue_signal_copilot/`)
+### 3. Python CLI + scoring prototype (`src/revenue_signal_copilot/`)
 
-Argparse-based CLI exposing the project contract. Currently three subcommands:
+Argparse-based CLI exposing both the product contract and the first working scoring slice. Product contract commands:
 
 ```
 revenue-signal-copilot summary       # name, summary, problem, users, stage, track
@@ -90,7 +90,23 @@ revenue-signal-copilot capabilities  # planned MVP capabilities
 revenue-signal-copilot roadmap       # docs/roadmap.md
 ```
 
-The CLI reads `project.json` — a typed registry that drives the dashboard's `/capabilities` route and the CLI. When MVP work begins, the signal taxonomy and scoring engine layer onto this scaffold.
+Working MVP commands:
+
+```
+revenue-signal-copilot signal-schema
+revenue-signal-copilot score-csv examples/revenue_signals.csv --as-of 2026-05-13
+revenue-signal-copilot brief-account examples/revenue_signals.csv --account-id acct-003 --as-of 2026-05-13
+```
+
+What the MVP actually does:
+
+- defines a typed signal taxonomy with explicit base weights and half-life decay
+- ingests CSV exports with account, signal kind, source, captured date, strength, and summary
+- applies recency decay to each signal contribution
+- emits a traceable account score
+- generates a deterministic account brief grounded in that trace
+
+The CLI still reads `project.json` for the dashboard-facing product contract, but the scoring path is now a real executable prototype instead of a placeholder.
 
 ### 4. Deploy + telemetry pipeline
 
@@ -134,7 +150,7 @@ Vercel deploy with `/api/stats` cached 5 minutes, GitHub Actions for the type-ch
 └────────────────────────────────────────────────────────────────────┘
 ```
 
-The current dashboard is the public-facing shell. The Python CLI is the spine the MVP copilot will extend. `project.json` stays as the single source of truth for what the system claims to be.
+The current dashboard is still the public-facing shell. The Python CLI now includes the first real scoring path the future service will extend. `project.json` remains the source of truth for the product registry and showcase metadata.
 
 ---
 
@@ -149,13 +165,16 @@ npm install
 npm run dev          # http://localhost:3000
 ```
 
-### Run the Python CLI scaffold
+### Run the Python CLI and local MVP
 
 ```bash
 cd revenue-signal-copilot
 python -m revenue_signal_copilot.cli summary
 python -m revenue_signal_copilot.cli capabilities
 python -m revenue_signal_copilot.cli roadmap
+python -m revenue_signal_copilot.cli signal-schema
+python -m revenue_signal_copilot.cli score-csv examples/revenue_signals.csv --as-of 2026-05-13
+python -m revenue_signal_copilot.cli brief-account examples/revenue_signals.csv --account-id acct-003 --as-of 2026-05-13
 ```
 
 ### Test + type-check
@@ -182,12 +201,30 @@ Next.js 14 App Router · TypeScript strict · Tailwind 3 · Geist Sans + Mono ·
 
 ---
 
+## Prototype scope
+
+What is real now:
+
+- typed revenue signal taxonomy
+- CSV-based signal ingestion
+- recency-decayed scoring with named factors
+- score trace for each account
+- deterministic account brief built from the trace
+
+What is still missing:
+
+- CRM and web-data integrations
+- a persistent signal ledger
+- feedback loops from won/lost outcomes
+- API/service packaging around the scoring engine
+- LLM-backed brief generation
+
 ## More context
 
 - **Operator's hub**: [eleventh.dev](https://eleventh.dev) — the public site this dashboard's telemetry feeds into
 - **Reference shipped project**: [NexusRAG](https://github.com/IgnazioDS/NexusRAG) — production-grade multi-tenant RAG agent platform, same operator
 - **Telemetry contract**: [TELEMETRY_SCHEMA.md](https://github.com/IgnazioDS/IgnazioDS/blob/main/TELEMETRY_SCHEMA.md) — what the Tier-B counters mean and what they don't
-- **Status of this project**: showcase-tier. The copilot graduates when the typed signal ledger and the explainable scoring trace are live against a real GTM dataset.
+- **Status of this project**: showcase-tier dashboard plus local scoring MVP. The copilot graduates when the typed signal ledger, integrations, and service layer are live against real GTM data.
 
 ---
 

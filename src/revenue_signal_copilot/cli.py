@@ -1,9 +1,17 @@
 from __future__ import annotations
 
 import argparse
+from datetime import datetime
 from pathlib import Path
 
 from .catalog import load_project
+from .copilot import (
+    build_account_brief,
+    format_scorecards,
+    format_signal_schema,
+    load_signals_from_csv,
+    score_accounts,
+)
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -12,6 +20,27 @@ def build_parser() -> argparse.ArgumentParser:
     subparsers.add_parser("summary", help="Print product summary.")
     subparsers.add_parser("capabilities", help="Print initial capabilities.")
     subparsers.add_parser("roadmap", help="Print roadmap.")
+    subparsers.add_parser("signal-schema", help="Print the supported CSV schema and signal kinds.")
+
+    score_parser = subparsers.add_parser("score-csv", help="Score accounts from a CSV signal export.")
+    score_parser.add_argument("csv_path", help="Path to a CSV file of revenue signals.")
+    score_parser.add_argument(
+        "--as-of",
+        dest="as_of",
+        help="Score as of YYYY-MM-DD instead of today.",
+    )
+
+    brief_parser = subparsers.add_parser(
+        "brief-account",
+        help="Generate an account brief from the score trace.",
+    )
+    brief_parser.add_argument("csv_path", help="Path to a CSV file of revenue signals.")
+    brief_parser.add_argument("--account-id", required=True, help="Account ID to brief.")
+    brief_parser.add_argument(
+        "--as-of",
+        dest="as_of",
+        help="Score as of YYYY-MM-DD instead of today.",
+    )
     return parser
 
 
@@ -37,12 +66,31 @@ def run(argv: list[str] | None = None) -> str:
     if args.command == "roadmap":
         roadmap_path = Path(__file__).resolve().parents[2] / "docs" / "roadmap.md"
         return roadmap_path.read_text(encoding="utf-8").strip()
+    if args.command == "signal-schema":
+        return format_signal_schema()
+    if args.command == "score-csv":
+        signals = load_signals_from_csv(args.csv_path)
+        scorecards = score_accounts(signals, as_of=_parse_as_of(args.as_of))
+        return format_scorecards(scorecards)
+    if args.command == "brief-account":
+        signals = load_signals_from_csv(args.csv_path)
+        scorecards = score_accounts(signals, as_of=_parse_as_of(args.as_of))
+        for scorecard in scorecards:
+            if scorecard.account_id == args.account_id:
+                return build_account_brief(scorecard)
+        raise ValueError(f"Unknown account_id: {args.account_id}")
     raise ValueError(f"Unsupported command: {args.command}")
 
 
 def main(argv: list[str] | None = None) -> int:
     print(run(argv))
     return 0
+
+
+def _parse_as_of(value: str | None) -> datetime.date | None:
+    if value is None:
+        return None
+    return datetime.strptime(value, "%Y-%m-%d").date()
 
 
 if __name__ == "__main__":

@@ -1,0 +1,9 @@
+account_id,account_name,signal_kind,source,captured_at,strength,summary
+acct-001,Northstar Health,job_change,LinkedIn,2026-05-05,1.0,New VP of Revenue Operations joined from a scaled healthcare SaaS team.
+acct-001,Northstar Health,hiring_plan,Greenhouse,2026-05-08,0.9,Hiring for RevOps analysts and sales enablement.
+acct-001,Northstar Health,rep_note,Sales note,2026-05-10,1.0,Rep learned the team is rebuilding forecasting after a CRM cleanup.
+acct-002,Acme Freight,website_engagement,Website analytics,2026-05-11,0.8,Visited pricing and case study pages twice this week.
+acct-002,Acme Freight,stalled_opportunity,CRM,2026-04-01,1.0,Previous opportunity stalled after no internal owner stepped up.
+acct-003,Polar Cloud,tech_stack_change,BuiltWith,2026-05-09,1.0,Recently adopted a new warehouse and activation tooling.
+acct-003,Polar Cloud,stakeholder_reply,Email,2026-05-12,1.0,Ops leader replied asking for examples from similar GTM teams.
+acct-003,Polar Cloud,negative_note,Sales note,2026-03-20,0.7,Finance asked to pause evaluations until next quarter.
