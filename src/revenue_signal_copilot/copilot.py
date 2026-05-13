@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import csv
-import math
 from dataclasses import dataclass
 from datetime import date, datetime
 from pathlib import Path
@@ -343,6 +342,62 @@ def format_signal_schema() -> str:
             )
         )
     return "\n".join(lines)
+
+
+def scorecards_to_dict(scorecards: list[AccountScorecard]) -> list[dict[str, object]]:
+    return [
+        {
+            "account_id": item.account_id,
+            "account_name": item.account_name,
+            "score": item.score,
+            "total_points": item.total_points,
+            "positive_points": item.positive_points,
+            "negative_points": item.negative_points,
+            "signals": [
+                {
+                    "signal_kind": scored.signal.signal_kind,
+                    "label": scored.definition.label,
+                    "source": scored.signal.source,
+                    "captured_at": scored.signal.captured_at.isoformat(),
+                    "strength": scored.signal.strength,
+                    "summary": scored.signal.summary,
+                    "age_days": scored.age_days,
+                    "decay_multiplier": scored.decay_multiplier,
+                    "effective_points": scored.effective_points,
+                    "sentiment": scored.definition.sentiment,
+                    "rationale": scored.rationale,
+                }
+                for scored in item.scored_signals
+            ],
+        }
+        for item in scorecards
+    ]
+
+
+def signal_schema_to_dict() -> dict[str, object]:
+    return {
+        "required_columns": [
+            "account_id",
+            "account_name",
+            "signal_kind",
+            "source",
+            "captured_at",
+            "strength",
+            "summary",
+        ],
+        "signal_kinds": [
+            {
+                "kind": definition.kind,
+                "label": definition.label,
+                "base_weight": definition.base_weight,
+                "half_life_days": definition.half_life_days,
+                "sentiment": definition.sentiment,
+                "default_summary": definition.default_summary,
+                "outreach_angle": definition.outreach_angle,
+            }
+            for definition in supported_signal_kinds()
+        ],
+    }
 
 
 def _score_signal(signal: RevenueSignal, as_of: date) -> ScoredSignal:

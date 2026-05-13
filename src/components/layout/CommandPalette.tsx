@@ -11,6 +11,7 @@ import {
   ListChecks,
   Map,
   Moon,
+  PlayCircle,
   Settings,
   Sparkles,
   Sun,
@@ -92,6 +93,11 @@ export function CommandPaletteProvider({
                     <LayoutDashboard className="h-3.5 w-3.5" />
                     Overview
                     <kbd className="kbd ml-auto">G O</kbd>
+                  </Command.Item>
+                  <Command.Item onSelect={() => navigate("/prototype")}>
+                    <PlayCircle className="h-3.5 w-3.5" />
+                    Prototype
+                    <kbd className="kbd ml-auto">G P</kbd>
                   </Command.Item>
                   <Command.Item onSelect={() => navigate("/telemetry")}>
                     <Activity className="h-3.5 w-3.5" />
@@ -193,6 +199,7 @@ export function useGoToShortcuts() {
       }
       const dest: Record<string, string> = {
         o: "/",
+        p: "/prototype",
         t: "/telemetry",
         c: "/capabilities",
         r: "/roadmap",

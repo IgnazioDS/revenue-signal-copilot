@@ -71,6 +71,7 @@ Next.js 14 App Router app at the live URL above. Five routes:
 | path | what it shows |
 |---|---|
 | `/` | Overview — pitch banner, live `/api/stats` Tier-B counters, system status, audience + stack |
+| `/prototype` | Product demo — ranked accounts, score trace, CSV schema, and CLI commands for the local scoring MVP |
 | `/telemetry` | Polling telemetry consumer — full metric grid, raw JSON, 30s visibility-aware polling, contract docs |
 | `/capabilities` | MVP scope, problem statement, why-now, audience, stack — read from `project.json` |
 | `/roadmap` | Three-phase timeline (showcase → MVP build → Tier-A graduation) |
@@ -96,6 +97,7 @@ Working MVP commands:
 revenue-signal-copilot signal-schema
 revenue-signal-copilot score-csv examples/revenue_signals.csv --as-of 2026-05-13
 revenue-signal-copilot brief-account examples/revenue_signals.csv --account-id acct-003 --as-of 2026-05-13
+revenue-signal-copilot score-csv examples/revenue_signals.csv --as-of 2026-05-13 --format json
 ```
 
 What the MVP actually does:

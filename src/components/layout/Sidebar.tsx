@@ -8,6 +8,7 @@ import {
   LayoutDashboard,
   ListChecks,
   Map,
+  PlayCircle,
   Search,
   Settings,
   Zap,
@@ -27,6 +28,7 @@ interface NavItem {
 
 const PRIMARY: NavItem[] = [
   { href: "/", label: "Overview", icon: LayoutDashboard, desc: "Dashboard" },
+  { href: "/prototype", label: "Prototype", icon: PlayCircle, desc: "Real MVP" },
   { href: "/telemetry", label: "Telemetry", icon: Activity, desc: "/api/stats" },
   { href: "/capabilities", label: "Capabilities", icon: ListChecks, desc: "MVP scope" },
   { href: "/roadmap", label: "Roadmap", icon: Map, desc: "Stage + plan" },

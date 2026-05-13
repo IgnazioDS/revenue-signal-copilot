@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 import unittest
 from pathlib import Path
 
@@ -33,6 +34,12 @@ class CliTests(unittest.TestCase):
         self.assertIn("job_change", output)
         self.assertIn("stalled_opportunity", output)
 
+    def test_signal_schema_json(self) -> None:
+        output = run(["signal-schema", "--format", "json"])
+        payload = json.loads(output)
+        self.assertIn("required_columns", payload)
+        self.assertIn("signal_kinds", payload)
+
     def test_score_csv(self) -> None:
         output = run(["score-csv", self.example_csv, "--as-of", "2026-05-13"])
         self.assertIn("Revenue Signal Scores", output)
@@ -53,6 +60,15 @@ class CliTests(unittest.TestCase):
         self.assertIn("Account Brief: Polar Cloud", output)
         self.assertIn("Priority score:", output)
         self.assertIn("Suggested outreach angle:", output)
+
+    def test_score_csv_json(self) -> None:
+        output = run(
+            ["score-csv", self.example_csv, "--as-of", "2026-05-13", "--format", "json"]
+        )
+        payload = json.loads(output)
+        self.assertIsInstance(payload, list)
+        self.assertEqual(payload[0]["account_id"], "acct-001")
+        self.assertIn("signals", payload[0])
 
 
 if __name__ == "__main__":

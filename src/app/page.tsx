@@ -7,6 +7,7 @@ import {
   GitCommit,
   Github,
   Lightbulb,
+  PlayCircle,
   Star,
   TrendingUp,
   Users,
@@ -90,6 +91,12 @@ export default function OverviewPage() {
                 </p>
               </div>
               <div className="flex flex-row gap-2 lg:flex-col">
+                <Button asChild size="sm" variant="primary">
+                  <a href="/prototype">
+                    Open prototype
+                    <PlayCircle />
+                  </a>
+                </Button>
                 <Button asChild size="sm" variant="primary">
                   <a href="/capabilities">
                     See capabilities
