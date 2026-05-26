@@ -125,6 +125,7 @@ def _build_response() -> dict[str, Any]:
         return {
             "system": SYSTEM_SLUG,
             "mode": "live",
+            "workload": "benchmark",
             "status": "degraded",
             "last_deployed_at": static_deployed,
             "last_active_at": None,
@@ -139,6 +140,7 @@ def _build_response() -> dict[str, Any]:
     return {
         "system": SYSTEM_SLUG,
         "mode": "live",
+        "workload": "benchmark",
         "status": "operational",
         "last_deployed_at": static_deployed or last_active_at,
         "last_active_at": last_active_at,
@@ -176,6 +178,7 @@ class handler(BaseHTTPRequestHandler):
             payload = {
                 "system": SYSTEM_SLUG,
                 "mode": "live",
+                "workload": "benchmark",
                 "status": "degraded",
                 "last_deployed_at": None,
                 "last_active_at": None,
