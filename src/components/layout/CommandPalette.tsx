@@ -15,6 +15,7 @@ import {
   Settings,
   Sparkles,
   Sun,
+  Target,
 } from "lucide-react";
 import { useTheme } from "next-themes";
 import { createContext, useContext, useEffect, useState } from "react";
@@ -93,6 +94,11 @@ export function CommandPaletteProvider({
                     <LayoutDashboard className="h-3.5 w-3.5" />
                     Overview
                     <kbd className="kbd ml-auto">G O</kbd>
+                  </Command.Item>
+                  <Command.Item onSelect={() => navigate("/scoring")}>
+                    <Target className="h-3.5 w-3.5" />
+                    Scoring
+                    <kbd className="kbd ml-auto">G S</kbd>
                   </Command.Item>
                   <Command.Item onSelect={() => navigate("/prototype")}>
                     <PlayCircle className="h-3.5 w-3.5" />
@@ -199,6 +205,7 @@ export function useGoToShortcuts() {
       }
       const dest: Record<string, string> = {
         o: "/",
+        s: "/scoring",
         p: "/prototype",
         t: "/telemetry",
         c: "/capabilities",

@@ -1,10 +1,12 @@
-"""Unit tests for the /api/stats Vercel serverless function.
+"""Unit tests for the /api/stats Vercel serverless function (Tier A).
 
 Covers:
-- happy path: GitHub reachable, response shape matches Tier B contract
-- degraded path: GitHub unreachable, contract still satisfied with status="degraded"
-- safety caps: oversize values are clamped
+- happy path: scoring artifact present, response matches the Tier-A contract
+- degraded path: artifact missing, contract still satisfied, status="degraded"
+- safety caps: oversize metric values are clamped
+- uptime: trailing-30-day scheduled-run success rate
 - never returns 5xx (handler always emits HTTP 200)
+- the committed artifact is servable end-to-end
 """
 from __future__ import annotations
 
@@ -12,145 +14,123 @@ import io
 import json
 import sys
 import unittest
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from unittest.mock import MagicMock, patch
-from urllib.error import URLError
 
-# Add repo root to sys.path so we can import the api/stats.py module.
+# Add repo root/api to sys.path so we can import the api/stats.py module.
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "api"))
 import stats  # type: ignore  # noqa: E402
 
-
-def _reset_cache() -> None:
-    stats._cache = {"ts": 0.0, "payload": None}
+NOW = datetime(2026, 5, 26, 12, 0, 0, tzinfo=timezone.utc)
 
 
-def _fake_response(body: object, link_header: str = "") -> MagicMock:
-    """Build a context-manager-compatible mock that mimics urlopen's return."""
-    raw = json.dumps(body).encode("utf-8")
-    cm = MagicMock()
-    cm.__enter__ = MagicMock(return_value=cm)
-    cm.__exit__ = MagicMock(return_value=False)
-    cm.read = MagicMock(return_value=raw)
-    cm.getheaders = MagicMock(
-        return_value=[("Link", link_header)] if link_header else []
-    )
-    return cm
+def _artifact(**overrides: object) -> dict:
+    base = {
+        "system": "revenue-signal-copilot",
+        "mode": "live",
+        "status": "operational",
+        "generated_at": "2026-05-26T06:00:00Z",
+        "metrics": {
+            "accounts_total": 200,
+            "accounts_scored_24h": 200,
+            "signals_detected_24h": 7,
+            "high_priority_accounts": 44,
+        },
+    }
+    base.update(overrides)
+    return base
 
 
-class ResponseShapeTests(unittest.TestCase):
-    def setUp(self) -> None:
-        _reset_cache()
+def _history(run_count: int = 1, *, end: datetime = NOW) -> dict:
+    runs = []
+    for offset in range(run_count):
+        ts = (end - timedelta(days=run_count - 1 - offset)).strftime("%Y-%m-%dT%H:%M:%SZ")
+        runs.append({"run_id": f"rsc-{offset}", "generated_at": ts, "as_of": ts})
+    return {"system": "revenue-signal-copilot", "schema_version": 1, "runs": runs}
 
+
+class TierAResponseTests(unittest.TestCase):
     def test_happy_path_matches_contract(self) -> None:
-        repo_payload = {"stargazers_count": 7, "language": "Python"}
-        commit_payload = [
-            {"commit": {"author": {"date": "2026-04-26T12:00:00Z"}}}
-        ]
-
-        def side_effect(req, timeout=None):
-            url = req.full_url
-            if "/commits" not in url:
-                return _fake_response(repo_payload)
-            return _fake_response(
-                commit_payload,
-                link_header=(
-                    f"<https://api.github.com/repositories/x/commits"
-                    f"?per_page=1&page=2>; rel=\"next\", "
-                    f"<https://api.github.com/repositories/x/commits"
-                    f"?per_page=1&page=42>; rel=\"last\""
-                ),
-            )
-
-        with patch.object(stats, "urlopen", side_effect=side_effect):
+        with patch.object(stats, "_load_scoring", return_value=_artifact()), \
+                patch.object(stats, "_load_history", return_value=_history(1)):
             response = stats._build_response()
 
         self.assertEqual(response["schema_version"], 1)
-        self.assertEqual(response["mode"], "showcase")
+        self.assertEqual(response["mode"], "live")
         self.assertEqual(response["status"], "operational")
         self.assertEqual(response["system"], stats.SYSTEM_SLUG)
-        self.assertIn("metrics", response)
-        self.assertEqual(response["metrics"]["repo_stars"], 7)
-        self.assertEqual(response["metrics"]["primary_language"], "Python")
-        self.assertEqual(response["metrics"]["commits_total"], 42)
-        self.assertEqual(response["last_commit_at"], "2026-04-26T12:00:00Z")
-        # generated_at is ISO-8601 with Z suffix.
+        self.assertEqual(response["metrics"]["accounts_total"], 200)
+        self.assertEqual(response["metrics"]["high_priority_accounts"], 44)
+        self.assertEqual(set(response["metrics"]), set(stats.TIER_A_METRIC_KEYS))
+        self.assertEqual(response["last_active_at"], "2026-05-26T06:00:00Z")
+        self.assertIsInstance(response["uptime_pct_30d"], float)
         self.assertTrue(response["generated_at"].endswith("Z"))
 
-    def test_degraded_when_github_unreachable(self) -> None:
-        with patch.object(stats, "urlopen", side_effect=URLError("offline")):
+    def test_degraded_when_artifact_missing(self) -> None:
+        with patch.object(stats, "_load_scoring", return_value=None), \
+                patch.object(stats, "_load_history", return_value=None):
             response = stats._build_response()
 
-        self.assertEqual(response["schema_version"], 1)
-        self.assertEqual(response["mode"], "showcase")
+        self.assertEqual(response["mode"], "live")
         self.assertEqual(response["status"], "degraded")
-        self.assertEqual(response["metrics"]["commits_total"], 0)
-        self.assertEqual(response["metrics"]["repo_stars"], 0)
-        self.assertIsNone(response["last_commit_at"])
+        self.assertEqual(response["metrics"]["accounts_total"], 0)
+        self.assertEqual(response["metrics"]["high_priority_accounts"], 0)
+        self.assertIsNone(response["last_active_at"])
 
-    def test_serves_stale_cache_on_subsequent_failure(self) -> None:
-        # First call: successful. Second call: GitHub is down. Expect status
-        # to flip to "degraded" but the metric values from the cache are kept.
-        repo_payload = {"stargazers_count": 11, "language": "Go"}
-        commit_payload = [
-            {"commit": {"author": {"date": "2026-04-25T08:00:00Z"}}}
-        ]
-
-        def good(req, timeout=None):
-            if "/commits" not in req.full_url:
-                return _fake_response(repo_payload)
-            return _fake_response(
-                commit_payload,
-                link_header=(
-                    '<https://api.github.com/repositories/x/commits'
-                    '?per_page=1&page=2>; rel="next", '
-                    '<https://api.github.com/repositories/x/commits'
-                    '?per_page=1&page=99>; rel="last"'
-                ),
-            )
-
-        with patch.object(stats, "urlopen", side_effect=good):
-            first = stats._build_response()
-        self.assertEqual(first["status"], "operational")
-
-        with patch.object(stats, "_fetch_metrics", side_effect=URLError("offline")):
-            # Force cache miss by advancing the clock past the TTL.
-            stats._cache["ts"] = 0.0
-            stale = stats._build_response()
-        self.assertEqual(stale["status"], "degraded")
-        self.assertEqual(stale["metrics"]["repo_stars"], 11)
-        self.assertEqual(stale["metrics"]["commits_total"], 99)
+    def test_metric_only_exposes_tier_a_keys(self) -> None:
+        noisy = _artifact(metrics={
+            "accounts_total": 200, "accounts_scored_24h": 200,
+            "signals_detected_24h": 7, "high_priority_accounts": 44,
+            "secret_internal_field": 999999,
+        })
+        with patch.object(stats, "_load_scoring", return_value=noisy), \
+                patch.object(stats, "_load_history", return_value=_history(1)):
+            response = stats._build_response()
+        self.assertNotIn("secret_internal_field", response["metrics"])
 
 
 class SafetyCapTests(unittest.TestCase):
     def test_oversize_values_are_clamped(self) -> None:
-        self.assertEqual(stats._cap("repo_stars", 99_999_999), 1_000_000)
-        self.assertEqual(stats._cap("commits_total", 50_000_000), 1_000_000)
-        self.assertEqual(stats._cap("commits_30d", 500_000), 100_000)
-        self.assertEqual(stats._cap("lines_of_code", 999_999_999), 10_000_000)
-        # Unknown key passes through unchanged.
+        self.assertEqual(stats._cap("accounts_total", 99_999_999_999), 10_000_000)
+        self.assertEqual(stats._cap("high_priority_accounts", 50_000_000), 1_000_000)
         self.assertEqual(stats._cap("not_a_field", 42), 42)
+
+    def test_runaway_metric_is_capped_in_response(self) -> None:
+        wild = _artifact(metrics={
+            "accounts_total": 10**12, "accounts_scored_24h": 10**9,
+            "signals_detected_24h": 7, "high_priority_accounts": 44,
+        })
+        with patch.object(stats, "_load_scoring", return_value=wild), \
+                patch.object(stats, "_load_history", return_value=_history(1)):
+            response = stats._build_response()
+        self.assertEqual(response["metrics"]["accounts_total"], 10_000_000)
+
+
+class UptimeTests(unittest.TestCase):
+    def test_empty_history_is_zero(self) -> None:
+        self.assertEqual(stats._uptime_pct_30d({"runs": []}, NOW), 0.0)
+        self.assertEqual(stats._uptime_pct_30d(None, NOW), 0.0)
+
+    def test_single_recent_run_is_full(self) -> None:
+        self.assertEqual(stats._uptime_pct_30d(_history(1), NOW), 100.0)
+
+    def test_daily_runs_stay_high(self) -> None:
+        uptime = stats._uptime_pct_30d(_history(30), NOW)
+        self.assertGreaterEqual(uptime, 99.0)
+        self.assertLessEqual(uptime, 100.0)
+
+    def test_bounded_0_to_100(self) -> None:
+        uptime = stats._uptime_pct_30d(_history(60), NOW)  # more runs than window
+        self.assertLessEqual(uptime, 100.0)
 
 
 class HandlerTests(unittest.TestCase):
     """Exercise the BaseHTTPRequestHandler entrypoint end-to-end."""
 
-    def setUp(self) -> None:
-        _reset_cache()
-
-    def _invoke(self, method: str = "GET") -> tuple[int, dict[str, str], bytes]:
-        # Build a minimal raw HTTP request the handler can parse.
-        request_text = (
-            f"{method} /api/stats HTTP/1.0\r\nHost: x\r\n\r\n"
-        ).encode("utf-8")
-        rfile = io.BytesIO(request_text)
+    def _invoke(self, method: str = "GET", *, scoring=None) -> tuple[int, dict, bytes]:
+        rfile = io.BytesIO(f"{method} /api/stats HTTP/1.0\r\nHost: x\r\n\r\n".encode())
         wfile = io.BytesIO()
-
-        class _Conn:
-            def makefile(self, *_args: object, **_kwargs: object) -> io.BytesIO:
-                return rfile
-
-        # BaseHTTPRequestHandler init runs the request automatically.
         h = stats.handler.__new__(stats.handler)
         h.rfile = rfile
         h.wfile = wfile
@@ -165,22 +145,22 @@ class HandlerTests(unittest.TestCase):
         if method == "OPTIONS":
             h.do_OPTIONS()
         else:
-            with patch.object(stats, "urlopen", side_effect=URLError("test")):
+            with patch.object(stats, "_load_scoring", return_value=scoring), \
+                    patch.object(stats, "_load_history", return_value=None):
                 h.do_GET()
 
         raw = wfile.getvalue().decode("utf-8", errors="replace")
         head, _, body = raw.partition("\r\n\r\n")
-        status_line = head.split("\r\n", 1)[0]
-        status_code = int(status_line.split(" ", 2)[1])
+        status_code = int(head.split("\r\n", 1)[0].split(" ", 2)[1])
         hdrs = {}
         for line in head.split("\r\n")[1:]:
             if ": " in line:
-                k, v = line.split(": ", 1)
-                hdrs[k] = v
+                key, value = line.split(": ", 1)
+                hdrs[key] = value
         return status_code, hdrs, body.encode("utf-8")
 
-    def test_get_returns_200_even_when_upstream_fails(self) -> None:
-        status, hdrs, body = self._invoke("GET")
+    def test_get_returns_200_even_when_artifact_missing(self) -> None:
+        status, hdrs, body = self._invoke("GET", scoring=None)
         self.assertEqual(status, 200)
         self.assertEqual(hdrs.get("Content-Type"), "application/json")
         self.assertEqual(hdrs.get("Access-Control-Allow-Origin"), "*")
@@ -188,12 +168,29 @@ class HandlerTests(unittest.TestCase):
         payload = json.loads(body)
         self.assertEqual(payload["schema_version"], 1)
         self.assertEqual(payload["status"], "degraded")
+        self.assertEqual(payload["mode"], "live")
+
+    def test_get_serves_artifact_metrics(self) -> None:
+        status, _, body = self._invoke("GET", scoring=_artifact())
+        self.assertEqual(status, 200)
+        self.assertEqual(json.loads(body)["metrics"]["accounts_total"], 200)
 
     def test_options_returns_204(self) -> None:
         status, hdrs, _ = self._invoke("OPTIONS")
         self.assertEqual(status, 204)
         self.assertEqual(hdrs.get("Access-Control-Allow-Origin"), "*")
         self.assertEqual(hdrs.get("Access-Control-Allow-Methods"), "GET, OPTIONS")
+
+
+class CommittedArtifactTests(unittest.TestCase):
+    """The seeded artifact on disk must actually serve as Tier-A operational."""
+
+    def test_committed_artifact_is_operational(self) -> None:
+        response = stats._build_response()
+        self.assertEqual(response["status"], "operational")
+        self.assertEqual(response["mode"], "live")
+        self.assertEqual(response["metrics"]["accounts_total"], 200)
+        self.assertTrue(0 <= response["uptime_pct_30d"] <= 100)
 
 
 if __name__ == "__main__":

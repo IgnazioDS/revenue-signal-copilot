@@ -2,14 +2,14 @@
 
 import { useEffect, useState } from "react";
 import {
+  Activity,
   ArrowRight,
+  Building2,
   ExternalLink,
-  GitCommit,
   Github,
-  Lightbulb,
   PlayCircle,
-  Star,
-  TrendingUp,
+  Radio,
+  Target,
   Users,
 } from "lucide-react";
 import { fetchPublicStats, type PublicStats } from "@/lib/api";
@@ -52,10 +52,10 @@ export default function OverviewPage() {
       .finally(() => setLoading(false));
   }, []);
 
-  const commitsTotal = (stats?.metrics.commits_total as number | undefined) ?? 0;
-  const commits30d = (stats?.metrics.commits_30d as number | undefined) ?? 0;
-  const stars = (stats?.metrics.repo_stars as number | undefined) ?? 0;
-  const loc = (stats?.metrics.lines_of_code as number | undefined) ?? 0;
+  const accountsTotal = stats?.metrics.accounts_total ?? 0;
+  const accountsScored = stats?.metrics.accounts_scored_24h ?? 0;
+  const signalsDetected = stats?.metrics.signals_detected_24h ?? 0;
+  const highPriority = stats?.metrics.high_priority_accounts ?? 0;
 
   return (
     <>
@@ -64,8 +64,8 @@ export default function OverviewPage() {
         description={PROJECT.summary}
         actions={
           <Button asChild size="sm" variant="outline">
-            <a href="/telemetry">
-              Open telemetry
+            <a href="/scoring">
+              Open scoring
               <ExternalLink />
             </a>
           </Button>
@@ -117,42 +117,38 @@ export default function OverviewPage() {
             </CardContent>
           </Card>
 
-          {/* Stat row — wired to real /api/stats Tier-B values */}
+          {/* Stat row — wired to real /api/stats Tier-A scoring metrics */}
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 xl:grid-cols-4">
             <StatCard
-              title="Commits · total"
-              value={commitsTotal}
-              subtitle="GitHub history"
-              icon={GitCommit}
-              sparkData={shapeFromValue(commitsTotal)}
+              title="High-priority"
+              value={highPriority}
+              subtitle="Above score threshold"
+              icon={Target}
+              sparkData={shapeFromValue(highPriority)}
               loading={loading}
             />
             <StatCard
-              title="Commits · 30d"
-              value={commits30d}
-              subtitle="Trailing 30 days"
-              icon={TrendingUp}
-              sparkData={shapeFromValue(commits30d)}
+              title="Accounts scored · 24h"
+              value={accountsScored}
+              subtitle="Last benchmark run"
+              icon={Activity}
+              sparkData={shapeFromValue(accountsScored)}
               loading={loading}
             />
             <StatCard
-              title="Repo stars"
-              value={stars}
-              subtitle="GitHub"
-              icon={Star}
-              sparkData={shapeFromValue(stars)}
+              title="Signals · 24h"
+              value={signalsDetected}
+              subtitle="Detected in window"
+              icon={Radio}
+              sparkData={shapeFromValue(signalsDetected)}
               loading={loading}
             />
             <StatCard
-              title="Lines of code"
-              value={loc}
-              subtitle={
-                stats?.metrics.primary_language
-                  ? `Mostly ${stats.metrics.primary_language}`
-                  : "All sources"
-              }
-              icon={Lightbulb}
-              sparkData={shapeFromValue(loc)}
+              title="Accounts · total"
+              value={accountsTotal}
+              subtitle="In the public fixture"
+              icon={Building2}
+              sparkData={shapeFromValue(accountsTotal)}
               loading={loading}
             />
           </div>
@@ -179,13 +175,13 @@ export default function OverviewPage() {
             <CardContent className="grid grid-cols-2 gap-4 py-4 sm:grid-cols-4">
               <StatusCell
                 label="Mode"
-                value={stats?.mode ?? "showcase"}
-                hint="Tier B — see schema"
+                value={stats?.mode ?? "live"}
+                hint="Tier A — live"
               />
               <StatusCell
-                label="Last commit"
-                value={formatRelative(stats?.last_commit_at)}
-                hint={stats?.last_commit_at ?? "never"}
+                label="Last active"
+                value={formatRelative(stats?.last_active_at)}
+                hint={stats?.last_active_at ?? "never"}
               />
               <StatusCell
                 label="Last deploy"
@@ -193,9 +189,9 @@ export default function OverviewPage() {
                 hint={stats?.last_deployed_at ?? "never"}
               />
               <StatusCell
-                label="Schema"
-                value={`v${stats?.schema_version ?? 1}`}
-                hint="public contract"
+                label="Uptime · 30d"
+                value={`${(stats?.uptime_pct_30d ?? 0).toFixed(1)}%`}
+                hint="scheduled-run success"
               />
             </CardContent>
           </Card>

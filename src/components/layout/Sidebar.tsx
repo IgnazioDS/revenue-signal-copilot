@@ -11,6 +11,7 @@ import {
   PlayCircle,
   Search,
   Settings,
+  Target,
   Zap,
 } from "lucide-react";
 import { useCommandPalette } from "./CommandPalette";
@@ -28,6 +29,7 @@ interface NavItem {
 
 const PRIMARY: NavItem[] = [
   { href: "/", label: "Overview", icon: LayoutDashboard, desc: "Dashboard" },
+  { href: "/scoring", label: "Scoring", icon: Target, desc: "Latest run" },
   { href: "/prototype", label: "Prototype", icon: PlayCircle, desc: "Real MVP" },
   { href: "/telemetry", label: "Telemetry", icon: Activity, desc: "/api/stats" },
   { href: "/capabilities", label: "Capabilities", icon: ListChecks, desc: "MVP scope" },

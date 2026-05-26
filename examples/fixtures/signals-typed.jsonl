@@ -1,0 +1,911 @@
+{"signal_id":"sig_00000","account_id":"acct_0000","kind":"infra_shift","source":"builtwith","captured_at":"2026-02-22T10:09:00Z","summary":"Detected dbt in stack"}
+{"signal_id":"sig_00001","account_id":"acct_0000","kind":"job_change","source":"linkedin","captured_at":"2025-12-18T23:49:00Z","summary":"New VP Engineering hired","seniority":"VP+"}
+{"signal_id":"sig_00002","account_id":"acct_0000","kind":"job_change","source":"clearbit","captured_at":"2026-05-18T03:02:00Z","summary":"CTO joined from competitor"}
+{"signal_id":"sig_00003","account_id":"acct_0000","kind":"infra_shift","source":"dns-records","captured_at":"2025-11-29T20:22:00Z","summary":"Migrated to Kubernetes"}
+{"signal_id":"sig_00004","account_id":"acct_0000","kind":"infra_shift","source":"builtwith","captured_at":"2026-04-23T08:26:00Z","summary":"Adopted Snowflake"}
+{"signal_id":"sig_00005","account_id":"acct_0001","kind":"infra_shift","source":"dns-records","captured_at":"2025-12-26T05:32:00Z","summary":"Adopted Snowflake"}
+{"signal_id":"sig_00006","account_id":"acct_0001","kind":"hiring","source":"careers-page","captured_at":"2026-03-18T09:14:00Z","summary":"Hiring spike in data"}
+{"signal_id":"sig_00007","account_id":"acct_0001","kind":"infra_shift","source":"builtwith","captured_at":"2026-02-11T00:45:00Z","summary":"Detected Segment in stack"}
+{"signal_id":"sig_00008","account_id":"acct_0001","kind":"infra_shift","source":"dns-records","captured_at":"2025-11-01T00:27:00Z","summary":"Migrated to pgvector"}
+{"signal_id":"sig_00009","account_id":"acct_0002","kind":"job_change","source":"clearbit","captured_at":"2026-01-05T04:10:00Z","summary":"VP Engineering joined from competitor"}
+{"signal_id":"sig_00010","account_id":"acct_0002","kind":"infra_shift","source":"dns-records","captured_at":"2025-05-12T19:29:00Z","summary":"Detected Databricks in stack"}
+{"signal_id":"sig_00011","account_id":"acct_0002","kind":"internal_note","source":"call-log","captured_at":"2026-05-25T10:04:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00012","account_id":"acct_0002","kind":"hiring","source":"greenhouse","captured_at":"2025-06-30T22:17:00Z","summary":"Backfilling growth"}
+{"signal_id":"sig_00013","account_id":"acct_0002","kind":"hiring","source":"greenhouse","captured_at":"2026-04-22T09:55:00Z","summary":"Opened 6 growth roles"}
+{"signal_id":"sig_00014","account_id":"acct_0002","kind":"job_change","source":"linkedin","captured_at":"2026-03-25T03:57:00Z","summary":"Leadership change: CTO","seniority":"VP+"}
+{"signal_id":"sig_00015","account_id":"acct_0003","kind":"hiring","source":"lever","captured_at":"2026-05-19T10:38:00Z","summary":"Opened 4 security roles"}
+{"signal_id":"sig_00016","account_id":"acct_0003","kind":"job_change","source":"crunchbase","captured_at":"2026-03-11T14:30:00Z","summary":"VP Sales joined from competitor","seniority":"VP+"}
+{"signal_id":"sig_00017","account_id":"acct_0003","kind":"hiring","source":"careers-page","captured_at":"2026-05-20T15:37:00Z","summary":"Hiring spike in sales engineering"}
+{"signal_id":"sig_00018","account_id":"acct_0003","kind":"job_change","source":"linkedin","captured_at":"2026-03-27T03:15:00Z","summary":"New CTO hired","seniority":"Director"}
+{"signal_id":"sig_00019","account_id":"acct_0003","kind":"job_change","source":"clearbit","captured_at":"2026-04-22T20:59:00Z","summary":"VP Sales joined from competitor","seniority":"Director"}
+{"signal_id":"sig_00020","account_id":"acct_0003","kind":"infra_shift","source":"builtwith","captured_at":"2026-02-27T22:41:00Z","summary":"Migrated to Snowflake"}
+{"signal_id":"sig_00021","account_id":"acct_0003","kind":"job_change","source":"crunchbase","captured_at":"2026-02-06T22:47:00Z","summary":"VP Sales joined from competitor"}
+{"signal_id":"sig_00022","account_id":"acct_0004","kind":"hiring","source":"lever","captured_at":"2026-03-14T11:51:00Z","summary":"Opened 9 security roles"}
+{"signal_id":"sig_00023","account_id":"acct_0005","kind":"hiring","source":"greenhouse","captured_at":"2026-04-03T20:42:00Z","summary":"Hiring spike in platform"}
+{"signal_id":"sig_00024","account_id":"acct_0005","kind":"infra_shift","source":"dns-records","captured_at":"2026-03-07T23:09:00Z","summary":"Detected Databricks in stack"}
+{"signal_id":"sig_00025","account_id":"acct_0005","kind":"hiring","source":"lever","captured_at":"2026-05-10T12:45:00Z","summary":"Backfilling security"}
+{"signal_id":"sig_00026","account_id":"acct_0005","kind":"hiring","source":"greenhouse","captured_at":"2026-03-06T13:42:00Z","summary":"Hiring spike in platform"}
+{"signal_id":"sig_00027","account_id":"acct_0006","kind":"infra_shift","source":"wappalyzer","captured_at":"2026-04-23T21:13:00Z","summary":"Migrated to Databricks"}
+{"signal_id":"sig_00028","account_id":"acct_0006","kind":"infra_shift","source":"wappalyzer","captured_at":"2026-02-18T01:02:00Z","summary":"Adopted Snowflake"}
+{"signal_id":"sig_00029","account_id":"acct_0006","kind":"job_change","source":"linkedin","captured_at":"2026-03-30T05:41:00Z","summary":"CTO joined from competitor","seniority":"Director"}
+{"signal_id":"sig_00030","account_id":"acct_0007","kind":"hiring","source":"lever","captured_at":"2026-03-30T14:44:00Z","summary":"Backfilling security"}
+{"signal_id":"sig_00031","account_id":"acct_0007","kind":"internal_note","source":"call-log","captured_at":"2026-04-01T05:15:00Z","summary":"Rep flagged budget approved"}
+{"signal_id":"sig_00032","account_id":"acct_0007","kind":"infra_shift","source":"builtwith","captured_at":"2026-05-18T21:07:00Z","summary":"Migrated to Snowflake"}
+{"signal_id":"sig_00033","account_id":"acct_0007","kind":"infra_shift","source":"wappalyzer","captured_at":"2026-04-17T08:37:00Z","summary":"Migrated to dbt"}
+{"signal_id":"sig_00034","account_id":"acct_0007","kind":"job_change","source":"crunchbase","captured_at":"2026-01-09T16:27:00Z","summary":"New Director of RevOps hired","seniority":"VP+"}
+{"signal_id":"sig_00035","account_id":"acct_0008","kind":"job_change","source":"clearbit","captured_at":"2025-10-29T01:10:00Z","summary":"CTO joined from competitor"}
+{"signal_id":"sig_00036","account_id":"acct_0008","kind":"infra_shift","source":"wappalyzer","captured_at":"2026-01-06T17:08:00Z","summary":"Adopted pgvector"}
+{"signal_id":"sig_00037","account_id":"acct_0008","kind":"infra_shift","source":"builtwith","captured_at":"2026-04-14T10:42:00Z","summary":"Migrated to pgvector"}
+{"signal_id":"sig_00038","account_id":"acct_0008","kind":"hiring","source":"lever","captured_at":"2025-12-30T07:13:00Z","summary":"Opened 3 data roles"}
+{"signal_id":"sig_00039","account_id":"acct_0008","kind":"job_change","source":"clearbit","captured_at":"2026-03-14T02:30:00Z","summary":"New Head of Data hired","seniority":"Director"}
+{"signal_id":"sig_00040","account_id":"acct_0008","kind":"hiring","source":"lever","captured_at":"2025-12-15T01:35:00Z","summary":"Hiring spike in growth"}
+{"signal_id":"sig_00041","account_id":"acct_0008","kind":"internal_note","source":"email-thread","captured_at":"2026-04-28T05:07:00Z","summary":"Rep flagged budget approved"}
+{"signal_id":"sig_00042","account_id":"acct_0010","kind":"job_change","source":"crunchbase","captured_at":"2026-03-30T02:42:00Z","summary":"New Head of Data hired"}
+{"signal_id":"sig_00043","account_id":"acct_0010","kind":"job_change","source":"linkedin","captured_at":"2026-04-18T15:20:00Z","summary":"Leadership change: VP Sales"}
+{"signal_id":"sig_00044","account_id":"acct_0010","kind":"internal_note","source":"email-thread","captured_at":"2026-04-30T12:14:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00045","account_id":"acct_0010","kind":"internal_note","source":"email-thread","captured_at":"2026-05-03T21:41:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00046","account_id":"acct_0010","kind":"hiring","source":"greenhouse","captured_at":"2026-05-07T05:36:00Z","summary":"Backfilling platform"}
+{"signal_id":"sig_00047","account_id":"acct_0010","kind":"internal_note","source":"rep-note","captured_at":"2026-02-17T15:04:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00048","account_id":"acct_0010","kind":"job_change","source":"clearbit","captured_at":"2026-02-14T15:20:00Z","summary":"CTO joined from competitor"}
+{"signal_id":"sig_00049","account_id":"acct_0012","kind":"job_change","source":"linkedin","captured_at":"2026-05-18T14:18:00Z","summary":"New VP Engineering hired"}
+{"signal_id":"sig_00050","account_id":"acct_0012","kind":"internal_note","source":"rep-note","captured_at":"2026-03-23T22:34:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00051","account_id":"acct_0012","kind":"hiring","source":"careers-page","captured_at":"2026-01-17T04:44:00Z","summary":"Hiring spike in platform"}
+{"signal_id":"sig_00052","account_id":"acct_0013","kind":"internal_note","source":"call-log","captured_at":"2025-12-22T18:06:00Z","summary":"Rep flagged budget approved"}
+{"signal_id":"sig_00053","account_id":"acct_0013","kind":"job_change","source":"linkedin","captured_at":"2026-02-17T21:28:00Z","summary":"VP Engineering joined from competitor","seniority":"Director"}
+{"signal_id":"sig_00054","account_id":"acct_0013","kind":"infra_shift","source":"dns-records","captured_at":"2025-11-18T00:29:00Z","summary":"Migrated to Segment"}
+{"signal_id":"sig_00055","account_id":"acct_0013","kind":"hiring","source":"lever","captured_at":"2025-08-23T04:59:00Z","summary":"Opened 4 platform roles"}
+{"signal_id":"sig_00056","account_id":"acct_0013","kind":"infra_shift","source":"builtwith","captured_at":"2026-03-02T15:09:00Z","summary":"Migrated to Kubernetes"}
+{"signal_id":"sig_00057","account_id":"acct_0013","kind":"internal_note","source":"email-thread","captured_at":"2026-04-09T20:44:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00058","account_id":"acct_0014","kind":"job_change","source":"linkedin","captured_at":"2026-04-04T19:51:00Z","summary":"CTO joined from competitor","seniority":"VP+"}
+{"signal_id":"sig_00059","account_id":"acct_0014","kind":"hiring","source":"careers-page","captured_at":"2026-03-25T13:26:00Z","summary":"Opened 4 growth roles"}
+{"signal_id":"sig_00060","account_id":"acct_0014","kind":"job_change","source":"linkedin","captured_at":"2024-12-16T10:30:00Z","summary":"New VP Sales hired","seniority":"VP+"}
+{"signal_id":"sig_00061","account_id":"acct_0014","kind":"internal_note","source":"email-thread","captured_at":"2026-04-09T18:11:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00062","account_id":"acct_0014","kind":"infra_shift","source":"dns-records","captured_at":"2025-08-08T22:47:00Z","summary":"Detected pgvector in stack"}
+{"signal_id":"sig_00063","account_id":"acct_0014","kind":"hiring","source":"lever","captured_at":"2025-04-02T20:53:00Z","summary":"Backfilling security"}
+{"signal_id":"sig_00064","account_id":"acct_0015","kind":"hiring","source":"lever","captured_at":"2026-03-30T06:24:00Z","summary":"Opened 2 sales engineering roles"}
+{"signal_id":"sig_00065","account_id":"acct_0015","kind":"hiring","source":"careers-page","captured_at":"2026-02-07T04:57:00Z","summary":"Hiring spike in growth"}
+{"signal_id":"sig_00066","account_id":"acct_0015","kind":"infra_shift","source":"builtwith","captured_at":"2026-04-30T08:25:00Z","summary":"Migrated to Snowflake"}
+{"signal_id":"sig_00067","account_id":"acct_0015","kind":"job_change","source":"linkedin","captured_at":"2025-07-20T19:07:00Z","summary":"New VP Engineering hired"}
+{"signal_id":"sig_00068","account_id":"acct_0015","kind":"infra_shift","source":"wappalyzer","captured_at":"2026-04-21T12:31:00Z","summary":"Adopted dbt"}
+{"signal_id":"sig_00069","account_id":"acct_0015","kind":"job_change","source":"clearbit","captured_at":"2026-01-22T21:54:00Z","summary":"Leadership change: VP Sales"}
+{"signal_id":"sig_00070","account_id":"acct_0016","kind":"internal_note","source":"call-log","captured_at":"2025-11-15T19:09:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00071","account_id":"acct_0016","kind":"internal_note","source":"email-thread","captured_at":"2026-04-26T14:53:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00072","account_id":"acct_0016","kind":"hiring","source":"careers-page","captured_at":"2026-03-06T21:19:00Z","summary":"Opened 7 platform roles"}
+{"signal_id":"sig_00073","account_id":"acct_0016","kind":"internal_note","source":"rep-note","captured_at":"2026-03-29T13:16:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00074","account_id":"acct_0016","kind":"job_change","source":"crunchbase","captured_at":"2026-02-10T22:52:00Z","summary":"VP Engineering joined from competitor","seniority":"Director"}
+{"signal_id":"sig_00075","account_id":"acct_0017","kind":"hiring","source":"greenhouse","captured_at":"2026-05-25T21:16:00Z","summary":"Opened 6 security roles"}
+{"signal_id":"sig_00076","account_id":"acct_0018","kind":"hiring","source":"careers-page","captured_at":"2026-02-01T15:31:00Z","summary":"Opened 3 data roles"}
+{"signal_id":"sig_00077","account_id":"acct_0018","kind":"infra_shift","source":"dns-records","captured_at":"2026-04-23T05:53:00Z","summary":"Migrated to pgvector"}
+{"signal_id":"sig_00078","account_id":"acct_0018","kind":"hiring","source":"greenhouse","captured_at":"2025-07-04T11:48:00Z","summary":"Backfilling security"}
+{"signal_id":"sig_00079","account_id":"acct_0018","kind":"hiring","source":"careers-page","captured_at":"2026-04-07T05:32:00Z","summary":"Backfilling data"}
+{"signal_id":"sig_00080","account_id":"acct_0018","kind":"job_change","source":"linkedin","captured_at":"2026-03-23T19:23:00Z","summary":"VP Sales joined from competitor"}
+{"signal_id":"sig_00081","account_id":"acct_0018","kind":"hiring","source":"careers-page","captured_at":"2026-05-13T17:55:00Z","summary":"Hiring spike in data"}
+{"signal_id":"sig_00082","account_id":"acct_0018","kind":"infra_shift","source":"builtwith","captured_at":"2026-04-05T23:18:00Z","summary":"Detected Kubernetes in stack"}
+{"signal_id":"sig_00083","account_id":"acct_0019","kind":"hiring","source":"lever","captured_at":"2026-04-10T02:19:00Z","summary":"Backfilling data"}
+{"signal_id":"sig_00084","account_id":"acct_0019","kind":"internal_note","source":"rep-note","captured_at":"2026-01-20T01:53:00Z","summary":"Rep flagged budget approved"}
+{"signal_id":"sig_00085","account_id":"acct_0019","kind":"hiring","source":"greenhouse","captured_at":"2026-02-09T08:37:00Z","summary":"Opened 8 data roles"}
+{"signal_id":"sig_00086","account_id":"acct_0019","kind":"job_change","source":"clearbit","captured_at":"2025-05-09T01:21:00Z","summary":"Leadership change: CTO"}
+{"signal_id":"sig_00087","account_id":"acct_0019","kind":"job_change","source":"crunchbase","captured_at":"2025-10-02T23:54:00Z","summary":"VP Sales joined from competitor"}
+{"signal_id":"sig_00088","account_id":"acct_0019","kind":"job_change","source":"linkedin","captured_at":"2026-04-23T02:55:00Z","summary":"Leadership change: Director of RevOps"}
+{"signal_id":"sig_00089","account_id":"acct_0020","kind":"internal_note","source":"rep-note","captured_at":"2026-02-08T18:25:00Z","summary":"Rep flagged budget approved"}
+{"signal_id":"sig_00090","account_id":"acct_0020","kind":"job_change","source":"linkedin","captured_at":"2026-02-15T18:34:00Z","summary":"Leadership change: Director of RevOps"}
+{"signal_id":"sig_00091","account_id":"acct_0021","kind":"infra_shift","source":"builtwith","captured_at":"2026-05-12T00:15:00Z","summary":"Migrated to Databricks"}
+{"signal_id":"sig_00092","account_id":"acct_0021","kind":"hiring","source":"greenhouse","captured_at":"2026-03-05T06:19:00Z","summary":"Opened 8 growth roles"}
+{"signal_id":"sig_00093","account_id":"acct_0021","kind":"job_change","source":"linkedin","captured_at":"2026-05-11T10:39:00Z","summary":"Head of Data joined from competitor","seniority":"VP+"}
+{"signal_id":"sig_00094","account_id":"acct_0022","kind":"infra_shift","source":"wappalyzer","captured_at":"2026-04-26T21:33:00Z","summary":"Migrated to Kubernetes"}
+{"signal_id":"sig_00095","account_id":"acct_0022","kind":"job_change","source":"clearbit","captured_at":"2026-04-11T07:57:00Z","summary":"New Director of RevOps hired"}
+{"signal_id":"sig_00096","account_id":"acct_0022","kind":"infra_shift","source":"dns-records","captured_at":"2025-12-27T22:40:00Z","summary":"Migrated to pgvector"}
+{"signal_id":"sig_00097","account_id":"acct_0023","kind":"hiring","source":"careers-page","captured_at":"2026-05-24T10:23:00Z","summary":"Opened 7 platform roles"}
+{"signal_id":"sig_00098","account_id":"acct_0023","kind":"infra_shift","source":"builtwith","captured_at":"2025-10-18T17:22:00Z","summary":"Detected Segment in stack"}
+{"signal_id":"sig_00099","account_id":"acct_0023","kind":"hiring","source":"lever","captured_at":"2025-12-08T22:06:00Z","summary":"Opened 6 sales engineering roles"}
+{"signal_id":"sig_00100","account_id":"acct_0024","kind":"job_change","source":"clearbit","captured_at":"2026-02-13T20:55:00Z","summary":"Head of Data joined from competitor"}
+{"signal_id":"sig_00101","account_id":"acct_0024","kind":"infra_shift","source":"builtwith","captured_at":"2025-11-20T03:42:00Z","summary":"Adopted Databricks"}
+{"signal_id":"sig_00102","account_id":"acct_0024","kind":"hiring","source":"greenhouse","captured_at":"2025-07-15T03:15:00Z","summary":"Opened 5 sales engineering roles"}
+{"signal_id":"sig_00103","account_id":"acct_0025","kind":"internal_note","source":"email-thread","captured_at":"2026-03-08T13:17:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00104","account_id":"acct_0025","kind":"infra_shift","source":"dns-records","captured_at":"2026-03-30T09:17:00Z","summary":"Migrated to pgvector"}
+{"signal_id":"sig_00105","account_id":"acct_0026","kind":"internal_note","source":"email-thread","captured_at":"2026-01-14T06:15:00Z","summary":"Rep flagged budget approved"}
+{"signal_id":"sig_00106","account_id":"acct_0026","kind":"hiring","source":"lever","captured_at":"2025-07-23T17:54:00Z","summary":"Hiring spike in data"}
+{"signal_id":"sig_00107","account_id":"acct_0026","kind":"hiring","source":"careers-page","captured_at":"2026-05-22T10:01:00Z","summary":"Hiring spike in security"}
+{"signal_id":"sig_00108","account_id":"acct_0026","kind":"infra_shift","source":"wappalyzer","captured_at":"2026-03-01T08:54:00Z","summary":"Detected Snowflake in stack"}
+{"signal_id":"sig_00109","account_id":"acct_0026","kind":"internal_note","source":"call-log","captured_at":"2026-01-19T11:23:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00110","account_id":"acct_0026","kind":"hiring","source":"careers-page","captured_at":"2026-02-09T08:15:00Z","summary":"Hiring spike in security"}
+{"signal_id":"sig_00111","account_id":"acct_0027","kind":"job_change","source":"crunchbase","captured_at":"2025-12-19T05:58:00Z","summary":"VP Engineering joined from competitor"}
+{"signal_id":"sig_00112","account_id":"acct_0027","kind":"hiring","source":"greenhouse","captured_at":"2026-01-30T06:49:00Z","summary":"Hiring spike in security"}
+{"signal_id":"sig_00113","account_id":"acct_0027","kind":"job_change","source":"clearbit","captured_at":"2025-12-09T20:17:00Z","summary":"Director of RevOps joined from competitor"}
+{"signal_id":"sig_00114","account_id":"acct_0027","kind":"hiring","source":"greenhouse","captured_at":"2026-04-07T19:32:00Z","summary":"Hiring spike in platform"}
+{"signal_id":"sig_00115","account_id":"acct_0027","kind":"internal_note","source":"rep-note","captured_at":"2025-10-01T00:21:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00116","account_id":"acct_0028","kind":"infra_shift","source":"wappalyzer","captured_at":"2026-04-01T01:09:00Z","summary":"Migrated to dbt"}
+{"signal_id":"sig_00117","account_id":"acct_0028","kind":"job_change","source":"clearbit","captured_at":"2026-02-22T15:18:00Z","summary":"CTO joined from competitor","seniority":"VP+"}
+{"signal_id":"sig_00118","account_id":"acct_0028","kind":"job_change","source":"crunchbase","captured_at":"2026-05-22T15:28:00Z","summary":"New VP Sales hired"}
+{"signal_id":"sig_00119","account_id":"acct_0028","kind":"hiring","source":"lever","captured_at":"2025-12-18T06:12:00Z","summary":"Backfilling growth"}
+{"signal_id":"sig_00120","account_id":"acct_0028","kind":"internal_note","source":"rep-note","captured_at":"2026-04-01T06:46:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00121","account_id":"acct_0028","kind":"internal_note","source":"email-thread","captured_at":"2026-03-02T05:14:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00122","account_id":"acct_0028","kind":"internal_note","source":"call-log","captured_at":"2026-01-17T21:41:00Z","summary":"Rep flagged budget approved"}
+{"signal_id":"sig_00123","account_id":"acct_0028","kind":"hiring","source":"greenhouse","captured_at":"2026-05-07T02:18:00Z","summary":"Opened 2 security roles"}
+{"signal_id":"sig_00124","account_id":"acct_0028","kind":"internal_note","source":"email-thread","captured_at":"2026-01-07T07:26:00Z","summary":"Rep flagged budget approved"}
+{"signal_id":"sig_00125","account_id":"acct_0028","kind":"hiring","source":"greenhouse","captured_at":"2026-03-04T17:04:00Z","summary":"Backfilling platform"}
+{"signal_id":"sig_00126","account_id":"acct_0030","kind":"hiring","source":"careers-page","captured_at":"2025-03-20T06:55:00Z","summary":"Opened 6 growth roles"}
+{"signal_id":"sig_00127","account_id":"acct_0030","kind":"job_change","source":"crunchbase","captured_at":"2026-05-06T06:05:00Z","summary":"New VP Sales hired","seniority":"Director"}
+{"signal_id":"sig_00128","account_id":"acct_0030","kind":"internal_note","source":"rep-note","captured_at":"2026-05-15T07:50:00Z","summary":"Rep flagged budget approved"}
+{"signal_id":"sig_00129","account_id":"acct_0030","kind":"hiring","source":"greenhouse","captured_at":"2026-05-06T18:16:00Z","summary":"Backfilling data"}
+{"signal_id":"sig_00130","account_id":"acct_0030","kind":"internal_note","source":"call-log","captured_at":"2026-04-26T11:07:00Z","summary":"Rep flagged budget approved"}
+{"signal_id":"sig_00131","account_id":"acct_0030","kind":"hiring","source":"lever","captured_at":"2025-08-24T16:44:00Z","summary":"Opened 7 sales engineering roles"}
+{"signal_id":"sig_00132","account_id":"acct_0030","kind":"hiring","source":"lever","captured_at":"2026-04-03T03:45:00Z","summary":"Hiring spike in platform"}
+{"signal_id":"sig_00133","account_id":"acct_0030","kind":"hiring","source":"careers-page","captured_at":"2026-04-26T13:49:00Z","summary":"Opened 6 sales engineering roles"}
+{"signal_id":"sig_00134","account_id":"acct_0031","kind":"job_change","source":"crunchbase","captured_at":"2025-09-16T18:41:00Z","summary":"New VP Engineering hired"}
+{"signal_id":"sig_00135","account_id":"acct_0031","kind":"infra_shift","source":"builtwith","captured_at":"2025-11-19T06:55:00Z","summary":"Adopted dbt"}
+{"signal_id":"sig_00136","account_id":"acct_0031","kind":"hiring","source":"lever","captured_at":"2024-12-01T12:18:00Z","summary":"Hiring spike in security"}
+{"signal_id":"sig_00137","account_id":"acct_0031","kind":"infra_shift","source":"dns-records","captured_at":"2025-11-24T13:10:00Z","summary":"Adopted Databricks"}
+{"signal_id":"sig_00138","account_id":"acct_0031","kind":"job_change","source":"linkedin","captured_at":"2025-03-12T23:57:00Z","summary":"VP Engineering joined from competitor"}
+{"signal_id":"sig_00139","account_id":"acct_0031","kind":"job_change","source":"crunchbase","captured_at":"2026-05-05T08:46:00Z","summary":"CTO joined from competitor","seniority":"Director"}
+{"signal_id":"sig_00140","account_id":"acct_0032","kind":"job_change","source":"linkedin","captured_at":"2026-01-09T00:04:00Z","summary":"Leadership change: VP Sales","seniority":"Director"}
+{"signal_id":"sig_00141","account_id":"acct_0032","kind":"job_change","source":"linkedin","captured_at":"2025-09-22T18:14:00Z","summary":"VP Engineering joined from competitor"}
+{"signal_id":"sig_00142","account_id":"acct_0032","kind":"job_change","source":"linkedin","captured_at":"2026-02-26T05:32:00Z","summary":"Leadership change: CTO"}
+{"signal_id":"sig_00143","account_id":"acct_0032","kind":"job_change","source":"clearbit","captured_at":"2026-04-11T02:28:00Z","summary":"New Head of Data hired","seniority":"VP+"}
+{"signal_id":"sig_00144","account_id":"acct_0032","kind":"infra_shift","source":"builtwith","captured_at":"2025-03-20T09:38:00Z","summary":"Detected dbt in stack"}
+{"signal_id":"sig_00145","account_id":"acct_0032","kind":"internal_note","source":"rep-note","captured_at":"2025-02-22T23:32:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00146","account_id":"acct_0033","kind":"job_change","source":"crunchbase","captured_at":"2025-12-17T17:59:00Z","summary":"New Head of Data hired"}
+{"signal_id":"sig_00147","account_id":"acct_0033","kind":"hiring","source":"careers-page","captured_at":"2026-05-01T23:50:00Z","summary":"Hiring spike in growth"}
+{"signal_id":"sig_00148","account_id":"acct_0033","kind":"hiring","source":"careers-page","captured_at":"2026-03-10T04:13:00Z","summary":"Hiring spike in platform"}
+{"signal_id":"sig_00149","account_id":"acct_0033","kind":"infra_shift","source":"dns-records","captured_at":"2026-03-19T05:31:00Z","summary":"Migrated to pgvector"}
+{"signal_id":"sig_00150","account_id":"acct_0034","kind":"job_change","source":"clearbit","captured_at":"2026-03-01T14:12:00Z","summary":"New CTO hired"}
+{"signal_id":"sig_00151","account_id":"acct_0034","kind":"infra_shift","source":"builtwith","captured_at":"2026-04-06T03:54:00Z","summary":"Detected Databricks in stack"}
+{"signal_id":"sig_00152","account_id":"acct_0034","kind":"hiring","source":"lever","captured_at":"2025-07-23T07:19:00Z","summary":"Hiring spike in security"}
+{"signal_id":"sig_00153","account_id":"acct_0034","kind":"hiring","source":"careers-page","captured_at":"2026-01-26T09:57:00Z","summary":"Opened 9 security roles"}
+{"signal_id":"sig_00154","account_id":"acct_0034","kind":"job_change","source":"crunchbase","captured_at":"2026-05-22T06:32:00Z","summary":"New VP Engineering hired","seniority":"VP+"}
+{"signal_id":"sig_00155","account_id":"acct_0034","kind":"infra_shift","source":"builtwith","captured_at":"2026-04-20T03:28:00Z","summary":"Adopted Snowflake"}
+{"signal_id":"sig_00156","account_id":"acct_0034","kind":"hiring","source":"greenhouse","captured_at":"2026-03-08T14:40:00Z","summary":"Backfilling platform"}
+{"signal_id":"sig_00157","account_id":"acct_0034","kind":"infra_shift","source":"builtwith","captured_at":"2026-03-16T14:18:00Z","summary":"Adopted dbt"}
+{"signal_id":"sig_00158","account_id":"acct_0036","kind":"job_change","source":"clearbit","captured_at":"2025-07-27T23:28:00Z","summary":"Leadership change: CTO"}
+{"signal_id":"sig_00159","account_id":"acct_0036","kind":"internal_note","source":"email-thread","captured_at":"2026-05-05T15:42:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00160","account_id":"acct_0036","kind":"infra_shift","source":"wappalyzer","captured_at":"2026-04-19T01:21:00Z","summary":"Detected Segment in stack"}
+{"signal_id":"sig_00161","account_id":"acct_0036","kind":"infra_shift","source":"wappalyzer","captured_at":"2025-09-19T05:44:00Z","summary":"Migrated to pgvector"}
+{"signal_id":"sig_00162","account_id":"acct_0036","kind":"job_change","source":"clearbit","captured_at":"2025-09-09T08:10:00Z","summary":"New Head of Data hired","seniority":"Director"}
+{"signal_id":"sig_00163","account_id":"acct_0036","kind":"hiring","source":"greenhouse","captured_at":"2026-01-05T23:19:00Z","summary":"Hiring spike in growth"}
+{"signal_id":"sig_00164","account_id":"acct_0037","kind":"hiring","source":"greenhouse","captured_at":"2025-05-26T04:41:00Z","summary":"Hiring spike in data"}
+{"signal_id":"sig_00165","account_id":"acct_0037","kind":"hiring","source":"careers-page","captured_at":"2026-03-06T22:54:00Z","summary":"Backfilling security"}
+{"signal_id":"sig_00166","account_id":"acct_0038","kind":"infra_shift","source":"dns-records","captured_at":"2026-04-22T13:35:00Z","summary":"Adopted Kubernetes"}
+{"signal_id":"sig_00167","account_id":"acct_0038","kind":"internal_note","source":"rep-note","captured_at":"2025-10-04T06:34:00Z","summary":"Rep flagged budget approved"}
+{"signal_id":"sig_00168","account_id":"acct_0038","kind":"hiring","source":"lever","captured_at":"2026-03-09T10:12:00Z","summary":"Backfilling sales engineering"}
+{"signal_id":"sig_00169","account_id":"acct_0038","kind":"internal_note","source":"call-log","captured_at":"2026-02-24T17:49:00Z","summary":"Rep flagged budget approved"}
+{"signal_id":"sig_00170","account_id":"acct_0038","kind":"infra_shift","source":"wappalyzer","captured_at":"2026-02-09T13:43:00Z","summary":"Detected Snowflake in stack"}
+{"signal_id":"sig_00171","account_id":"acct_0039","kind":"internal_note","source":"call-log","captured_at":"2025-05-26T17:44:00Z","summary":"Rep flagged budget approved"}
+{"signal_id":"sig_00172","account_id":"acct_0039","kind":"infra_shift","source":"builtwith","captured_at":"2026-03-17T19:33:00Z","summary":"Migrated to pgvector"}
+{"signal_id":"sig_00173","account_id":"acct_0039","kind":"infra_shift","source":"dns-records","captured_at":"2026-01-31T22:55:00Z","summary":"Detected Snowflake in stack"}
+{"signal_id":"sig_00174","account_id":"acct_0039","kind":"hiring","source":"careers-page","captured_at":"2026-05-23T21:13:00Z","summary":"Hiring spike in platform"}
+{"signal_id":"sig_00175","account_id":"acct_0039","kind":"hiring","source":"greenhouse","captured_at":"2026-02-08T13:01:00Z","summary":"Backfilling growth"}
+{"signal_id":"sig_00176","account_id":"acct_0039","kind":"internal_note","source":"rep-note","captured_at":"2025-12-23T05:34:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00177","account_id":"acct_0040","kind":"hiring","source":"careers-page","captured_at":"2026-03-18T09:33:00Z","summary":"Hiring spike in security"}
+{"signal_id":"sig_00178","account_id":"acct_0040","kind":"infra_shift","source":"dns-records","captured_at":"2026-03-14T08:20:00Z","summary":"Detected Segment in stack"}
+{"signal_id":"sig_00179","account_id":"acct_0040","kind":"job_change","source":"crunchbase","captured_at":"2026-04-25T16:14:00Z","summary":"Leadership change: Director of RevOps","seniority":"Director"}
+{"signal_id":"sig_00180","account_id":"acct_0040","kind":"job_change","source":"clearbit","captured_at":"2025-11-30T06:23:00Z","summary":"Leadership change: CTO","seniority":"VP+"}
+{"signal_id":"sig_00181","account_id":"acct_0041","kind":"job_change","source":"clearbit","captured_at":"2026-01-31T16:05:00Z","summary":"CTO joined from competitor"}
+{"signal_id":"sig_00182","account_id":"acct_0042","kind":"hiring","source":"careers-page","captured_at":"2026-02-07T01:15:00Z","summary":"Hiring spike in growth"}
+{"signal_id":"sig_00183","account_id":"acct_0042","kind":"infra_shift","source":"wappalyzer","captured_at":"2026-03-24T18:59:00Z","summary":"Adopted Snowflake"}
+{"signal_id":"sig_00184","account_id":"acct_0042","kind":"infra_shift","source":"dns-records","captured_at":"2026-04-05T08:40:00Z","summary":"Adopted Segment"}
+{"signal_id":"sig_00185","account_id":"acct_0042","kind":"job_change","source":"clearbit","captured_at":"2026-02-03T09:31:00Z","summary":"Leadership change: Director of RevOps","seniority":"Director"}
+{"signal_id":"sig_00186","account_id":"acct_0042","kind":"hiring","source":"careers-page","captured_at":"2026-05-19T23:41:00Z","summary":"Backfilling platform"}
+{"signal_id":"sig_00187","account_id":"acct_0042","kind":"job_change","source":"clearbit","captured_at":"2026-04-02T06:28:00Z","summary":"New Director of RevOps hired"}
+{"signal_id":"sig_00188","account_id":"acct_0042","kind":"infra_shift","source":"dns-records","captured_at":"2026-01-27T04:45:00Z","summary":"Adopted Snowflake"}
+{"signal_id":"sig_00189","account_id":"acct_0044","kind":"job_change","source":"crunchbase","captured_at":"2026-03-06T01:23:00Z","summary":"New CTO hired","seniority":"Director"}
+{"signal_id":"sig_00190","account_id":"acct_0044","kind":"infra_shift","source":"wappalyzer","captured_at":"2026-04-06T17:06:00Z","summary":"Migrated to Databricks"}
+{"signal_id":"sig_00191","account_id":"acct_0044","kind":"infra_shift","source":"wappalyzer","captured_at":"2024-12-20T16:25:00Z","summary":"Adopted pgvector"}
+{"signal_id":"sig_00192","account_id":"acct_0044","kind":"infra_shift","source":"dns-records","captured_at":"2025-09-06T18:08:00Z","summary":"Adopted Kubernetes"}
+{"signal_id":"sig_00193","account_id":"acct_0044","kind":"infra_shift","source":"wappalyzer","captured_at":"2026-04-26T13:05:00Z","summary":"Adopted dbt"}
+{"signal_id":"sig_00194","account_id":"acct_0044","kind":"infra_shift","source":"builtwith","captured_at":"2026-05-20T01:13:00Z","summary":"Adopted Kubernetes"}
+{"signal_id":"sig_00195","account_id":"acct_0047","kind":"hiring","source":"careers-page","captured_at":"2026-02-23T11:56:00Z","summary":"Opened 2 sales engineering roles"}
+{"signal_id":"sig_00196","account_id":"acct_0047","kind":"job_change","source":"crunchbase","captured_at":"2026-01-14T01:17:00Z","summary":"VP Engineering joined from competitor"}
+{"signal_id":"sig_00197","account_id":"acct_0048","kind":"job_change","source":"linkedin","captured_at":"2026-04-14T16:00:00Z","summary":"New CTO hired","seniority":"Director"}
+{"signal_id":"sig_00198","account_id":"acct_0048","kind":"job_change","source":"crunchbase","captured_at":"2026-05-04T20:30:00Z","summary":"Leadership change: Director of RevOps","seniority":"VP+"}
+{"signal_id":"sig_00199","account_id":"acct_0048","kind":"infra_shift","source":"dns-records","captured_at":"2026-03-03T10:08:00Z","summary":"Migrated to Segment"}
+{"signal_id":"sig_00200","account_id":"acct_0049","kind":"hiring","source":"careers-page","captured_at":"2024-12-01T16:42:00Z","summary":"Opened 6 security roles"}
+{"signal_id":"sig_00201","account_id":"acct_0049","kind":"infra_shift","source":"wappalyzer","captured_at":"2026-01-29T14:27:00Z","summary":"Adopted pgvector"}
+{"signal_id":"sig_00202","account_id":"acct_0049","kind":"job_change","source":"crunchbase","captured_at":"2026-03-03T16:04:00Z","summary":"Leadership change: Head of Data","seniority":"Director"}
+{"signal_id":"sig_00203","account_id":"acct_0049","kind":"hiring","source":"greenhouse","captured_at":"2026-02-28T14:58:00Z","summary":"Hiring spike in data"}
+{"signal_id":"sig_00204","account_id":"acct_0049","kind":"job_change","source":"crunchbase","captured_at":"2026-05-06T11:15:00Z","summary":"Leadership change: VP Engineering"}
+{"signal_id":"sig_00205","account_id":"acct_0049","kind":"infra_shift","source":"dns-records","captured_at":"2026-05-03T09:13:00Z","summary":"Adopted pgvector"}
+{"signal_id":"sig_00206","account_id":"acct_0049","kind":"infra_shift","source":"builtwith","captured_at":"2024-12-01T03:21:00Z","summary":"Adopted Databricks"}
+{"signal_id":"sig_00207","account_id":"acct_0050","kind":"job_change","source":"linkedin","captured_at":"2025-09-01T07:54:00Z","summary":"Leadership change: Head of Data"}
+{"signal_id":"sig_00208","account_id":"acct_0050","kind":"job_change","source":"clearbit","captured_at":"2026-05-21T01:52:00Z","summary":"New VP Engineering hired","seniority":"Director"}
+{"signal_id":"sig_00209","account_id":"acct_0050","kind":"internal_note","source":"call-log","captured_at":"2025-12-14T13:20:00Z","summary":"Rep flagged budget approved"}
+{"signal_id":"sig_00210","account_id":"acct_0050","kind":"hiring","source":"greenhouse","captured_at":"2025-10-29T15:36:00Z","summary":"Backfilling security"}
+{"signal_id":"sig_00211","account_id":"acct_0050","kind":"job_change","source":"linkedin","captured_at":"2026-04-16T17:17:00Z","summary":"New VP Engineering hired","seniority":"VP+"}
+{"signal_id":"sig_00212","account_id":"acct_0051","kind":"hiring","source":"greenhouse","captured_at":"2025-10-14T01:53:00Z","summary":"Backfilling security"}
+{"signal_id":"sig_00213","account_id":"acct_0051","kind":"hiring","source":"careers-page","captured_at":"2026-02-08T20:27:00Z","summary":"Hiring spike in data"}
+{"signal_id":"sig_00214","account_id":"acct_0051","kind":"hiring","source":"greenhouse","captured_at":"2026-04-07T19:23:00Z","summary":"Backfilling platform"}
+{"signal_id":"sig_00215","account_id":"acct_0051","kind":"hiring","source":"greenhouse","captured_at":"2025-12-02T05:20:00Z","summary":"Opened 5 security roles"}
+{"signal_id":"sig_00216","account_id":"acct_0051","kind":"job_change","source":"crunchbase","captured_at":"2025-09-27T22:52:00Z","summary":"New VP Sales hired","seniority":"VP+"}
+{"signal_id":"sig_00217","account_id":"acct_0051","kind":"infra_shift","source":"builtwith","captured_at":"2025-12-05T00:04:00Z","summary":"Adopted Kubernetes"}
+{"signal_id":"sig_00218","account_id":"acct_0051","kind":"infra_shift","source":"builtwith","captured_at":"2025-08-27T16:04:00Z","summary":"Detected pgvector in stack"}
+{"signal_id":"sig_00219","account_id":"acct_0052","kind":"internal_note","source":"rep-note","captured_at":"2025-11-11T05:53:00Z","summary":"Rep flagged budget approved"}
+{"signal_id":"sig_00220","account_id":"acct_0052","kind":"hiring","source":"lever","captured_at":"2026-05-16T07:50:00Z","summary":"Opened 8 security roles"}
+{"signal_id":"sig_00221","account_id":"acct_0052","kind":"hiring","source":"greenhouse","captured_at":"2026-03-01T12:00:00Z","summary":"Hiring spike in sales engineering"}
+{"signal_id":"sig_00222","account_id":"acct_0052","kind":"infra_shift","source":"dns-records","captured_at":"2025-07-01T10:04:00Z","summary":"Detected Kubernetes in stack"}
+{"signal_id":"sig_00223","account_id":"acct_0052","kind":"job_change","source":"clearbit","captured_at":"2026-03-28T01:04:00Z","summary":"VP Engineering joined from competitor","seniority":"Director"}
+{"signal_id":"sig_00224","account_id":"acct_0052","kind":"job_change","source":"linkedin","captured_at":"2024-12-01T20:16:00Z","summary":"Leadership change: Head of Data"}
+{"signal_id":"sig_00225","account_id":"acct_0053","kind":"infra_shift","source":"dns-records","captured_at":"2025-09-26T12:23:00Z","summary":"Detected Segment in stack"}
+{"signal_id":"sig_00226","account_id":"acct_0053","kind":"job_change","source":"linkedin","captured_at":"2026-02-13T15:35:00Z","summary":"Director of RevOps joined from competitor","seniority":"VP+"}
+{"signal_id":"sig_00227","account_id":"acct_0053","kind":"infra_shift","source":"builtwith","captured_at":"2026-04-16T13:22:00Z","summary":"Migrated to pgvector"}
+{"signal_id":"sig_00228","account_id":"acct_0053","kind":"job_change","source":"crunchbase","captured_at":"2026-04-01T01:22:00Z","summary":"New Director of RevOps hired","seniority":"Director"}
+{"signal_id":"sig_00229","account_id":"acct_0053","kind":"infra_shift","source":"dns-records","captured_at":"2026-05-11T02:00:00Z","summary":"Detected Databricks in stack"}
+{"signal_id":"sig_00230","account_id":"acct_0053","kind":"job_change","source":"clearbit","captured_at":"2026-03-19T16:09:00Z","summary":"Head of Data joined from competitor","seniority":"Director"}
+{"signal_id":"sig_00231","account_id":"acct_0053","kind":"hiring","source":"careers-page","captured_at":"2026-03-26T13:14:00Z","summary":"Backfilling platform"}
+{"signal_id":"sig_00232","account_id":"acct_0054","kind":"hiring","source":"greenhouse","captured_at":"2025-10-14T06:14:00Z","summary":"Opened 7 data roles"}
+{"signal_id":"sig_00233","account_id":"acct_0055","kind":"internal_note","source":"rep-note","captured_at":"2026-05-08T02:08:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00234","account_id":"acct_0055","kind":"infra_shift","source":"dns-records","captured_at":"2026-05-22T16:54:00Z","summary":"Adopted dbt"}
+{"signal_id":"sig_00235","account_id":"acct_0056","kind":"infra_shift","source":"dns-records","captured_at":"2025-10-01T20:37:00Z","summary":"Detected pgvector in stack"}
+{"signal_id":"sig_00236","account_id":"acct_0056","kind":"job_change","source":"linkedin","captured_at":"2026-05-19T06:40:00Z","summary":"VP Sales joined from competitor"}
+{"signal_id":"sig_00237","account_id":"acct_0056","kind":"hiring","source":"greenhouse","captured_at":"2025-10-08T08:22:00Z","summary":"Backfilling data"}
+{"signal_id":"sig_00238","account_id":"acct_0056","kind":"hiring","source":"careers-page","captured_at":"2026-04-01T20:10:00Z","summary":"Backfilling security"}
+{"signal_id":"sig_00239","account_id":"acct_0057","kind":"hiring","source":"greenhouse","captured_at":"2026-04-16T02:30:00Z","summary":"Hiring spike in data"}
+{"signal_id":"sig_00240","account_id":"acct_0057","kind":"infra_shift","source":"builtwith","captured_at":"2026-02-23T02:51:00Z","summary":"Migrated to Databricks"}
+{"signal_id":"sig_00241","account_id":"acct_0057","kind":"infra_shift","source":"builtwith","captured_at":"2026-03-16T14:41:00Z","summary":"Migrated to Snowflake"}
+{"signal_id":"sig_00242","account_id":"acct_0057","kind":"hiring","source":"lever","captured_at":"2026-05-08T19:53:00Z","summary":"Backfilling platform"}
+{"signal_id":"sig_00243","account_id":"acct_0057","kind":"job_change","source":"linkedin","captured_at":"2025-02-04T14:01:00Z","summary":"New CTO hired"}
+{"signal_id":"sig_00244","account_id":"acct_0057","kind":"internal_note","source":"call-log","captured_at":"2026-04-07T11:03:00Z","summary":"Rep flagged budget approved"}
+{"signal_id":"sig_00245","account_id":"acct_0058","kind":"infra_shift","source":"dns-records","captured_at":"2025-05-11T10:01:00Z","summary":"Adopted Snowflake"}
+{"signal_id":"sig_00246","account_id":"acct_0058","kind":"hiring","source":"careers-page","captured_at":"2025-07-10T22:08:00Z","summary":"Backfilling sales engineering"}
+{"signal_id":"sig_00247","account_id":"acct_0058","kind":"internal_note","source":"email-thread","captured_at":"2026-04-21T06:27:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00248","account_id":"acct_0059","kind":"hiring","source":"greenhouse","captured_at":"2026-01-02T00:46:00Z","summary":"Hiring spike in sales engineering"}
+{"signal_id":"sig_00249","account_id":"acct_0059","kind":"job_change","source":"linkedin","captured_at":"2025-10-27T08:06:00Z","summary":"Leadership change: VP Sales"}
+{"signal_id":"sig_00250","account_id":"acct_0059","kind":"job_change","source":"crunchbase","captured_at":"2026-02-03T16:52:00Z","summary":"New Director of RevOps hired","seniority":"Director"}
+{"signal_id":"sig_00251","account_id":"acct_0059","kind":"internal_note","source":"call-log","captured_at":"2025-11-24T20:19:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00252","account_id":"acct_0059","kind":"infra_shift","source":"dns-records","captured_at":"2026-01-10T14:36:00Z","summary":"Detected Kubernetes in stack"}
+{"signal_id":"sig_00253","account_id":"acct_0059","kind":"job_change","source":"linkedin","captured_at":"2025-11-14T14:23:00Z","summary":"VP Engineering joined from competitor","seniority":"Director"}
+{"signal_id":"sig_00254","account_id":"acct_0059","kind":"infra_shift","source":"wappalyzer","captured_at":"2026-03-06T20:04:00Z","summary":"Adopted Kubernetes"}
+{"signal_id":"sig_00255","account_id":"acct_0060","kind":"hiring","source":"lever","captured_at":"2026-04-27T05:09:00Z","summary":"Hiring spike in data"}
+{"signal_id":"sig_00256","account_id":"acct_0060","kind":"job_change","source":"clearbit","captured_at":"2025-11-18T04:25:00Z","summary":"New Head of Data hired","seniority":"Director"}
+{"signal_id":"sig_00257","account_id":"acct_0060","kind":"hiring","source":"careers-page","captured_at":"2026-02-27T09:38:00Z","summary":"Hiring spike in sales engineering"}
+{"signal_id":"sig_00258","account_id":"acct_0060","kind":"job_change","source":"linkedin","captured_at":"2026-04-05T03:55:00Z","summary":"New Director of RevOps hired","seniority":"VP+"}
+{"signal_id":"sig_00259","account_id":"acct_0060","kind":"infra_shift","source":"builtwith","captured_at":"2026-04-13T13:24:00Z","summary":"Migrated to pgvector"}
+{"signal_id":"sig_00260","account_id":"acct_0061","kind":"hiring","source":"careers-page","captured_at":"2025-11-26T02:53:00Z","summary":"Opened 8 sales engineering roles"}
+{"signal_id":"sig_00261","account_id":"acct_0061","kind":"internal_note","source":"call-log","captured_at":"2026-02-02T09:55:00Z","summary":"Rep flagged budget approved"}
+{"signal_id":"sig_00262","account_id":"acct_0062","kind":"hiring","source":"careers-page","captured_at":"2026-01-27T04:39:00Z","summary":"Opened 8 data roles"}
+{"signal_id":"sig_00263","account_id":"acct_0062","kind":"hiring","source":"careers-page","captured_at":"2025-08-16T17:56:00Z","summary":"Hiring spike in security"}
+{"signal_id":"sig_00264","account_id":"acct_0062","kind":"infra_shift","source":"dns-records","captured_at":"2026-03-19T22:44:00Z","summary":"Adopted dbt"}
+{"signal_id":"sig_00265","account_id":"acct_0062","kind":"job_change","source":"crunchbase","captured_at":"2026-02-23T05:29:00Z","summary":"New Head of Data hired","seniority":"VP+"}
+{"signal_id":"sig_00266","account_id":"acct_0062","kind":"job_change","source":"clearbit","captured_at":"2025-12-07T08:01:00Z","summary":"Leadership change: Head of Data"}
+{"signal_id":"sig_00267","account_id":"acct_0062","kind":"internal_note","source":"email-thread","captured_at":"2026-05-14T23:30:00Z","summary":"Rep flagged budget approved"}
+{"signal_id":"sig_00268","account_id":"acct_0063","kind":"internal_note","source":"email-thread","captured_at":"2026-02-22T12:33:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00269","account_id":"acct_0063","kind":"infra_shift","source":"wappalyzer","captured_at":"2025-12-27T13:24:00Z","summary":"Detected Databricks in stack"}
+{"signal_id":"sig_00270","account_id":"acct_0063","kind":"hiring","source":"lever","captured_at":"2025-07-13T06:55:00Z","summary":"Hiring spike in data"}
+{"signal_id":"sig_00271","account_id":"acct_0063","kind":"job_change","source":"linkedin","captured_at":"2026-05-11T19:57:00Z","summary":"Leadership change: Director of RevOps"}
+{"signal_id":"sig_00272","account_id":"acct_0063","kind":"hiring","source":"lever","captured_at":"2026-03-16T16:49:00Z","summary":"Backfilling platform"}
+{"signal_id":"sig_00273","account_id":"acct_0063","kind":"hiring","source":"greenhouse","captured_at":"2026-05-14T14:58:00Z","summary":"Hiring spike in data"}
+{"signal_id":"sig_00274","account_id":"acct_0064","kind":"infra_shift","source":"builtwith","captured_at":"2025-07-26T04:39:00Z","summary":"Detected dbt in stack"}
+{"signal_id":"sig_00275","account_id":"acct_0064","kind":"job_change","source":"crunchbase","captured_at":"2026-04-12T09:56:00Z","summary":"Leadership change: CTO"}
+{"signal_id":"sig_00276","account_id":"acct_0064","kind":"job_change","source":"linkedin","captured_at":"2026-04-15T14:09:00Z","summary":"VP Sales joined from competitor","seniority":"VP+"}
+{"signal_id":"sig_00277","account_id":"acct_0064","kind":"job_change","source":"clearbit","captured_at":"2025-12-19T13:32:00Z","summary":"New VP Sales hired","seniority":"Director"}
+{"signal_id":"sig_00278","account_id":"acct_0064","kind":"hiring","source":"greenhouse","captured_at":"2026-03-25T05:26:00Z","summary":"Hiring spike in security"}
+{"signal_id":"sig_00279","account_id":"acct_0065","kind":"hiring","source":"lever","captured_at":"2026-03-05T11:55:00Z","summary":"Hiring spike in data"}
+{"signal_id":"sig_00280","account_id":"acct_0065","kind":"job_change","source":"crunchbase","captured_at":"2026-04-23T08:22:00Z","summary":"New VP Engineering hired"}
+{"signal_id":"sig_00281","account_id":"acct_0066","kind":"infra_shift","source":"dns-records","captured_at":"2026-02-17T08:54:00Z","summary":"Migrated to Segment"}
+{"signal_id":"sig_00282","account_id":"acct_0066","kind":"internal_note","source":"email-thread","captured_at":"2025-12-21T02:41:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00283","account_id":"acct_0066","kind":"hiring","source":"careers-page","captured_at":"2025-09-04T04:30:00Z","summary":"Opened 2 sales engineering roles"}
+{"signal_id":"sig_00284","account_id":"acct_0066","kind":"job_change","source":"linkedin","captured_at":"2025-08-26T08:53:00Z","summary":"Leadership change: CTO","seniority":"VP+"}
+{"signal_id":"sig_00285","account_id":"acct_0066","kind":"internal_note","source":"email-thread","captured_at":"2025-11-26T15:55:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00286","account_id":"acct_0066","kind":"job_change","source":"clearbit","captured_at":"2026-03-16T16:39:00Z","summary":"New VP Engineering hired"}
+{"signal_id":"sig_00287","account_id":"acct_0067","kind":"job_change","source":"crunchbase","captured_at":"2026-01-12T20:49:00Z","summary":"VP Sales joined from competitor","seniority":"VP+"}
+{"signal_id":"sig_00288","account_id":"acct_0067","kind":"job_change","source":"clearbit","captured_at":"2026-04-11T23:01:00Z","summary":"Leadership change: Director of RevOps","seniority":"VP+"}
+{"signal_id":"sig_00289","account_id":"acct_0067","kind":"infra_shift","source":"dns-records","captured_at":"2026-04-04T14:41:00Z","summary":"Detected dbt in stack"}
+{"signal_id":"sig_00290","account_id":"acct_0067","kind":"internal_note","source":"email-thread","captured_at":"2025-06-14T02:45:00Z","summary":"Rep flagged budget approved"}
+{"signal_id":"sig_00291","account_id":"acct_0067","kind":"job_change","source":"crunchbase","captured_at":"2025-04-12T01:23:00Z","summary":"Head of Data joined from competitor","seniority":"Director"}
+{"signal_id":"sig_00292","account_id":"acct_0068","kind":"job_change","source":"clearbit","captured_at":"2025-05-29T18:46:00Z","summary":"Leadership change: VP Engineering"}
+{"signal_id":"sig_00293","account_id":"acct_0068","kind":"internal_note","source":"email-thread","captured_at":"2025-07-02T00:07:00Z","summary":"Rep flagged budget approved"}
+{"signal_id":"sig_00294","account_id":"acct_0068","kind":"infra_shift","source":"builtwith","captured_at":"2026-05-20T05:17:00Z","summary":"Migrated to Kubernetes"}
+{"signal_id":"sig_00295","account_id":"acct_0068","kind":"infra_shift","source":"wappalyzer","captured_at":"2026-05-17T11:14:00Z","summary":"Detected dbt in stack"}
+{"signal_id":"sig_00296","account_id":"acct_0069","kind":"hiring","source":"greenhouse","captured_at":"2025-10-30T01:54:00Z","summary":"Opened 8 platform roles"}
+{"signal_id":"sig_00297","account_id":"acct_0069","kind":"job_change","source":"linkedin","captured_at":"2026-03-22T01:23:00Z","summary":"New VP Engineering hired","seniority":"Director"}
+{"signal_id":"sig_00298","account_id":"acct_0069","kind":"job_change","source":"clearbit","captured_at":"2026-01-23T12:18:00Z","summary":"New Director of RevOps hired"}
+{"signal_id":"sig_00299","account_id":"acct_0070","kind":"internal_note","source":"call-log","captured_at":"2026-03-13T23:22:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00300","account_id":"acct_0070","kind":"job_change","source":"linkedin","captured_at":"2026-01-21T13:21:00Z","summary":"VP Sales joined from competitor","seniority":"VP+"}
+{"signal_id":"sig_00301","account_id":"acct_0070","kind":"internal_note","source":"call-log","captured_at":"2026-01-25T02:00:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00302","account_id":"acct_0070","kind":"hiring","source":"careers-page","captured_at":"2026-05-17T20:24:00Z","summary":"Hiring spike in data"}
+{"signal_id":"sig_00303","account_id":"acct_0070","kind":"hiring","source":"greenhouse","captured_at":"2025-11-12T13:21:00Z","summary":"Backfilling platform"}
+{"signal_id":"sig_00304","account_id":"acct_0070","kind":"hiring","source":"greenhouse","captured_at":"2026-03-22T01:42:00Z","summary":"Hiring spike in sales engineering"}
+{"signal_id":"sig_00305","account_id":"acct_0070","kind":"hiring","source":"greenhouse","captured_at":"2025-08-29T01:22:00Z","summary":"Opened 8 data roles"}
+{"signal_id":"sig_00306","account_id":"acct_0070","kind":"job_change","source":"crunchbase","captured_at":"2026-05-13T06:11:00Z","summary":"Leadership change: Head of Data","seniority":"VP+"}
+{"signal_id":"sig_00307","account_id":"acct_0070","kind":"job_change","source":"crunchbase","captured_at":"2025-04-06T07:43:00Z","summary":"New VP Sales hired"}
+{"signal_id":"sig_00308","account_id":"acct_0070","kind":"job_change","source":"crunchbase","captured_at":"2026-04-26T14:31:00Z","summary":"Leadership change: VP Sales","seniority":"Director"}
+{"signal_id":"sig_00309","account_id":"acct_0071","kind":"internal_note","source":"rep-note","captured_at":"2026-04-02T04:23:00Z","summary":"Rep flagged budget approved"}
+{"signal_id":"sig_00310","account_id":"acct_0071","kind":"job_change","source":"linkedin","captured_at":"2025-12-23T06:00:00Z","summary":"New VP Engineering hired","seniority":"VP+"}
+{"signal_id":"sig_00311","account_id":"acct_0071","kind":"infra_shift","source":"wappalyzer","captured_at":"2026-05-21T08:00:00Z","summary":"Migrated to pgvector"}
+{"signal_id":"sig_00312","account_id":"acct_0072","kind":"hiring","source":"lever","captured_at":"2026-03-22T07:07:00Z","summary":"Hiring spike in growth"}
+{"signal_id":"sig_00313","account_id":"acct_0072","kind":"hiring","source":"greenhouse","captured_at":"2026-04-30T23:54:00Z","summary":"Opened 9 data roles"}
+{"signal_id":"sig_00314","account_id":"acct_0073","kind":"internal_note","source":"rep-note","captured_at":"2025-12-30T13:21:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00315","account_id":"acct_0073","kind":"job_change","source":"clearbit","captured_at":"2025-10-12T18:29:00Z","summary":"Leadership change: VP Sales","seniority":"Director"}
+{"signal_id":"sig_00316","account_id":"acct_0073","kind":"internal_note","source":"rep-note","captured_at":"2026-02-23T20:31:00Z","summary":"Rep flagged budget approved"}
+{"signal_id":"sig_00317","account_id":"acct_0073","kind":"job_change","source":"linkedin","captured_at":"2026-01-06T00:48:00Z","summary":"New CTO hired"}
+{"signal_id":"sig_00318","account_id":"acct_0073","kind":"hiring","source":"greenhouse","captured_at":"2026-05-19T12:06:00Z","summary":"Opened 4 growth roles"}
+{"signal_id":"sig_00319","account_id":"acct_0073","kind":"job_change","source":"crunchbase","captured_at":"2025-07-30T21:05:00Z","summary":"VP Engineering joined from competitor"}
+{"signal_id":"sig_00320","account_id":"acct_0073","kind":"job_change","source":"linkedin","captured_at":"2026-02-23T22:52:00Z","summary":"VP Engineering joined from competitor","seniority":"VP+"}
+{"signal_id":"sig_00321","account_id":"acct_0073","kind":"internal_note","source":"email-thread","captured_at":"2026-04-19T06:25:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00322","account_id":"acct_0073","kind":"hiring","source":"lever","captured_at":"2025-02-19T20:30:00Z","summary":"Hiring spike in sales engineering"}
+{"signal_id":"sig_00323","account_id":"acct_0074","kind":"job_change","source":"crunchbase","captured_at":"2025-07-01T09:04:00Z","summary":"Leadership change: VP Sales","seniority":"VP+"}
+{"signal_id":"sig_00324","account_id":"acct_0074","kind":"internal_note","source":"call-log","captured_at":"2026-04-27T23:45:00Z","summary":"Rep flagged budget approved"}
+{"signal_id":"sig_00325","account_id":"acct_0074","kind":"hiring","source":"careers-page","captured_at":"2025-05-13T23:52:00Z","summary":"Hiring spike in sales engineering"}
+{"signal_id":"sig_00326","account_id":"acct_0074","kind":"internal_note","source":"call-log","captured_at":"2024-12-01T04:52:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00327","account_id":"acct_0075","kind":"hiring","source":"greenhouse","captured_at":"2026-01-25T18:17:00Z","summary":"Backfilling security"}
+{"signal_id":"sig_00328","account_id":"acct_0075","kind":"hiring","source":"lever","captured_at":"2026-04-28T09:12:00Z","summary":"Hiring spike in platform"}
+{"signal_id":"sig_00329","account_id":"acct_0075","kind":"hiring","source":"greenhouse","captured_at":"2025-09-26T14:12:00Z","summary":"Opened 6 sales engineering roles"}
+{"signal_id":"sig_00330","account_id":"acct_0075","kind":"internal_note","source":"rep-note","captured_at":"2025-09-05T05:28:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00331","account_id":"acct_0075","kind":"infra_shift","source":"builtwith","captured_at":"2026-03-08T17:13:00Z","summary":"Adopted Segment"}
+{"signal_id":"sig_00332","account_id":"acct_0076","kind":"infra_shift","source":"builtwith","captured_at":"2025-10-30T02:31:00Z","summary":"Detected Databricks in stack"}
+{"signal_id":"sig_00333","account_id":"acct_0076","kind":"infra_shift","source":"dns-records","captured_at":"2026-05-12T20:08:00Z","summary":"Adopted Databricks"}
+{"signal_id":"sig_00334","account_id":"acct_0076","kind":"job_change","source":"clearbit","captured_at":"2026-04-17T04:23:00Z","summary":"Leadership change: Director of RevOps","seniority":"VP+"}
+{"signal_id":"sig_00335","account_id":"acct_0076","kind":"job_change","source":"crunchbase","captured_at":"2025-12-10T19:23:00Z","summary":"New CTO hired","seniority":"Director"}
+{"signal_id":"sig_00336","account_id":"acct_0076","kind":"hiring","source":"greenhouse","captured_at":"2025-07-09T17:30:00Z","summary":"Opened 2 security roles"}
+{"signal_id":"sig_00337","account_id":"acct_0076","kind":"infra_shift","source":"dns-records","captured_at":"2025-09-22T19:19:00Z","summary":"Adopted dbt"}
+{"signal_id":"sig_00338","account_id":"acct_0077","kind":"job_change","source":"clearbit","captured_at":"2025-02-22T07:43:00Z","summary":"Leadership change: Director of RevOps"}
+{"signal_id":"sig_00339","account_id":"acct_0077","kind":"internal_note","source":"rep-note","captured_at":"2026-04-05T06:23:00Z","summary":"Rep flagged budget approved"}
+{"signal_id":"sig_00340","account_id":"acct_0077","kind":"infra_shift","source":"wappalyzer","captured_at":"2026-02-10T16:45:00Z","summary":"Adopted Segment"}
+{"signal_id":"sig_00341","account_id":"acct_0077","kind":"job_change","source":"crunchbase","captured_at":"2025-09-08T23:07:00Z","summary":"Leadership change: Head of Data","seniority":"Director"}
+{"signal_id":"sig_00342","account_id":"acct_0078","kind":"hiring","source":"greenhouse","captured_at":"2024-12-01T11:05:00Z","summary":"Opened 2 platform roles"}
+{"signal_id":"sig_00343","account_id":"acct_0078","kind":"hiring","source":"careers-page","captured_at":"2025-10-13T06:42:00Z","summary":"Backfilling platform"}
+{"signal_id":"sig_00344","account_id":"acct_0078","kind":"infra_shift","source":"wappalyzer","captured_at":"2026-04-14T05:32:00Z","summary":"Migrated to Databricks"}
+{"signal_id":"sig_00345","account_id":"acct_0078","kind":"hiring","source":"greenhouse","captured_at":"2026-03-14T18:10:00Z","summary":"Backfilling growth"}
+{"signal_id":"sig_00346","account_id":"acct_0078","kind":"job_change","source":"linkedin","captured_at":"2026-05-16T07:15:00Z","summary":"New Director of RevOps hired","seniority":"Director"}
+{"signal_id":"sig_00347","account_id":"acct_0078","kind":"hiring","source":"careers-page","captured_at":"2026-02-25T07:47:00Z","summary":"Hiring spike in sales engineering"}
+{"signal_id":"sig_00348","account_id":"acct_0078","kind":"infra_shift","source":"dns-records","captured_at":"2026-04-27T14:37:00Z","summary":"Migrated to dbt"}
+{"signal_id":"sig_00349","account_id":"acct_0078","kind":"hiring","source":"lever","captured_at":"2024-12-01T04:50:00Z","summary":"Hiring spike in data"}
+{"signal_id":"sig_00350","account_id":"acct_0079","kind":"infra_shift","source":"builtwith","captured_at":"2025-12-24T04:46:00Z","summary":"Migrated to Kubernetes"}
+{"signal_id":"sig_00351","account_id":"acct_0079","kind":"internal_note","source":"email-thread","captured_at":"2026-02-19T22:33:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00352","account_id":"acct_0079","kind":"hiring","source":"greenhouse","captured_at":"2026-05-04T19:49:00Z","summary":"Backfilling sales engineering"}
+{"signal_id":"sig_00353","account_id":"acct_0079","kind":"internal_note","source":"call-log","captured_at":"2026-05-14T10:00:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00354","account_id":"acct_0079","kind":"internal_note","source":"email-thread","captured_at":"2025-10-06T12:32:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00355","account_id":"acct_0079","kind":"infra_shift","source":"wappalyzer","captured_at":"2026-04-09T04:17:00Z","summary":"Migrated to Segment"}
+{"signal_id":"sig_00356","account_id":"acct_0079","kind":"hiring","source":"lever","captured_at":"2026-05-05T16:47:00Z","summary":"Hiring spike in growth"}
+{"signal_id":"sig_00357","account_id":"acct_0081","kind":"infra_shift","source":"wappalyzer","captured_at":"2025-07-05T18:45:00Z","summary":"Detected Kubernetes in stack"}
+{"signal_id":"sig_00358","account_id":"acct_0081","kind":"infra_shift","source":"wappalyzer","captured_at":"2026-03-18T02:44:00Z","summary":"Detected Segment in stack"}
+{"signal_id":"sig_00359","account_id":"acct_0081","kind":"hiring","source":"greenhouse","captured_at":"2026-02-11T07:02:00Z","summary":"Backfilling platform"}
+{"signal_id":"sig_00360","account_id":"acct_0081","kind":"job_change","source":"linkedin","captured_at":"2024-12-12T23:27:00Z","summary":"New CTO hired","seniority":"VP+"}
+{"signal_id":"sig_00361","account_id":"acct_0081","kind":"job_change","source":"crunchbase","captured_at":"2026-05-04T23:17:00Z","summary":"New VP Sales hired"}
+{"signal_id":"sig_00362","account_id":"acct_0083","kind":"infra_shift","source":"builtwith","captured_at":"2026-04-23T12:37:00Z","summary":"Migrated to Segment"}
+{"signal_id":"sig_00363","account_id":"acct_0084","kind":"infra_shift","source":"wappalyzer","captured_at":"2026-04-17T05:57:00Z","summary":"Adopted dbt"}
+{"signal_id":"sig_00364","account_id":"acct_0084","kind":"hiring","source":"greenhouse","captured_at":"2026-01-06T17:00:00Z","summary":"Backfilling data"}
+{"signal_id":"sig_00365","account_id":"acct_0084","kind":"internal_note","source":"rep-note","captured_at":"2026-03-14T07:20:00Z","summary":"Rep flagged budget approved"}
+{"signal_id":"sig_00366","account_id":"acct_0084","kind":"job_change","source":"clearbit","captured_at":"2026-02-21T17:03:00Z","summary":"Director of RevOps joined from competitor"}
+{"signal_id":"sig_00367","account_id":"acct_0084","kind":"hiring","source":"greenhouse","captured_at":"2026-02-22T01:12:00Z","summary":"Hiring spike in data"}
+{"signal_id":"sig_00368","account_id":"acct_0084","kind":"job_change","source":"crunchbase","captured_at":"2026-04-25T04:25:00Z","summary":"CTO joined from competitor","seniority":"VP+"}
+{"signal_id":"sig_00369","account_id":"acct_0085","kind":"job_change","source":"linkedin","captured_at":"2026-05-24T11:44:00Z","summary":"New VP Sales hired","seniority":"Director"}
+{"signal_id":"sig_00370","account_id":"acct_0085","kind":"internal_note","source":"email-thread","captured_at":"2026-04-26T13:00:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00371","account_id":"acct_0085","kind":"job_change","source":"crunchbase","captured_at":"2026-03-25T16:40:00Z","summary":"Leadership change: Director of RevOps","seniority":"Director"}
+{"signal_id":"sig_00372","account_id":"acct_0085","kind":"hiring","source":"greenhouse","captured_at":"2026-05-12T08:22:00Z","summary":"Hiring spike in sales engineering"}
+{"signal_id":"sig_00373","account_id":"acct_0085","kind":"infra_shift","source":"builtwith","captured_at":"2026-05-05T03:03:00Z","summary":"Adopted pgvector"}
+{"signal_id":"sig_00374","account_id":"acct_0085","kind":"job_change","source":"crunchbase","captured_at":"2026-02-17T14:37:00Z","summary":"Leadership change: VP Engineering","seniority":"VP+"}
+{"signal_id":"sig_00375","account_id":"acct_0085","kind":"job_change","source":"linkedin","captured_at":"2026-04-24T07:11:00Z","summary":"New VP Sales hired"}
+{"signal_id":"sig_00376","account_id":"acct_0085","kind":"job_change","source":"crunchbase","captured_at":"2025-11-30T14:27:00Z","summary":"Leadership change: VP Sales","seniority":"VP+"}
+{"signal_id":"sig_00377","account_id":"acct_0087","kind":"hiring","source":"greenhouse","captured_at":"2025-09-13T21:08:00Z","summary":"Backfilling sales engineering"}
+{"signal_id":"sig_00378","account_id":"acct_0087","kind":"infra_shift","source":"builtwith","captured_at":"2026-04-21T04:51:00Z","summary":"Detected dbt in stack"}
+{"signal_id":"sig_00379","account_id":"acct_0087","kind":"hiring","source":"careers-page","captured_at":"2026-01-02T19:40:00Z","summary":"Hiring spike in data"}
+{"signal_id":"sig_00380","account_id":"acct_0087","kind":"infra_shift","source":"wappalyzer","captured_at":"2025-12-07T06:09:00Z","summary":"Detected pgvector in stack"}
+{"signal_id":"sig_00381","account_id":"acct_0087","kind":"hiring","source":"lever","captured_at":"2026-04-16T17:07:00Z","summary":"Hiring spike in sales engineering"}
+{"signal_id":"sig_00382","account_id":"acct_0087","kind":"hiring","source":"careers-page","captured_at":"2026-05-24T15:19:00Z","summary":"Hiring spike in data"}
+{"signal_id":"sig_00383","account_id":"acct_0087","kind":"job_change","source":"clearbit","captured_at":"2026-05-23T19:56:00Z","summary":"CTO joined from competitor"}
+{"signal_id":"sig_00384","account_id":"acct_0087","kind":"hiring","source":"careers-page","captured_at":"2025-11-03T14:18:00Z","summary":"Backfilling growth"}
+{"signal_id":"sig_00385","account_id":"acct_0088","kind":"infra_shift","source":"dns-records","captured_at":"2026-03-08T11:14:00Z","summary":"Adopted Kubernetes"}
+{"signal_id":"sig_00386","account_id":"acct_0089","kind":"hiring","source":"greenhouse","captured_at":"2026-02-05T12:17:00Z","summary":"Hiring spike in security"}
+{"signal_id":"sig_00387","account_id":"acct_0089","kind":"internal_note","source":"call-log","captured_at":"2026-02-27T19:06:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00388","account_id":"acct_0090","kind":"hiring","source":"careers-page","captured_at":"2026-03-21T00:44:00Z","summary":"Opened 8 data roles"}
+{"signal_id":"sig_00389","account_id":"acct_0090","kind":"hiring","source":"careers-page","captured_at":"2025-12-31T19:22:00Z","summary":"Hiring spike in growth"}
+{"signal_id":"sig_00390","account_id":"acct_0090","kind":"job_change","source":"clearbit","captured_at":"2025-05-26T02:35:00Z","summary":"New VP Engineering hired","seniority":"Director"}
+{"signal_id":"sig_00391","account_id":"acct_0090","kind":"hiring","source":"lever","captured_at":"2026-04-07T12:45:00Z","summary":"Opened 8 data roles"}
+{"signal_id":"sig_00392","account_id":"acct_0090","kind":"job_change","source":"clearbit","captured_at":"2026-05-02T17:04:00Z","summary":"New VP Sales hired"}
+{"signal_id":"sig_00393","account_id":"acct_0091","kind":"infra_shift","source":"builtwith","captured_at":"2026-05-17T12:24:00Z","summary":"Migrated to Segment"}
+{"signal_id":"sig_00394","account_id":"acct_0091","kind":"infra_shift","source":"dns-records","captured_at":"2026-05-24T00:07:00Z","summary":"Adopted dbt"}
+{"signal_id":"sig_00395","account_id":"acct_0091","kind":"infra_shift","source":"wappalyzer","captured_at":"2026-03-22T00:32:00Z","summary":"Adopted Kubernetes"}
+{"signal_id":"sig_00396","account_id":"acct_0091","kind":"job_change","source":"linkedin","captured_at":"2026-02-23T02:18:00Z","summary":"New CTO hired"}
+{"signal_id":"sig_00397","account_id":"acct_0091","kind":"hiring","source":"careers-page","captured_at":"2026-04-24T10:42:00Z","summary":"Backfilling data"}
+{"signal_id":"sig_00398","account_id":"acct_0092","kind":"infra_shift","source":"wappalyzer","captured_at":"2025-07-23T08:55:00Z","summary":"Detected Kubernetes in stack"}
+{"signal_id":"sig_00399","account_id":"acct_0092","kind":"infra_shift","source":"builtwith","captured_at":"2026-03-02T07:41:00Z","summary":"Migrated to Segment"}
+{"signal_id":"sig_00400","account_id":"acct_0092","kind":"internal_note","source":"call-log","captured_at":"2026-05-12T10:27:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00401","account_id":"acct_0092","kind":"hiring","source":"careers-page","captured_at":"2025-12-18T04:51:00Z","summary":"Hiring spike in security"}
+{"signal_id":"sig_00402","account_id":"acct_0092","kind":"hiring","source":"lever","captured_at":"2026-05-25T05:53:00Z","summary":"Hiring spike in growth"}
+{"signal_id":"sig_00403","account_id":"acct_0094","kind":"hiring","source":"careers-page","captured_at":"2026-05-25T22:16:00Z","summary":"Opened 6 sales engineering roles"}
+{"signal_id":"sig_00404","account_id":"acct_0094","kind":"infra_shift","source":"dns-records","captured_at":"2025-09-15T05:33:00Z","summary":"Detected Segment in stack"}
+{"signal_id":"sig_00405","account_id":"acct_0095","kind":"infra_shift","source":"dns-records","captured_at":"2025-10-29T08:33:00Z","summary":"Adopted pgvector"}
+{"signal_id":"sig_00406","account_id":"acct_0095","kind":"infra_shift","source":"wappalyzer","captured_at":"2025-03-08T04:39:00Z","summary":"Detected Segment in stack"}
+{"signal_id":"sig_00407","account_id":"acct_0095","kind":"job_change","source":"crunchbase","captured_at":"2026-03-11T15:03:00Z","summary":"Leadership change: Head of Data","seniority":"VP+"}
+{"signal_id":"sig_00408","account_id":"acct_0095","kind":"job_change","source":"clearbit","captured_at":"2026-01-16T04:10:00Z","summary":"CTO joined from competitor"}
+{"signal_id":"sig_00409","account_id":"acct_0096","kind":"internal_note","source":"email-thread","captured_at":"2025-10-15T01:07:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00410","account_id":"acct_0096","kind":"job_change","source":"crunchbase","captured_at":"2026-04-27T09:43:00Z","summary":"Head of Data joined from competitor"}
+{"signal_id":"sig_00411","account_id":"acct_0096","kind":"infra_shift","source":"dns-records","captured_at":"2026-04-21T02:33:00Z","summary":"Migrated to Segment"}
+{"signal_id":"sig_00412","account_id":"acct_0096","kind":"infra_shift","source":"dns-records","captured_at":"2025-11-09T21:42:00Z","summary":"Detected dbt in stack"}
+{"signal_id":"sig_00413","account_id":"acct_0096","kind":"hiring","source":"careers-page","captured_at":"2026-05-21T02:21:00Z","summary":"Opened 7 sales engineering roles"}
+{"signal_id":"sig_00414","account_id":"acct_0096","kind":"job_change","source":"crunchbase","captured_at":"2026-03-23T02:20:00Z","summary":"Leadership change: Head of Data"}
+{"signal_id":"sig_00415","account_id":"acct_0096","kind":"hiring","source":"greenhouse","captured_at":"2026-03-08T18:01:00Z","summary":"Hiring spike in security"}
+{"signal_id":"sig_00416","account_id":"acct_0096","kind":"infra_shift","source":"dns-records","captured_at":"2026-04-18T21:31:00Z","summary":"Adopted Snowflake"}
+{"signal_id":"sig_00417","account_id":"acct_0097","kind":"infra_shift","source":"builtwith","captured_at":"2026-01-20T09:28:00Z","summary":"Migrated to Segment"}
+{"signal_id":"sig_00418","account_id":"acct_0097","kind":"infra_shift","source":"builtwith","captured_at":"2025-11-20T05:32:00Z","summary":"Adopted Kubernetes"}
+{"signal_id":"sig_00419","account_id":"acct_0097","kind":"hiring","source":"careers-page","captured_at":"2026-03-12T02:25:00Z","summary":"Backfilling platform"}
+{"signal_id":"sig_00420","account_id":"acct_0098","kind":"job_change","source":"linkedin","captured_at":"2026-04-01T00:42:00Z","summary":"Leadership change: VP Engineering"}
+{"signal_id":"sig_00421","account_id":"acct_0098","kind":"infra_shift","source":"wappalyzer","captured_at":"2025-05-13T23:41:00Z","summary":"Migrated to Segment"}
+{"signal_id":"sig_00422","account_id":"acct_0098","kind":"job_change","source":"clearbit","captured_at":"2026-05-22T04:21:00Z","summary":"Leadership change: Director of RevOps"}
+{"signal_id":"sig_00423","account_id":"acct_0099","kind":"hiring","source":"careers-page","captured_at":"2026-04-25T19:24:00Z","summary":"Hiring spike in security"}
+{"signal_id":"sig_00424","account_id":"acct_0099","kind":"internal_note","source":"call-log","captured_at":"2026-04-30T10:44:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00425","account_id":"acct_0099","kind":"infra_shift","source":"dns-records","captured_at":"2026-04-02T15:38:00Z","summary":"Detected Snowflake in stack"}
+{"signal_id":"sig_00426","account_id":"acct_0099","kind":"infra_shift","source":"builtwith","captured_at":"2026-03-28T07:09:00Z","summary":"Detected Kubernetes in stack"}
+{"signal_id":"sig_00427","account_id":"acct_0099","kind":"job_change","source":"crunchbase","captured_at":"2026-03-29T13:41:00Z","summary":"Leadership change: VP Engineering"}
+{"signal_id":"sig_00428","account_id":"acct_0101","kind":"job_change","source":"crunchbase","captured_at":"2026-03-10T03:42:00Z","summary":"New CTO hired"}
+{"signal_id":"sig_00429","account_id":"acct_0101","kind":"infra_shift","source":"dns-records","captured_at":"2026-03-11T18:20:00Z","summary":"Detected Snowflake in stack"}
+{"signal_id":"sig_00430","account_id":"acct_0101","kind":"job_change","source":"clearbit","captured_at":"2026-04-26T08:24:00Z","summary":"New Director of RevOps hired","seniority":"VP+"}
+{"signal_id":"sig_00431","account_id":"acct_0101","kind":"hiring","source":"lever","captured_at":"2025-12-23T04:57:00Z","summary":"Hiring spike in data"}
+{"signal_id":"sig_00432","account_id":"acct_0101","kind":"internal_note","source":"rep-note","captured_at":"2026-04-26T04:24:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00433","account_id":"acct_0101","kind":"hiring","source":"lever","captured_at":"2025-06-17T23:22:00Z","summary":"Hiring spike in security"}
+{"signal_id":"sig_00434","account_id":"acct_0101","kind":"job_change","source":"crunchbase","captured_at":"2026-02-08T09:48:00Z","summary":"VP Sales joined from competitor","seniority":"Director"}
+{"signal_id":"sig_00435","account_id":"acct_0102","kind":"hiring","source":"careers-page","captured_at":"2026-02-22T17:29:00Z","summary":"Backfilling data"}
+{"signal_id":"sig_00436","account_id":"acct_0102","kind":"hiring","source":"lever","captured_at":"2026-05-03T14:20:00Z","summary":"Opened 8 platform roles"}
+{"signal_id":"sig_00437","account_id":"acct_0102","kind":"internal_note","source":"email-thread","captured_at":"2026-01-24T18:21:00Z","summary":"Rep flagged budget approved"}
+{"signal_id":"sig_00438","account_id":"acct_0102","kind":"infra_shift","source":"builtwith","captured_at":"2026-02-12T23:22:00Z","summary":"Adopted pgvector"}
+{"signal_id":"sig_00439","account_id":"acct_0102","kind":"internal_note","source":"call-log","captured_at":"2025-11-10T17:10:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00440","account_id":"acct_0102","kind":"job_change","source":"linkedin","captured_at":"2026-05-15T22:42:00Z","summary":"Leadership change: VP Sales","seniority":"VP+"}
+{"signal_id":"sig_00441","account_id":"acct_0103","kind":"internal_note","source":"rep-note","captured_at":"2026-01-28T23:33:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00442","account_id":"acct_0103","kind":"internal_note","source":"call-log","captured_at":"2026-03-08T23:32:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00443","account_id":"acct_0103","kind":"internal_note","source":"rep-note","captured_at":"2026-03-03T09:38:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00444","account_id":"acct_0103","kind":"hiring","source":"lever","captured_at":"2026-05-03T10:33:00Z","summary":"Opened 2 growth roles"}
+{"signal_id":"sig_00445","account_id":"acct_0103","kind":"infra_shift","source":"wappalyzer","captured_at":"2026-05-20T07:02:00Z","summary":"Adopted pgvector"}
+{"signal_id":"sig_00446","account_id":"acct_0104","kind":"infra_shift","source":"dns-records","captured_at":"2026-02-19T06:37:00Z","summary":"Detected Snowflake in stack"}
+{"signal_id":"sig_00447","account_id":"acct_0104","kind":"hiring","source":"careers-page","captured_at":"2026-04-25T12:20:00Z","summary":"Hiring spike in platform"}
+{"signal_id":"sig_00448","account_id":"acct_0104","kind":"infra_shift","source":"dns-records","captured_at":"2026-03-04T00:30:00Z","summary":"Migrated to Snowflake"}
+{"signal_id":"sig_00449","account_id":"acct_0104","kind":"infra_shift","source":"dns-records","captured_at":"2026-01-31T04:50:00Z","summary":"Detected Kubernetes in stack"}
+{"signal_id":"sig_00450","account_id":"acct_0104","kind":"hiring","source":"careers-page","captured_at":"2025-06-07T21:47:00Z","summary":"Opened 8 sales engineering roles"}
+{"signal_id":"sig_00451","account_id":"acct_0104","kind":"hiring","source":"greenhouse","captured_at":"2025-09-03T00:46:00Z","summary":"Backfilling data"}
+{"signal_id":"sig_00452","account_id":"acct_0104","kind":"infra_shift","source":"builtwith","captured_at":"2025-12-09T14:28:00Z","summary":"Migrated to Databricks"}
+{"signal_id":"sig_00453","account_id":"acct_0104","kind":"internal_note","source":"call-log","captured_at":"2026-04-12T15:27:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00454","account_id":"acct_0105","kind":"job_change","source":"clearbit","captured_at":"2026-02-13T13:37:00Z","summary":"New VP Engineering hired"}
+{"signal_id":"sig_00455","account_id":"acct_0105","kind":"job_change","source":"crunchbase","captured_at":"2026-02-28T15:37:00Z","summary":"New Director of RevOps hired","seniority":"Director"}
+{"signal_id":"sig_00456","account_id":"acct_0105","kind":"job_change","source":"clearbit","captured_at":"2025-08-10T07:57:00Z","summary":"Leadership change: VP Engineering"}
+{"signal_id":"sig_00457","account_id":"acct_0106","kind":"infra_shift","source":"wappalyzer","captured_at":"2026-05-19T17:55:00Z","summary":"Detected Snowflake in stack"}
+{"signal_id":"sig_00458","account_id":"acct_0106","kind":"job_change","source":"crunchbase","captured_at":"2025-07-16T05:50:00Z","summary":"Leadership change: VP Engineering"}
+{"signal_id":"sig_00459","account_id":"acct_0106","kind":"hiring","source":"lever","captured_at":"2026-01-01T17:06:00Z","summary":"Backfilling platform"}
+{"signal_id":"sig_00460","account_id":"acct_0106","kind":"job_change","source":"linkedin","captured_at":"2024-12-01T17:00:00Z","summary":"Leadership change: CTO"}
+{"signal_id":"sig_00461","account_id":"acct_0106","kind":"job_change","source":"crunchbase","captured_at":"2026-02-26T22:53:00Z","summary":"Leadership change: VP Engineering"}
+{"signal_id":"sig_00462","account_id":"acct_0107","kind":"job_change","source":"linkedin","captured_at":"2025-08-22T07:26:00Z","summary":"VP Sales joined from competitor"}
+{"signal_id":"sig_00463","account_id":"acct_0108","kind":"job_change","source":"crunchbase","captured_at":"2026-04-30T10:30:00Z","summary":"Leadership change: VP Sales","seniority":"Director"}
+{"signal_id":"sig_00464","account_id":"acct_0108","kind":"internal_note","source":"call-log","captured_at":"2026-03-15T15:55:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00465","account_id":"acct_0108","kind":"job_change","source":"crunchbase","captured_at":"2026-05-22T12:24:00Z","summary":"VP Engineering joined from competitor"}
+{"signal_id":"sig_00466","account_id":"acct_0108","kind":"infra_shift","source":"dns-records","captured_at":"2026-05-05T23:52:00Z","summary":"Adopted Databricks"}
+{"signal_id":"sig_00467","account_id":"acct_0109","kind":"hiring","source":"lever","captured_at":"2026-05-02T21:59:00Z","summary":"Opened 7 platform roles"}
+{"signal_id":"sig_00468","account_id":"acct_0109","kind":"job_change","source":"linkedin","captured_at":"2026-04-04T20:00:00Z","summary":"Leadership change: Head of Data","seniority":"Director"}
+{"signal_id":"sig_00469","account_id":"acct_0110","kind":"job_change","source":"linkedin","captured_at":"2026-04-22T19:15:00Z","summary":"CTO joined from competitor"}
+{"signal_id":"sig_00470","account_id":"acct_0110","kind":"hiring","source":"careers-page","captured_at":"2026-05-12T15:05:00Z","summary":"Opened 5 data roles"}
+{"signal_id":"sig_00471","account_id":"acct_0110","kind":"job_change","source":"crunchbase","captured_at":"2025-08-31T02:10:00Z","summary":"Leadership change: CTO","seniority":"VP+"}
+{"signal_id":"sig_00472","account_id":"acct_0110","kind":"hiring","source":"careers-page","captured_at":"2026-02-25T01:07:00Z","summary":"Opened 5 platform roles"}
+{"signal_id":"sig_00473","account_id":"acct_0110","kind":"hiring","source":"lever","captured_at":"2026-05-20T11:20:00Z","summary":"Opened 9 platform roles"}
+{"signal_id":"sig_00474","account_id":"acct_0110","kind":"infra_shift","source":"dns-records","captured_at":"2025-09-24T20:34:00Z","summary":"Migrated to Segment"}
+{"signal_id":"sig_00475","account_id":"acct_0110","kind":"hiring","source":"greenhouse","captured_at":"2025-11-14T09:05:00Z","summary":"Hiring spike in growth"}
+{"signal_id":"sig_00476","account_id":"acct_0111","kind":"hiring","source":"careers-page","captured_at":"2026-02-08T17:52:00Z","summary":"Hiring spike in security"}
+{"signal_id":"sig_00477","account_id":"acct_0111","kind":"hiring","source":"careers-page","captured_at":"2026-01-06T12:08:00Z","summary":"Hiring spike in sales engineering"}
+{"signal_id":"sig_00478","account_id":"acct_0111","kind":"hiring","source":"greenhouse","captured_at":"2026-05-05T21:03:00Z","summary":"Hiring spike in sales engineering"}
+{"signal_id":"sig_00479","account_id":"acct_0111","kind":"job_change","source":"clearbit","captured_at":"2026-03-18T11:31:00Z","summary":"VP Engineering joined from competitor"}
+{"signal_id":"sig_00480","account_id":"acct_0111","kind":"hiring","source":"lever","captured_at":"2026-03-04T05:24:00Z","summary":"Opened 8 data roles"}
+{"signal_id":"sig_00481","account_id":"acct_0111","kind":"job_change","source":"linkedin","captured_at":"2025-12-09T19:37:00Z","summary":"New Head of Data hired","seniority":"Director"}
+{"signal_id":"sig_00482","account_id":"acct_0111","kind":"hiring","source":"lever","captured_at":"2026-05-16T19:33:00Z","summary":"Opened 2 data roles"}
+{"signal_id":"sig_00483","account_id":"acct_0112","kind":"hiring","source":"greenhouse","captured_at":"2026-03-23T05:57:00Z","summary":"Backfilling growth"}
+{"signal_id":"sig_00484","account_id":"acct_0112","kind":"hiring","source":"careers-page","captured_at":"2026-04-13T20:43:00Z","summary":"Backfilling platform"}
+{"signal_id":"sig_00485","account_id":"acct_0113","kind":"infra_shift","source":"dns-records","captured_at":"2026-05-13T13:50:00Z","summary":"Detected Segment in stack"}
+{"signal_id":"sig_00486","account_id":"acct_0113","kind":"internal_note","source":"email-thread","captured_at":"2025-08-12T17:25:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00487","account_id":"acct_0114","kind":"hiring","source":"careers-page","captured_at":"2026-01-31T00:06:00Z","summary":"Backfilling data"}
+{"signal_id":"sig_00488","account_id":"acct_0114","kind":"infra_shift","source":"dns-records","captured_at":"2026-01-26T13:04:00Z","summary":"Adopted Databricks"}
+{"signal_id":"sig_00489","account_id":"acct_0114","kind":"internal_note","source":"rep-note","captured_at":"2026-04-02T15:02:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00490","account_id":"acct_0115","kind":"job_change","source":"linkedin","captured_at":"2026-05-05T09:19:00Z","summary":"Leadership change: Head of Data","seniority":"Director"}
+{"signal_id":"sig_00491","account_id":"acct_0116","kind":"job_change","source":"crunchbase","captured_at":"2026-04-02T07:36:00Z","summary":"Director of RevOps joined from competitor","seniority":"Director"}
+{"signal_id":"sig_00492","account_id":"acct_0117","kind":"hiring","source":"careers-page","captured_at":"2026-04-17T14:02:00Z","summary":"Opened 3 security roles"}
+{"signal_id":"sig_00493","account_id":"acct_0117","kind":"hiring","source":"greenhouse","captured_at":"2024-12-24T04:18:00Z","summary":"Opened 5 sales engineering roles"}
+{"signal_id":"sig_00494","account_id":"acct_0118","kind":"internal_note","source":"rep-note","captured_at":"2026-03-13T22:38:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00495","account_id":"acct_0118","kind":"job_change","source":"linkedin","captured_at":"2026-05-25T16:19:00Z","summary":"New Director of RevOps hired"}
+{"signal_id":"sig_00496","account_id":"acct_0118","kind":"hiring","source":"careers-page","captured_at":"2026-03-26T07:06:00Z","summary":"Hiring spike in data"}
+{"signal_id":"sig_00497","account_id":"acct_0118","kind":"infra_shift","source":"wappalyzer","captured_at":"2025-12-31T10:12:00Z","summary":"Detected dbt in stack"}
+{"signal_id":"sig_00498","account_id":"acct_0118","kind":"infra_shift","source":"builtwith","captured_at":"2025-12-17T14:30:00Z","summary":"Migrated to Segment"}
+{"signal_id":"sig_00499","account_id":"acct_0118","kind":"hiring","source":"careers-page","captured_at":"2025-10-11T23:53:00Z","summary":"Hiring spike in platform"}
+{"signal_id":"sig_00500","account_id":"acct_0120","kind":"job_change","source":"crunchbase","captured_at":"2026-01-05T14:05:00Z","summary":"Director of RevOps joined from competitor","seniority":"VP+"}
+{"signal_id":"sig_00501","account_id":"acct_0120","kind":"infra_shift","source":"dns-records","captured_at":"2025-11-02T07:15:00Z","summary":"Detected Snowflake in stack"}
+{"signal_id":"sig_00502","account_id":"acct_0120","kind":"infra_shift","source":"builtwith","captured_at":"2026-04-22T18:06:00Z","summary":"Migrated to Databricks"}
+{"signal_id":"sig_00503","account_id":"acct_0120","kind":"hiring","source":"careers-page","captured_at":"2025-03-28T08:07:00Z","summary":"Backfilling security"}
+{"signal_id":"sig_00504","account_id":"acct_0120","kind":"hiring","source":"careers-page","captured_at":"2025-08-02T09:19:00Z","summary":"Hiring spike in growth"}
+{"signal_id":"sig_00505","account_id":"acct_0120","kind":"job_change","source":"crunchbase","captured_at":"2025-09-04T23:42:00Z","summary":"Leadership change: VP Engineering","seniority":"VP+"}
+{"signal_id":"sig_00506","account_id":"acct_0120","kind":"internal_note","source":"rep-note","captured_at":"2026-02-17T08:29:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00507","account_id":"acct_0120","kind":"job_change","source":"linkedin","captured_at":"2026-05-05T12:59:00Z","summary":"VP Sales joined from competitor"}
+{"signal_id":"sig_00508","account_id":"acct_0120","kind":"job_change","source":"clearbit","captured_at":"2025-12-14T12:34:00Z","summary":"VP Engineering joined from competitor","seniority":"VP+"}
+{"signal_id":"sig_00509","account_id":"acct_0121","kind":"job_change","source":"clearbit","captured_at":"2026-03-12T13:35:00Z","summary":"Leadership change: VP Sales"}
+{"signal_id":"sig_00510","account_id":"acct_0121","kind":"job_change","source":"clearbit","captured_at":"2026-04-29T11:22:00Z","summary":"VP Sales joined from competitor"}
+{"signal_id":"sig_00511","account_id":"acct_0121","kind":"internal_note","source":"email-thread","captured_at":"2026-04-28T06:17:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00512","account_id":"acct_0121","kind":"internal_note","source":"call-log","captured_at":"2026-03-06T09:42:00Z","summary":"Rep flagged budget approved"}
+{"signal_id":"sig_00513","account_id":"acct_0121","kind":"hiring","source":"greenhouse","captured_at":"2026-03-06T23:32:00Z","summary":"Hiring spike in sales engineering"}
+{"signal_id":"sig_00514","account_id":"acct_0121","kind":"hiring","source":"lever","captured_at":"2025-12-26T03:27:00Z","summary":"Hiring spike in sales engineering"}
+{"signal_id":"sig_00515","account_id":"acct_0121","kind":"infra_shift","source":"dns-records","captured_at":"2026-05-20T08:26:00Z","summary":"Migrated to pgvector"}
+{"signal_id":"sig_00516","account_id":"acct_0121","kind":"internal_note","source":"call-log","captured_at":"2025-12-14T04:38:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00517","account_id":"acct_0121","kind":"job_change","source":"clearbit","captured_at":"2026-03-29T06:00:00Z","summary":"VP Engineering joined from competitor","seniority":"Director"}
+{"signal_id":"sig_00518","account_id":"acct_0122","kind":"internal_note","source":"rep-note","captured_at":"2026-03-12T09:59:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00519","account_id":"acct_0122","kind":"hiring","source":"lever","captured_at":"2025-12-27T23:06:00Z","summary":"Backfilling platform"}
+{"signal_id":"sig_00520","account_id":"acct_0122","kind":"hiring","source":"careers-page","captured_at":"2026-04-10T17:09:00Z","summary":"Backfilling growth"}
+{"signal_id":"sig_00521","account_id":"acct_0123","kind":"hiring","source":"lever","captured_at":"2026-02-17T15:34:00Z","summary":"Hiring spike in growth"}
+{"signal_id":"sig_00522","account_id":"acct_0123","kind":"hiring","source":"greenhouse","captured_at":"2026-05-17T02:54:00Z","summary":"Opened 6 security roles"}
+{"signal_id":"sig_00523","account_id":"acct_0123","kind":"job_change","source":"crunchbase","captured_at":"2026-04-13T15:51:00Z","summary":"VP Sales joined from competitor"}
+{"signal_id":"sig_00524","account_id":"acct_0123","kind":"hiring","source":"careers-page","captured_at":"2026-03-19T03:55:00Z","summary":"Opened 2 data roles"}
+{"signal_id":"sig_00525","account_id":"acct_0124","kind":"infra_shift","source":"builtwith","captured_at":"2026-04-04T18:55:00Z","summary":"Detected Databricks in stack"}
+{"signal_id":"sig_00526","account_id":"acct_0124","kind":"infra_shift","source":"wappalyzer","captured_at":"2025-11-26T00:36:00Z","summary":"Detected pgvector in stack"}
+{"signal_id":"sig_00527","account_id":"acct_0124","kind":"job_change","source":"crunchbase","captured_at":"2026-05-15T09:57:00Z","summary":"Leadership change: VP Engineering","seniority":"VP+"}
+{"signal_id":"sig_00528","account_id":"acct_0124","kind":"internal_note","source":"call-log","captured_at":"2026-03-03T17:51:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00529","account_id":"acct_0124","kind":"job_change","source":"crunchbase","captured_at":"2025-07-31T09:43:00Z","summary":"Leadership change: VP Engineering"}
+{"signal_id":"sig_00530","account_id":"acct_0125","kind":"job_change","source":"clearbit","captured_at":"2026-04-22T16:07:00Z","summary":"VP Engineering joined from competitor"}
+{"signal_id":"sig_00531","account_id":"acct_0125","kind":"job_change","source":"clearbit","captured_at":"2026-04-19T12:14:00Z","summary":"Leadership change: VP Sales","seniority":"VP+"}
+{"signal_id":"sig_00532","account_id":"acct_0125","kind":"job_change","source":"linkedin","captured_at":"2026-04-04T20:24:00Z","summary":"Leadership change: Head of Data"}
+{"signal_id":"sig_00533","account_id":"acct_0125","kind":"hiring","source":"careers-page","captured_at":"2025-10-26T10:49:00Z","summary":"Opened 6 sales engineering roles"}
+{"signal_id":"sig_00534","account_id":"acct_0125","kind":"internal_note","source":"rep-note","captured_at":"2026-05-17T17:52:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00535","account_id":"acct_0125","kind":"infra_shift","source":"dns-records","captured_at":"2026-03-30T09:29:00Z","summary":"Migrated to Segment"}
+{"signal_id":"sig_00536","account_id":"acct_0126","kind":"infra_shift","source":"builtwith","captured_at":"2026-04-17T19:34:00Z","summary":"Adopted Segment"}
+{"signal_id":"sig_00537","account_id":"acct_0126","kind":"internal_note","source":"call-log","captured_at":"2026-04-23T06:58:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00538","account_id":"acct_0126","kind":"hiring","source":"greenhouse","captured_at":"2026-03-18T17:18:00Z","summary":"Backfilling platform"}
+{"signal_id":"sig_00539","account_id":"acct_0126","kind":"infra_shift","source":"wappalyzer","captured_at":"2025-08-16T15:28:00Z","summary":"Adopted Kubernetes"}
+{"signal_id":"sig_00540","account_id":"acct_0126","kind":"hiring","source":"lever","captured_at":"2026-05-25T03:24:00Z","summary":"Opened 9 sales engineering roles"}
+{"signal_id":"sig_00541","account_id":"acct_0127","kind":"hiring","source":"careers-page","captured_at":"2026-05-07T12:59:00Z","summary":"Backfilling platform"}
+{"signal_id":"sig_00542","account_id":"acct_0127","kind":"internal_note","source":"email-thread","captured_at":"2026-05-17T04:04:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00543","account_id":"acct_0127","kind":"hiring","source":"lever","captured_at":"2025-11-19T14:25:00Z","summary":"Backfilling security"}
+{"signal_id":"sig_00544","account_id":"acct_0127","kind":"internal_note","source":"email-thread","captured_at":"2026-05-24T13:43:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00545","account_id":"acct_0127","kind":"job_change","source":"crunchbase","captured_at":"2025-10-26T19:59:00Z","summary":"Leadership change: Director of RevOps","seniority":"VP+"}
+{"signal_id":"sig_00546","account_id":"acct_0128","kind":"hiring","source":"careers-page","captured_at":"2025-12-21T00:31:00Z","summary":"Hiring spike in data"}
+{"signal_id":"sig_00547","account_id":"acct_0128","kind":"infra_shift","source":"wappalyzer","captured_at":"2026-05-17T07:33:00Z","summary":"Adopted Snowflake"}
+{"signal_id":"sig_00548","account_id":"acct_0128","kind":"hiring","source":"greenhouse","captured_at":"2025-10-26T15:33:00Z","summary":"Backfilling security"}
+{"signal_id":"sig_00549","account_id":"acct_0128","kind":"hiring","source":"greenhouse","captured_at":"2026-02-23T12:29:00Z","summary":"Hiring spike in security"}
+{"signal_id":"sig_00550","account_id":"acct_0129","kind":"job_change","source":"crunchbase","captured_at":"2026-01-10T02:36:00Z","summary":"New Director of RevOps hired","seniority":"Director"}
+{"signal_id":"sig_00551","account_id":"acct_0129","kind":"hiring","source":"careers-page","captured_at":"2026-05-22T08:02:00Z","summary":"Backfilling data"}
+{"signal_id":"sig_00552","account_id":"acct_0129","kind":"job_change","source":"clearbit","captured_at":"2025-11-23T12:28:00Z","summary":"Leadership change: VP Engineering"}
+{"signal_id":"sig_00553","account_id":"acct_0129","kind":"internal_note","source":"email-thread","captured_at":"2026-04-20T05:55:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00554","account_id":"acct_0129","kind":"hiring","source":"greenhouse","captured_at":"2026-03-24T06:23:00Z","summary":"Backfilling sales engineering"}
+{"signal_id":"sig_00555","account_id":"acct_0129","kind":"job_change","source":"clearbit","captured_at":"2026-03-30T23:14:00Z","summary":"New VP Engineering hired"}
+{"signal_id":"sig_00556","account_id":"acct_0129","kind":"hiring","source":"careers-page","captured_at":"2025-12-22T03:33:00Z","summary":"Opened 5 platform roles"}
+{"signal_id":"sig_00557","account_id":"acct_0129","kind":"hiring","source":"careers-page","captured_at":"2025-05-23T23:13:00Z","summary":"Backfilling data"}
+{"signal_id":"sig_00558","account_id":"acct_0129","kind":"job_change","source":"clearbit","captured_at":"2026-01-19T19:25:00Z","summary":"New Head of Data hired"}
+{"signal_id":"sig_00559","account_id":"acct_0129","kind":"infra_shift","source":"wappalyzer","captured_at":"2026-01-28T07:10:00Z","summary":"Adopted dbt"}
+{"signal_id":"sig_00560","account_id":"acct_0130","kind":"job_change","source":"crunchbase","captured_at":"2025-08-06T13:25:00Z","summary":"Leadership change: Director of RevOps"}
+{"signal_id":"sig_00561","account_id":"acct_0131","kind":"hiring","source":"careers-page","captured_at":"2026-05-03T07:30:00Z","summary":"Hiring spike in platform"}
+{"signal_id":"sig_00562","account_id":"acct_0131","kind":"hiring","source":"lever","captured_at":"2026-02-11T11:25:00Z","summary":"Backfilling growth"}
+{"signal_id":"sig_00563","account_id":"acct_0131","kind":"job_change","source":"crunchbase","captured_at":"2025-09-10T04:47:00Z","summary":"VP Engineering joined from competitor"}
+{"signal_id":"sig_00564","account_id":"acct_0131","kind":"infra_shift","source":"dns-records","captured_at":"2026-03-14T02:07:00Z","summary":"Adopted dbt"}
+{"signal_id":"sig_00565","account_id":"acct_0132","kind":"infra_shift","source":"wappalyzer","captured_at":"2025-09-24T07:14:00Z","summary":"Detected Segment in stack"}
+{"signal_id":"sig_00566","account_id":"acct_0133","kind":"internal_note","source":"call-log","captured_at":"2025-11-23T10:14:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00567","account_id":"acct_0133","kind":"hiring","source":"greenhouse","captured_at":"2025-08-25T07:38:00Z","summary":"Hiring spike in platform"}
+{"signal_id":"sig_00568","account_id":"acct_0133","kind":"internal_note","source":"call-log","captured_at":"2026-02-01T01:41:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00569","account_id":"acct_0133","kind":"infra_shift","source":"builtwith","captured_at":"2026-03-02T17:28:00Z","summary":"Adopted Snowflake"}
+{"signal_id":"sig_00570","account_id":"acct_0133","kind":"hiring","source":"lever","captured_at":"2025-12-09T18:02:00Z","summary":"Hiring spike in growth"}
+{"signal_id":"sig_00571","account_id":"acct_0133","kind":"internal_note","source":"email-thread","captured_at":"2026-02-12T05:24:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00572","account_id":"acct_0133","kind":"internal_note","source":"rep-note","captured_at":"2026-05-11T19:02:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00573","account_id":"acct_0133","kind":"infra_shift","source":"dns-records","captured_at":"2025-07-09T03:21:00Z","summary":"Adopted Segment"}
+{"signal_id":"sig_00574","account_id":"acct_0134","kind":"infra_shift","source":"wappalyzer","captured_at":"2026-05-18T12:32:00Z","summary":"Migrated to dbt"}
+{"signal_id":"sig_00575","account_id":"acct_0135","kind":"internal_note","source":"call-log","captured_at":"2025-09-23T11:10:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00576","account_id":"acct_0135","kind":"job_change","source":"clearbit","captured_at":"2025-12-15T12:21:00Z","summary":"New CTO hired","seniority":"VP+"}
+{"signal_id":"sig_00577","account_id":"acct_0135","kind":"job_change","source":"linkedin","captured_at":"2025-08-21T00:41:00Z","summary":"New CTO hired","seniority":"Director"}
+{"signal_id":"sig_00578","account_id":"acct_0136","kind":"internal_note","source":"rep-note","captured_at":"2026-02-26T17:26:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00579","account_id":"acct_0137","kind":"internal_note","source":"email-thread","captured_at":"2025-12-17T10:22:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00580","account_id":"acct_0138","kind":"hiring","source":"lever","captured_at":"2025-12-23T13:27:00Z","summary":"Backfilling security"}
+{"signal_id":"sig_00581","account_id":"acct_0138","kind":"hiring","source":"greenhouse","captured_at":"2025-05-29T13:09:00Z","summary":"Backfilling platform"}
+{"signal_id":"sig_00582","account_id":"acct_0138","kind":"hiring","source":"lever","captured_at":"2026-03-24T20:05:00Z","summary":"Backfilling data"}
+{"signal_id":"sig_00583","account_id":"acct_0138","kind":"hiring","source":"greenhouse","captured_at":"2026-03-26T22:36:00Z","summary":"Hiring spike in growth"}
+{"signal_id":"sig_00584","account_id":"acct_0138","kind":"job_change","source":"clearbit","captured_at":"2025-05-27T06:37:00Z","summary":"New VP Sales hired"}
+{"signal_id":"sig_00585","account_id":"acct_0140","kind":"internal_note","source":"rep-note","captured_at":"2026-01-27T18:26:00Z","summary":"Rep flagged budget approved"}
+{"signal_id":"sig_00586","account_id":"acct_0140","kind":"infra_shift","source":"dns-records","captured_at":"2025-08-05T23:17:00Z","summary":"Adopted Segment"}
+{"signal_id":"sig_00587","account_id":"acct_0140","kind":"hiring","source":"greenhouse","captured_at":"2026-03-29T19:46:00Z","summary":"Backfilling growth"}
+{"signal_id":"sig_00588","account_id":"acct_0140","kind":"job_change","source":"crunchbase","captured_at":"2026-05-21T21:51:00Z","summary":"New VP Engineering hired"}
+{"signal_id":"sig_00589","account_id":"acct_0140","kind":"job_change","source":"crunchbase","captured_at":"2026-03-12T15:30:00Z","summary":"New Head of Data hired"}
+{"signal_id":"sig_00590","account_id":"acct_0140","kind":"infra_shift","source":"dns-records","captured_at":"2025-09-16T05:36:00Z","summary":"Migrated to Segment"}
+{"signal_id":"sig_00591","account_id":"acct_0140","kind":"job_change","source":"linkedin","captured_at":"2026-01-29T11:20:00Z","summary":"Leadership change: Director of RevOps","seniority":"Director"}
+{"signal_id":"sig_00592","account_id":"acct_0141","kind":"internal_note","source":"email-thread","captured_at":"2026-03-18T23:04:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00593","account_id":"acct_0141","kind":"internal_note","source":"email-thread","captured_at":"2026-04-30T15:24:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00594","account_id":"acct_0141","kind":"hiring","source":"lever","captured_at":"2026-02-25T17:18:00Z","summary":"Hiring spike in platform"}
+{"signal_id":"sig_00595","account_id":"acct_0141","kind":"job_change","source":"clearbit","captured_at":"2026-03-22T20:35:00Z","summary":"Leadership change: Head of Data","seniority":"VP+"}
+{"signal_id":"sig_00596","account_id":"acct_0141","kind":"hiring","source":"greenhouse","captured_at":"2026-05-22T15:33:00Z","summary":"Opened 4 data roles"}
+{"signal_id":"sig_00597","account_id":"acct_0141","kind":"job_change","source":"crunchbase","captured_at":"2025-12-15T03:10:00Z","summary":"Director of RevOps joined from competitor"}
+{"signal_id":"sig_00598","account_id":"acct_0141","kind":"internal_note","source":"call-log","captured_at":"2025-12-11T11:43:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00599","account_id":"acct_0141","kind":"internal_note","source":"rep-note","captured_at":"2026-02-22T23:38:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00600","account_id":"acct_0141","kind":"internal_note","source":"rep-note","captured_at":"2025-11-20T22:48:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00601","account_id":"acct_0142","kind":"hiring","source":"careers-page","captured_at":"2025-11-25T22:56:00Z","summary":"Hiring spike in growth"}
+{"signal_id":"sig_00602","account_id":"acct_0142","kind":"infra_shift","source":"builtwith","captured_at":"2026-05-12T23:21:00Z","summary":"Migrated to Segment"}
+{"signal_id":"sig_00603","account_id":"acct_0142","kind":"job_change","source":"linkedin","captured_at":"2025-04-16T17:40:00Z","summary":"Leadership change: Director of RevOps","seniority":"VP+"}
+{"signal_id":"sig_00604","account_id":"acct_0142","kind":"internal_note","source":"email-thread","captured_at":"2026-05-14T01:32:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00605","account_id":"acct_0142","kind":"hiring","source":"careers-page","captured_at":"2025-12-14T18:03:00Z","summary":"Hiring spike in sales engineering"}
+{"signal_id":"sig_00606","account_id":"acct_0142","kind":"internal_note","source":"rep-note","captured_at":"2025-10-03T08:11:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00607","account_id":"acct_0142","kind":"job_change","source":"clearbit","captured_at":"2026-05-01T08:00:00Z","summary":"Leadership change: CTO"}
+{"signal_id":"sig_00608","account_id":"acct_0142","kind":"internal_note","source":"call-log","captured_at":"2026-01-09T10:17:00Z","summary":"Rep flagged budget approved"}
+{"signal_id":"sig_00609","account_id":"acct_0142","kind":"job_change","source":"clearbit","captured_at":"2025-09-23T21:18:00Z","summary":"Leadership change: Director of RevOps","seniority":"Director"}
+{"signal_id":"sig_00610","account_id":"acct_0142","kind":"internal_note","source":"email-thread","captured_at":"2025-04-17T17:18:00Z","summary":"Rep flagged budget approved"}
+{"signal_id":"sig_00611","account_id":"acct_0144","kind":"internal_note","source":"email-thread","captured_at":"2025-12-24T07:52:00Z","summary":"Rep flagged budget approved"}
+{"signal_id":"sig_00612","account_id":"acct_0144","kind":"job_change","source":"clearbit","captured_at":"2025-11-24T20:43:00Z","summary":"New VP Engineering hired"}
+{"signal_id":"sig_00613","account_id":"acct_0144","kind":"hiring","source":"careers-page","captured_at":"2026-05-20T05:01:00Z","summary":"Opened 7 platform roles"}
+{"signal_id":"sig_00614","account_id":"acct_0144","kind":"internal_note","source":"call-log","captured_at":"2026-03-17T14:44:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00615","account_id":"acct_0145","kind":"hiring","source":"careers-page","captured_at":"2026-01-04T12:33:00Z","summary":"Opened 5 sales engineering roles"}
+{"signal_id":"sig_00616","account_id":"acct_0145","kind":"job_change","source":"clearbit","captured_at":"2025-10-11T00:25:00Z","summary":"New VP Engineering hired","seniority":"Director"}
+{"signal_id":"sig_00617","account_id":"acct_0146","kind":"internal_note","source":"rep-note","captured_at":"2026-04-27T18:35:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00618","account_id":"acct_0146","kind":"hiring","source":"lever","captured_at":"2026-01-22T23:03:00Z","summary":"Opened 2 growth roles"}
+{"signal_id":"sig_00619","account_id":"acct_0146","kind":"hiring","source":"careers-page","captured_at":"2026-01-13T02:20:00Z","summary":"Backfilling growth"}
+{"signal_id":"sig_00620","account_id":"acct_0147","kind":"job_change","source":"linkedin","captured_at":"2025-12-24T23:07:00Z","summary":"New CTO hired"}
+{"signal_id":"sig_00621","account_id":"acct_0147","kind":"internal_note","source":"call-log","captured_at":"2026-04-07T17:32:00Z","summary":"Rep flagged budget approved"}
+{"signal_id":"sig_00622","account_id":"acct_0147","kind":"job_change","source":"linkedin","captured_at":"2026-05-16T17:13:00Z","summary":"Leadership change: Head of Data"}
+{"signal_id":"sig_00623","account_id":"acct_0147","kind":"hiring","source":"careers-page","captured_at":"2025-11-23T16:31:00Z","summary":"Backfilling data"}
+{"signal_id":"sig_00624","account_id":"acct_0147","kind":"internal_note","source":"call-log","captured_at":"2026-04-23T02:51:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00625","account_id":"acct_0148","kind":"hiring","source":"careers-page","captured_at":"2026-01-02T18:29:00Z","summary":"Backfilling security"}
+{"signal_id":"sig_00626","account_id":"acct_0148","kind":"internal_note","source":"call-log","captured_at":"2026-05-01T10:10:00Z","summary":"Rep flagged budget approved"}
+{"signal_id":"sig_00627","account_id":"acct_0148","kind":"job_change","source":"clearbit","captured_at":"2025-12-29T03:23:00Z","summary":"Leadership change: VP Sales"}
+{"signal_id":"sig_00628","account_id":"acct_0148","kind":"internal_note","source":"call-log","captured_at":"2026-04-01T10:13:00Z","summary":"Rep flagged budget approved"}
+{"signal_id":"sig_00629","account_id":"acct_0148","kind":"hiring","source":"careers-page","captured_at":"2026-01-17T00:06:00Z","summary":"Hiring spike in platform"}
+{"signal_id":"sig_00630","account_id":"acct_0148","kind":"job_change","source":"linkedin","captured_at":"2026-03-11T16:58:00Z","summary":"New Head of Data hired"}
+{"signal_id":"sig_00631","account_id":"acct_0148","kind":"job_change","source":"clearbit","captured_at":"2026-04-28T23:09:00Z","summary":"VP Engineering joined from competitor","seniority":"VP+"}
+{"signal_id":"sig_00632","account_id":"acct_0148","kind":"hiring","source":"careers-page","captured_at":"2025-10-17T18:52:00Z","summary":"Hiring spike in security"}
+{"signal_id":"sig_00633","account_id":"acct_0148","kind":"job_change","source":"linkedin","captured_at":"2026-05-01T15:58:00Z","summary":"Leadership change: CTO"}
+{"signal_id":"sig_00634","account_id":"acct_0149","kind":"infra_shift","source":"wappalyzer","captured_at":"2026-05-14T19:32:00Z","summary":"Adopted Segment"}
+{"signal_id":"sig_00635","account_id":"acct_0149","kind":"job_change","source":"linkedin","captured_at":"2026-04-15T08:39:00Z","summary":"VP Engineering joined from competitor","seniority":"Director"}
+{"signal_id":"sig_00636","account_id":"acct_0149","kind":"infra_shift","source":"dns-records","captured_at":"2026-04-29T20:29:00Z","summary":"Adopted pgvector"}
+{"signal_id":"sig_00637","account_id":"acct_0149","kind":"hiring","source":"lever","captured_at":"2025-12-19T08:29:00Z","summary":"Hiring spike in security"}
+{"signal_id":"sig_00638","account_id":"acct_0149","kind":"hiring","source":"greenhouse","captured_at":"2026-01-19T02:01:00Z","summary":"Backfilling data"}
+{"signal_id":"sig_00639","account_id":"acct_0149","kind":"job_change","source":"linkedin","captured_at":"2026-04-03T07:03:00Z","summary":"Director of RevOps joined from competitor"}
+{"signal_id":"sig_00640","account_id":"acct_0150","kind":"internal_note","source":"rep-note","captured_at":"2025-09-20T09:41:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00641","account_id":"acct_0151","kind":"job_change","source":"crunchbase","captured_at":"2025-11-05T00:54:00Z","summary":"New Head of Data hired"}
+{"signal_id":"sig_00642","account_id":"acct_0151","kind":"hiring","source":"greenhouse","captured_at":"2025-11-10T08:52:00Z","summary":"Backfilling sales engineering"}
+{"signal_id":"sig_00643","account_id":"acct_0151","kind":"internal_note","source":"rep-note","captured_at":"2025-10-07T11:55:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00644","account_id":"acct_0151","kind":"infra_shift","source":"wappalyzer","captured_at":"2026-01-29T07:30:00Z","summary":"Detected pgvector in stack"}
+{"signal_id":"sig_00645","account_id":"acct_0151","kind":"infra_shift","source":"builtwith","captured_at":"2025-11-04T16:28:00Z","summary":"Detected dbt in stack"}
+{"signal_id":"sig_00646","account_id":"acct_0152","kind":"job_change","source":"clearbit","captured_at":"2025-08-16T14:01:00Z","summary":"Director of RevOps joined from competitor","seniority":"VP+"}
+{"signal_id":"sig_00647","account_id":"acct_0152","kind":"infra_shift","source":"builtwith","captured_at":"2026-04-15T10:41:00Z","summary":"Detected pgvector in stack"}
+{"signal_id":"sig_00648","account_id":"acct_0152","kind":"job_change","source":"crunchbase","captured_at":"2025-06-23T04:55:00Z","summary":"New CTO hired","seniority":"Director"}
+{"signal_id":"sig_00649","account_id":"acct_0153","kind":"internal_note","source":"call-log","captured_at":"2026-02-23T06:32:00Z","summary":"Rep flagged budget approved"}
+{"signal_id":"sig_00650","account_id":"acct_0153","kind":"hiring","source":"greenhouse","captured_at":"2026-03-10T10:43:00Z","summary":"Backfilling growth"}
+{"signal_id":"sig_00651","account_id":"acct_0153","kind":"hiring","source":"greenhouse","captured_at":"2026-04-28T22:03:00Z","summary":"Opened 2 platform roles"}
+{"signal_id":"sig_00652","account_id":"acct_0153","kind":"hiring","source":"greenhouse","captured_at":"2026-04-27T22:24:00Z","summary":"Opened 3 platform roles"}
+{"signal_id":"sig_00653","account_id":"acct_0153","kind":"infra_shift","source":"wappalyzer","captured_at":"2025-11-26T06:52:00Z","summary":"Migrated to Kubernetes"}
+{"signal_id":"sig_00654","account_id":"acct_0153","kind":"infra_shift","source":"builtwith","captured_at":"2026-03-03T06:34:00Z","summary":"Detected Kubernetes in stack"}
+{"signal_id":"sig_00655","account_id":"acct_0153","kind":"hiring","source":"lever","captured_at":"2026-03-23T01:48:00Z","summary":"Hiring spike in growth"}
+{"signal_id":"sig_00656","account_id":"acct_0154","kind":"infra_shift","source":"wappalyzer","captured_at":"2025-11-08T02:25:00Z","summary":"Adopted Snowflake"}
+{"signal_id":"sig_00657","account_id":"acct_0154","kind":"job_change","source":"crunchbase","captured_at":"2026-01-20T13:52:00Z","summary":"Leadership change: VP Sales","seniority":"Director"}
+{"signal_id":"sig_00658","account_id":"acct_0154","kind":"hiring","source":"lever","captured_at":"2026-04-21T17:36:00Z","summary":"Hiring spike in security"}
+{"signal_id":"sig_00659","account_id":"acct_0154","kind":"job_change","source":"linkedin","captured_at":"2026-03-20T21:55:00Z","summary":"Director of RevOps joined from competitor","seniority":"VP+"}
+{"signal_id":"sig_00660","account_id":"acct_0154","kind":"hiring","source":"lever","captured_at":"2024-12-01T23:11:00Z","summary":"Hiring spike in data"}
+{"signal_id":"sig_00661","account_id":"acct_0155","kind":"job_change","source":"linkedin","captured_at":"2026-01-12T10:04:00Z","summary":"VP Sales joined from competitor","seniority":"VP+"}
+{"signal_id":"sig_00662","account_id":"acct_0156","kind":"hiring","source":"lever","captured_at":"2026-02-21T00:55:00Z","summary":"Backfilling security"}
+{"signal_id":"sig_00663","account_id":"acct_0156","kind":"job_change","source":"crunchbase","captured_at":"2026-05-23T17:09:00Z","summary":"Director of RevOps joined from competitor","seniority":"Director"}
+{"signal_id":"sig_00664","account_id":"acct_0156","kind":"infra_shift","source":"builtwith","captured_at":"2025-10-20T07:15:00Z","summary":"Detected Snowflake in stack"}
+{"signal_id":"sig_00665","account_id":"acct_0156","kind":"job_change","source":"clearbit","captured_at":"2026-04-18T08:33:00Z","summary":"New VP Sales hired","seniority":"VP+"}
+{"signal_id":"sig_00666","account_id":"acct_0157","kind":"job_change","source":"linkedin","captured_at":"2026-05-09T05:15:00Z","summary":"New Head of Data hired","seniority":"Director"}
+{"signal_id":"sig_00667","account_id":"acct_0157","kind":"job_change","source":"linkedin","captured_at":"2026-04-22T05:04:00Z","summary":"New VP Sales hired"}
+{"signal_id":"sig_00668","account_id":"acct_0158","kind":"hiring","source":"careers-page","captured_at":"2026-05-18T11:41:00Z","summary":"Backfilling data"}
+{"signal_id":"sig_00669","account_id":"acct_0158","kind":"hiring","source":"careers-page","captured_at":"2026-05-03T01:18:00Z","summary":"Opened 9 data roles"}
+{"signal_id":"sig_00670","account_id":"acct_0158","kind":"internal_note","source":"rep-note","captured_at":"2026-01-04T22:45:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00671","account_id":"acct_0158","kind":"job_change","source":"clearbit","captured_at":"2025-11-07T11:24:00Z","summary":"Director of RevOps joined from competitor","seniority":"Director"}
+{"signal_id":"sig_00672","account_id":"acct_0158","kind":"hiring","source":"careers-page","captured_at":"2024-12-29T20:53:00Z","summary":"Opened 2 data roles"}
+{"signal_id":"sig_00673","account_id":"acct_0158","kind":"hiring","source":"lever","captured_at":"2026-04-23T11:09:00Z","summary":"Opened 6 data roles"}
+{"signal_id":"sig_00674","account_id":"acct_0158","kind":"job_change","source":"clearbit","captured_at":"2025-11-12T23:47:00Z","summary":"Leadership change: Director of RevOps","seniority":"Director"}
+{"signal_id":"sig_00675","account_id":"acct_0158","kind":"job_change","source":"clearbit","captured_at":"2026-04-26T01:42:00Z","summary":"New CTO hired","seniority":"VP+"}
+{"signal_id":"sig_00676","account_id":"acct_0158","kind":"infra_shift","source":"dns-records","captured_at":"2026-05-06T16:29:00Z","summary":"Adopted Kubernetes"}
+{"signal_id":"sig_00677","account_id":"acct_0159","kind":"hiring","source":"careers-page","captured_at":"2026-04-20T01:25:00Z","summary":"Hiring spike in sales engineering"}
+{"signal_id":"sig_00678","account_id":"acct_0159","kind":"job_change","source":"crunchbase","captured_at":"2025-04-19T06:07:00Z","summary":"Leadership change: VP Engineering","seniority":"VP+"}
+{"signal_id":"sig_00679","account_id":"acct_0159","kind":"hiring","source":"careers-page","captured_at":"2026-03-10T09:33:00Z","summary":"Opened 5 data roles"}
+{"signal_id":"sig_00680","account_id":"acct_0159","kind":"job_change","source":"crunchbase","captured_at":"2026-03-26T09:44:00Z","summary":"New VP Engineering hired","seniority":"Director"}
+{"signal_id":"sig_00681","account_id":"acct_0159","kind":"hiring","source":"lever","captured_at":"2026-05-12T02:26:00Z","summary":"Backfilling growth"}
+{"signal_id":"sig_00682","account_id":"acct_0159","kind":"job_change","source":"linkedin","captured_at":"2026-03-29T06:38:00Z","summary":"Leadership change: VP Engineering"}
+{"signal_id":"sig_00683","account_id":"acct_0159","kind":"infra_shift","source":"builtwith","captured_at":"2026-05-04T21:03:00Z","summary":"Adopted Segment"}
+{"signal_id":"sig_00684","account_id":"acct_0159","kind":"internal_note","source":"call-log","captured_at":"2026-03-25T10:11:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00685","account_id":"acct_0160","kind":"infra_shift","source":"builtwith","captured_at":"2026-04-25T00:22:00Z","summary":"Detected Segment in stack"}
+{"signal_id":"sig_00686","account_id":"acct_0160","kind":"infra_shift","source":"wappalyzer","captured_at":"2025-06-23T08:04:00Z","summary":"Detected Databricks in stack"}
+{"signal_id":"sig_00687","account_id":"acct_0160","kind":"infra_shift","source":"dns-records","captured_at":"2026-02-16T03:55:00Z","summary":"Adopted pgvector"}
+{"signal_id":"sig_00688","account_id":"acct_0160","kind":"hiring","source":"careers-page","captured_at":"2026-01-28T13:43:00Z","summary":"Backfilling platform"}
+{"signal_id":"sig_00689","account_id":"acct_0160","kind":"job_change","source":"linkedin","captured_at":"2026-05-11T03:09:00Z","summary":"VP Sales joined from competitor"}
+{"signal_id":"sig_00690","account_id":"acct_0160","kind":"infra_shift","source":"wappalyzer","captured_at":"2026-02-23T23:16:00Z","summary":"Detected Snowflake in stack"}
+{"signal_id":"sig_00691","account_id":"acct_0161","kind":"job_change","source":"crunchbase","captured_at":"2026-03-17T01:10:00Z","summary":"Director of RevOps joined from competitor","seniority":"VP+"}
+{"signal_id":"sig_00692","account_id":"acct_0161","kind":"internal_note","source":"call-log","captured_at":"2026-05-12T22:48:00Z","summary":"Rep flagged budget approved"}
+{"signal_id":"sig_00693","account_id":"acct_0161","kind":"job_change","source":"crunchbase","captured_at":"2025-09-23T09:39:00Z","summary":"Leadership change: CTO","seniority":"Director"}
+{"signal_id":"sig_00694","account_id":"acct_0161","kind":"infra_shift","source":"builtwith","captured_at":"2025-08-21T12:20:00Z","summary":"Migrated to Segment"}
+{"signal_id":"sig_00695","account_id":"acct_0161","kind":"internal_note","source":"email-thread","captured_at":"2026-05-22T20:36:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00696","account_id":"acct_0161","kind":"infra_shift","source":"dns-records","captured_at":"2026-04-04T06:31:00Z","summary":"Migrated to Databricks"}
+{"signal_id":"sig_00697","account_id":"acct_0161","kind":"hiring","source":"lever","captured_at":"2025-03-26T03:07:00Z","summary":"Backfilling sales engineering"}
+{"signal_id":"sig_00698","account_id":"acct_0161","kind":"job_change","source":"linkedin","captured_at":"2026-01-14T00:55:00Z","summary":"Leadership change: CTO","seniority":"Director"}
+{"signal_id":"sig_00699","account_id":"acct_0162","kind":"infra_shift","source":"wappalyzer","captured_at":"2025-11-17T07:08:00Z","summary":"Adopted Segment"}
+{"signal_id":"sig_00700","account_id":"acct_0162","kind":"hiring","source":"careers-page","captured_at":"2026-05-20T05:25:00Z","summary":"Hiring spike in data"}
+{"signal_id":"sig_00701","account_id":"acct_0162","kind":"job_change","source":"clearbit","captured_at":"2026-04-05T01:51:00Z","summary":"New Head of Data hired","seniority":"Director"}
+{"signal_id":"sig_00702","account_id":"acct_0162","kind":"hiring","source":"careers-page","captured_at":"2026-04-18T10:44:00Z","summary":"Opened 6 platform roles"}
+{"signal_id":"sig_00703","account_id":"acct_0162","kind":"job_change","source":"crunchbase","captured_at":"2025-11-06T17:53:00Z","summary":"New CTO hired","seniority":"VP+"}
+{"signal_id":"sig_00704","account_id":"acct_0162","kind":"job_change","source":"crunchbase","captured_at":"2025-08-18T21:45:00Z","summary":"Leadership change: VP Engineering","seniority":"Director"}
+{"signal_id":"sig_00705","account_id":"acct_0163","kind":"job_change","source":"linkedin","captured_at":"2026-01-24T08:59:00Z","summary":"New VP Engineering hired"}
+{"signal_id":"sig_00706","account_id":"acct_0163","kind":"infra_shift","source":"dns-records","captured_at":"2026-04-20T17:46:00Z","summary":"Migrated to Snowflake"}
+{"signal_id":"sig_00707","account_id":"acct_0163","kind":"internal_note","source":"email-thread","captured_at":"2025-07-08T13:20:00Z","summary":"Rep flagged budget approved"}
+{"signal_id":"sig_00708","account_id":"acct_0163","kind":"infra_shift","source":"builtwith","captured_at":"2026-02-23T14:43:00Z","summary":"Detected dbt in stack"}
+{"signal_id":"sig_00709","account_id":"acct_0163","kind":"hiring","source":"careers-page","captured_at":"2025-11-04T17:59:00Z","summary":"Opened 9 growth roles"}
+{"signal_id":"sig_00710","account_id":"acct_0163","kind":"internal_note","source":"email-thread","captured_at":"2026-02-13T06:51:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00711","account_id":"acct_0163","kind":"hiring","source":"careers-page","captured_at":"2025-03-10T09:46:00Z","summary":"Opened 2 platform roles"}
+{"signal_id":"sig_00712","account_id":"acct_0164","kind":"hiring","source":"greenhouse","captured_at":"2025-08-16T02:48:00Z","summary":"Hiring spike in sales engineering"}
+{"signal_id":"sig_00713","account_id":"acct_0164","kind":"job_change","source":"crunchbase","captured_at":"2024-12-01T13:33:00Z","summary":"Director of RevOps joined from competitor"}
+{"signal_id":"sig_00714","account_id":"acct_0164","kind":"job_change","source":"crunchbase","captured_at":"2025-09-23T20:03:00Z","summary":"Director of RevOps joined from competitor"}
+{"signal_id":"sig_00715","account_id":"acct_0164","kind":"internal_note","source":"email-thread","captured_at":"2025-10-18T23:47:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00716","account_id":"acct_0164","kind":"infra_shift","source":"builtwith","captured_at":"2026-05-18T04:06:00Z","summary":"Adopted dbt"}
+{"signal_id":"sig_00717","account_id":"acct_0164","kind":"hiring","source":"lever","captured_at":"2026-05-23T00:05:00Z","summary":"Hiring spike in sales engineering"}
+{"signal_id":"sig_00718","account_id":"acct_0164","kind":"infra_shift","source":"builtwith","captured_at":"2026-02-27T13:41:00Z","summary":"Detected pgvector in stack"}
+{"signal_id":"sig_00719","account_id":"acct_0164","kind":"infra_shift","source":"builtwith","captured_at":"2026-05-18T19:33:00Z","summary":"Migrated to Databricks"}
+{"signal_id":"sig_00720","account_id":"acct_0164","kind":"job_change","source":"clearbit","captured_at":"2026-05-14T09:46:00Z","summary":"Leadership change: VP Sales","seniority":"VP+"}
+{"signal_id":"sig_00721","account_id":"acct_0165","kind":"internal_note","source":"call-log","captured_at":"2026-03-28T09:10:00Z","summary":"Rep flagged budget approved"}
+{"signal_id":"sig_00722","account_id":"acct_0165","kind":"job_change","source":"crunchbase","captured_at":"2026-04-23T22:11:00Z","summary":"CTO joined from competitor"}
+{"signal_id":"sig_00723","account_id":"acct_0165","kind":"job_change","source":"clearbit","captured_at":"2026-02-21T13:58:00Z","summary":"VP Sales joined from competitor","seniority":"VP+"}
+{"signal_id":"sig_00724","account_id":"acct_0165","kind":"infra_shift","source":"builtwith","captured_at":"2026-05-01T11:06:00Z","summary":"Detected Kubernetes in stack"}
+{"signal_id":"sig_00725","account_id":"acct_0166","kind":"hiring","source":"careers-page","captured_at":"2026-05-16T12:50:00Z","summary":"Opened 9 platform roles"}
+{"signal_id":"sig_00726","account_id":"acct_0167","kind":"infra_shift","source":"builtwith","captured_at":"2026-05-24T21:00:00Z","summary":"Detected Kubernetes in stack"}
+{"signal_id":"sig_00727","account_id":"acct_0167","kind":"infra_shift","source":"wappalyzer","captured_at":"2025-11-19T02:23:00Z","summary":"Adopted dbt"}
+{"signal_id":"sig_00728","account_id":"acct_0167","kind":"job_change","source":"crunchbase","captured_at":"2026-02-22T15:19:00Z","summary":"VP Sales joined from competitor"}
+{"signal_id":"sig_00729","account_id":"acct_0167","kind":"hiring","source":"lever","captured_at":"2026-04-21T17:35:00Z","summary":"Opened 8 sales engineering roles"}
+{"signal_id":"sig_00730","account_id":"acct_0167","kind":"job_change","source":"clearbit","captured_at":"2025-12-24T20:38:00Z","summary":"Leadership change: VP Sales"}
+{"signal_id":"sig_00731","account_id":"acct_0167","kind":"hiring","source":"greenhouse","captured_at":"2025-11-30T11:29:00Z","summary":"Opened 2 sales engineering roles"}
+{"signal_id":"sig_00732","account_id":"acct_0168","kind":"infra_shift","source":"wappalyzer","captured_at":"2026-02-25T02:42:00Z","summary":"Migrated to Databricks"}
+{"signal_id":"sig_00733","account_id":"acct_0168","kind":"internal_note","source":"call-log","captured_at":"2024-12-01T15:48:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00734","account_id":"acct_0168","kind":"hiring","source":"lever","captured_at":"2026-02-23T18:33:00Z","summary":"Hiring spike in growth"}
+{"signal_id":"sig_00735","account_id":"acct_0168","kind":"job_change","source":"crunchbase","captured_at":"2025-07-29T16:02:00Z","summary":"VP Sales joined from competitor"}
+{"signal_id":"sig_00736","account_id":"acct_0168","kind":"hiring","source":"lever","captured_at":"2026-04-14T22:36:00Z","summary":"Hiring spike in growth"}
+{"signal_id":"sig_00737","account_id":"acct_0168","kind":"hiring","source":"greenhouse","captured_at":"2026-04-14T04:59:00Z","summary":"Hiring spike in platform"}
+{"signal_id":"sig_00738","account_id":"acct_0168","kind":"job_change","source":"linkedin","captured_at":"2026-05-10T03:45:00Z","summary":"Director of RevOps joined from competitor"}
+{"signal_id":"sig_00739","account_id":"acct_0168","kind":"infra_shift","source":"dns-records","captured_at":"2026-02-18T13:58:00Z","summary":"Migrated to dbt"}
+{"signal_id":"sig_00740","account_id":"acct_0168","kind":"job_change","source":"clearbit","captured_at":"2026-03-28T03:32:00Z","summary":"Leadership change: VP Sales","seniority":"VP+"}
+{"signal_id":"sig_00741","account_id":"acct_0169","kind":"infra_shift","source":"wappalyzer","captured_at":"2026-04-19T19:44:00Z","summary":"Detected Kubernetes in stack"}
+{"signal_id":"sig_00742","account_id":"acct_0169","kind":"internal_note","source":"rep-note","captured_at":"2026-05-01T17:19:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00743","account_id":"acct_0169","kind":"internal_note","source":"email-thread","captured_at":"2026-04-30T12:12:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00744","account_id":"acct_0169","kind":"internal_note","source":"email-thread","captured_at":"2026-04-18T09:34:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00745","account_id":"acct_0169","kind":"infra_shift","source":"wappalyzer","captured_at":"2025-07-12T03:41:00Z","summary":"Migrated to dbt"}
+{"signal_id":"sig_00746","account_id":"acct_0170","kind":"infra_shift","source":"dns-records","captured_at":"2026-04-22T05:45:00Z","summary":"Adopted Segment"}
+{"signal_id":"sig_00747","account_id":"acct_0170","kind":"job_change","source":"linkedin","captured_at":"2026-03-21T19:39:00Z","summary":"Head of Data joined from competitor"}
+{"signal_id":"sig_00748","account_id":"acct_0170","kind":"infra_shift","source":"builtwith","captured_at":"2026-05-14T19:34:00Z","summary":"Detected dbt in stack"}
+{"signal_id":"sig_00749","account_id":"acct_0170","kind":"infra_shift","source":"builtwith","captured_at":"2025-10-11T05:48:00Z","summary":"Migrated to pgvector"}
+{"signal_id":"sig_00750","account_id":"acct_0170","kind":"job_change","source":"linkedin","captured_at":"2026-05-08T23:53:00Z","summary":"Director of RevOps joined from competitor"}
+{"signal_id":"sig_00751","account_id":"acct_0170","kind":"infra_shift","source":"wappalyzer","captured_at":"2026-05-05T15:41:00Z","summary":"Adopted Segment"}
+{"signal_id":"sig_00752","account_id":"acct_0170","kind":"internal_note","source":"email-thread","captured_at":"2025-10-27T10:34:00Z","summary":"Rep flagged budget approved"}
+{"signal_id":"sig_00753","account_id":"acct_0171","kind":"internal_note","source":"email-thread","captured_at":"2026-04-12T07:12:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00754","account_id":"acct_0171","kind":"infra_shift","source":"dns-records","captured_at":"2026-04-30T11:24:00Z","summary":"Detected Kubernetes in stack"}
+{"signal_id":"sig_00755","account_id":"acct_0171","kind":"internal_note","source":"email-thread","captured_at":"2026-04-09T18:40:00Z","summary":"Rep flagged budget approved"}
+{"signal_id":"sig_00756","account_id":"acct_0171","kind":"hiring","source":"greenhouse","captured_at":"2025-12-06T19:35:00Z","summary":"Opened 5 sales engineering roles"}
+{"signal_id":"sig_00757","account_id":"acct_0171","kind":"job_change","source":"linkedin","captured_at":"2025-10-29T09:48:00Z","summary":"Leadership change: CTO","seniority":"Director"}
+{"signal_id":"sig_00758","account_id":"acct_0171","kind":"hiring","source":"greenhouse","captured_at":"2025-12-03T13:41:00Z","summary":"Opened 7 security roles"}
+{"signal_id":"sig_00759","account_id":"acct_0171","kind":"job_change","source":"clearbit","captured_at":"2026-03-02T00:51:00Z","summary":"Director of RevOps joined from competitor","seniority":"Director"}
+{"signal_id":"sig_00760","account_id":"acct_0172","kind":"internal_note","source":"email-thread","captured_at":"2026-03-27T12:55:00Z","summary":"Rep flagged budget approved"}
+{"signal_id":"sig_00761","account_id":"acct_0172","kind":"infra_shift","source":"builtwith","captured_at":"2026-03-02T18:11:00Z","summary":"Migrated to Databricks"}
+{"signal_id":"sig_00762","account_id":"acct_0173","kind":"hiring","source":"lever","captured_at":"2026-04-27T17:32:00Z","summary":"Hiring spike in growth"}
+{"signal_id":"sig_00763","account_id":"acct_0173","kind":"job_change","source":"linkedin","captured_at":"2024-12-01T21:59:00Z","summary":"CTO joined from competitor","seniority":"VP+"}
+{"signal_id":"sig_00764","account_id":"acct_0173","kind":"job_change","source":"linkedin","captured_at":"2025-12-30T21:50:00Z","summary":"New VP Sales hired","seniority":"Director"}
+{"signal_id":"sig_00765","account_id":"acct_0174","kind":"internal_note","source":"email-thread","captured_at":"2026-03-25T03:30:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00766","account_id":"acct_0174","kind":"infra_shift","source":"builtwith","captured_at":"2026-04-27T03:10:00Z","summary":"Adopted Databricks"}
+{"signal_id":"sig_00767","account_id":"acct_0174","kind":"job_change","source":"crunchbase","captured_at":"2025-03-27T03:41:00Z","summary":"New Director of RevOps hired"}
+{"signal_id":"sig_00768","account_id":"acct_0174","kind":"internal_note","source":"email-thread","captured_at":"2026-01-16T06:36:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00769","account_id":"acct_0174","kind":"internal_note","source":"rep-note","captured_at":"2025-10-25T17:13:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00770","account_id":"acct_0174","kind":"job_change","source":"clearbit","captured_at":"2025-11-25T01:32:00Z","summary":"Leadership change: CTO"}
+{"signal_id":"sig_00771","account_id":"acct_0174","kind":"infra_shift","source":"builtwith","captured_at":"2025-09-09T18:21:00Z","summary":"Migrated to dbt"}
+{"signal_id":"sig_00772","account_id":"acct_0174","kind":"infra_shift","source":"builtwith","captured_at":"2026-05-03T12:52:00Z","summary":"Migrated to dbt"}
+{"signal_id":"sig_00773","account_id":"acct_0175","kind":"infra_shift","source":"dns-records","captured_at":"2026-01-25T10:13:00Z","summary":"Adopted dbt"}
+{"signal_id":"sig_00774","account_id":"acct_0175","kind":"hiring","source":"careers-page","captured_at":"2026-02-26T09:55:00Z","summary":"Opened 2 data roles"}
+{"signal_id":"sig_00775","account_id":"acct_0175","kind":"infra_shift","source":"dns-records","captured_at":"2025-10-22T10:02:00Z","summary":"Migrated to pgvector"}
+{"signal_id":"sig_00776","account_id":"acct_0175","kind":"internal_note","source":"email-thread","captured_at":"2025-12-14T16:28:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00777","account_id":"acct_0176","kind":"infra_shift","source":"dns-records","captured_at":"2026-05-08T15:17:00Z","summary":"Migrated to pgvector"}
+{"signal_id":"sig_00778","account_id":"acct_0176","kind":"internal_note","source":"call-log","captured_at":"2026-03-28T05:25:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00779","account_id":"acct_0176","kind":"job_change","source":"linkedin","captured_at":"2026-03-14T18:10:00Z","summary":"Leadership change: VP Engineering","seniority":"Director"}
+{"signal_id":"sig_00780","account_id":"acct_0177","kind":"hiring","source":"greenhouse","captured_at":"2026-04-09T20:33:00Z","summary":"Opened 2 security roles"}
+{"signal_id":"sig_00781","account_id":"acct_0177","kind":"internal_note","source":"call-log","captured_at":"2026-03-30T01:48:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00782","account_id":"acct_0177","kind":"infra_shift","source":"dns-records","captured_at":"2026-02-16T21:33:00Z","summary":"Detected Databricks in stack"}
+{"signal_id":"sig_00783","account_id":"acct_0177","kind":"hiring","source":"careers-page","captured_at":"2026-01-26T09:47:00Z","summary":"Opened 5 data roles"}
+{"signal_id":"sig_00784","account_id":"acct_0178","kind":"job_change","source":"clearbit","captured_at":"2026-01-30T04:46:00Z","summary":"Leadership change: VP Engineering"}
+{"signal_id":"sig_00785","account_id":"acct_0178","kind":"job_change","source":"linkedin","captured_at":"2026-03-23T23:21:00Z","summary":"Leadership change: VP Sales"}
+{"signal_id":"sig_00786","account_id":"acct_0178","kind":"hiring","source":"careers-page","captured_at":"2024-12-01T23:42:00Z","summary":"Opened 8 security roles"}
+{"signal_id":"sig_00787","account_id":"acct_0179","kind":"internal_note","source":"email-thread","captured_at":"2025-01-06T12:43:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00788","account_id":"acct_0179","kind":"job_change","source":"linkedin","captured_at":"2026-03-06T01:37:00Z","summary":"New Head of Data hired"}
+{"signal_id":"sig_00789","account_id":"acct_0179","kind":"infra_shift","source":"wappalyzer","captured_at":"2026-01-28T06:52:00Z","summary":"Adopted Databricks"}
+{"signal_id":"sig_00790","account_id":"acct_0180","kind":"hiring","source":"lever","captured_at":"2026-04-18T15:15:00Z","summary":"Opened 7 security roles"}
+{"signal_id":"sig_00791","account_id":"acct_0180","kind":"infra_shift","source":"builtwith","captured_at":"2025-07-11T00:53:00Z","summary":"Detected dbt in stack"}
+{"signal_id":"sig_00792","account_id":"acct_0180","kind":"job_change","source":"linkedin","captured_at":"2026-03-03T14:04:00Z","summary":"New Head of Data hired"}
+{"signal_id":"sig_00793","account_id":"acct_0180","kind":"hiring","source":"lever","captured_at":"2026-02-13T12:24:00Z","summary":"Hiring spike in data"}
+{"signal_id":"sig_00794","account_id":"acct_0180","kind":"infra_shift","source":"builtwith","captured_at":"2025-12-12T10:20:00Z","summary":"Detected Kubernetes in stack"}
+{"signal_id":"sig_00795","account_id":"acct_0181","kind":"internal_note","source":"call-log","captured_at":"2026-03-23T05:26:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00796","account_id":"acct_0181","kind":"job_change","source":"crunchbase","captured_at":"2026-03-01T15:14:00Z","summary":"New VP Engineering hired","seniority":"VP+"}
+{"signal_id":"sig_00797","account_id":"acct_0181","kind":"internal_note","source":"rep-note","captured_at":"2026-05-04T20:13:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00798","account_id":"acct_0181","kind":"hiring","source":"careers-page","captured_at":"2026-01-29T22:15:00Z","summary":"Backfilling platform"}
+{"signal_id":"sig_00799","account_id":"acct_0181","kind":"job_change","source":"linkedin","captured_at":"2026-01-08T01:09:00Z","summary":"New Head of Data hired"}
+{"signal_id":"sig_00800","account_id":"acct_0181","kind":"infra_shift","source":"builtwith","captured_at":"2026-03-14T18:18:00Z","summary":"Detected Kubernetes in stack"}
+{"signal_id":"sig_00801","account_id":"acct_0181","kind":"infra_shift","source":"dns-records","captured_at":"2026-05-21T11:08:00Z","summary":"Adopted Segment"}
+{"signal_id":"sig_00802","account_id":"acct_0182","kind":"job_change","source":"crunchbase","captured_at":"2026-04-19T11:13:00Z","summary":"CTO joined from competitor"}
+{"signal_id":"sig_00803","account_id":"acct_0182","kind":"hiring","source":"greenhouse","captured_at":"2026-04-13T04:50:00Z","summary":"Hiring spike in sales engineering"}
+{"signal_id":"sig_00804","account_id":"acct_0182","kind":"infra_shift","source":"builtwith","captured_at":"2025-07-23T06:31:00Z","summary":"Detected Segment in stack"}
+{"signal_id":"sig_00805","account_id":"acct_0183","kind":"job_change","source":"linkedin","captured_at":"2026-05-22T04:17:00Z","summary":"Leadership change: VP Sales","seniority":"Director"}
+{"signal_id":"sig_00806","account_id":"acct_0183","kind":"infra_shift","source":"builtwith","captured_at":"2026-02-13T17:45:00Z","summary":"Migrated to dbt"}
+{"signal_id":"sig_00807","account_id":"acct_0183","kind":"hiring","source":"greenhouse","captured_at":"2026-04-17T20:30:00Z","summary":"Backfilling sales engineering"}
+{"signal_id":"sig_00808","account_id":"acct_0183","kind":"hiring","source":"careers-page","captured_at":"2026-01-07T02:38:00Z","summary":"Hiring spike in data"}
+{"signal_id":"sig_00809","account_id":"acct_0183","kind":"hiring","source":"lever","captured_at":"2026-05-22T12:15:00Z","summary":"Hiring spike in platform"}
+{"signal_id":"sig_00810","account_id":"acct_0183","kind":"hiring","source":"greenhouse","captured_at":"2025-12-28T15:02:00Z","summary":"Hiring spike in security"}
+{"signal_id":"sig_00811","account_id":"acct_0183","kind":"infra_shift","source":"wappalyzer","captured_at":"2025-09-21T10:40:00Z","summary":"Migrated to dbt"}
+{"signal_id":"sig_00812","account_id":"acct_0183","kind":"job_change","source":"linkedin","captured_at":"2026-02-09T12:36:00Z","summary":"VP Engineering joined from competitor","seniority":"VP+"}
+{"signal_id":"sig_00813","account_id":"acct_0183","kind":"infra_shift","source":"builtwith","captured_at":"2025-11-22T10:22:00Z","summary":"Detected Databricks in stack"}
+{"signal_id":"sig_00814","account_id":"acct_0184","kind":"job_change","source":"linkedin","captured_at":"2026-05-18T20:19:00Z","summary":"Director of RevOps joined from competitor","seniority":"VP+"}
+{"signal_id":"sig_00815","account_id":"acct_0185","kind":"hiring","source":"lever","captured_at":"2026-01-07T09:29:00Z","summary":"Backfilling platform"}
+{"signal_id":"sig_00816","account_id":"acct_0185","kind":"hiring","source":"greenhouse","captured_at":"2025-11-10T04:37:00Z","summary":"Hiring spike in data"}
+{"signal_id":"sig_00817","account_id":"acct_0185","kind":"internal_note","source":"email-thread","captured_at":"2026-03-12T21:10:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00818","account_id":"acct_0185","kind":"job_change","source":"clearbit","captured_at":"2026-03-18T12:35:00Z","summary":"Leadership change: VP Engineering"}
+{"signal_id":"sig_00819","account_id":"acct_0185","kind":"hiring","source":"careers-page","captured_at":"2026-03-21T02:09:00Z","summary":"Opened 5 platform roles"}
+{"signal_id":"sig_00820","account_id":"acct_0185","kind":"infra_shift","source":"dns-records","captured_at":"2026-01-25T06:37:00Z","summary":"Detected pgvector in stack"}
+{"signal_id":"sig_00821","account_id":"acct_0185","kind":"job_change","source":"linkedin","captured_at":"2025-09-04T21:30:00Z","summary":"Leadership change: Director of RevOps","seniority":"Director"}
+{"signal_id":"sig_00822","account_id":"acct_0185","kind":"internal_note","source":"call-log","captured_at":"2025-12-12T09:09:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00823","account_id":"acct_0186","kind":"job_change","source":"linkedin","captured_at":"2026-02-12T05:35:00Z","summary":"CTO joined from competitor"}
+{"signal_id":"sig_00824","account_id":"acct_0186","kind":"hiring","source":"lever","captured_at":"2026-04-09T01:08:00Z","summary":"Backfilling growth"}
+{"signal_id":"sig_00825","account_id":"acct_0186","kind":"infra_shift","source":"builtwith","captured_at":"2026-05-10T12:01:00Z","summary":"Migrated to dbt"}
+{"signal_id":"sig_00826","account_id":"acct_0186","kind":"hiring","source":"careers-page","captured_at":"2025-11-23T00:10:00Z","summary":"Backfilling security"}
+{"signal_id":"sig_00827","account_id":"acct_0186","kind":"hiring","source":"lever","captured_at":"2026-05-24T07:42:00Z","summary":"Hiring spike in security"}
+{"signal_id":"sig_00828","account_id":"acct_0187","kind":"internal_note","source":"call-log","captured_at":"2026-05-19T04:41:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00829","account_id":"acct_0187","kind":"hiring","source":"greenhouse","captured_at":"2025-09-07T02:39:00Z","summary":"Hiring spike in sales engineering"}
+{"signal_id":"sig_00830","account_id":"acct_0187","kind":"hiring","source":"careers-page","captured_at":"2026-04-25T05:55:00Z","summary":"Backfilling platform"}
+{"signal_id":"sig_00831","account_id":"acct_0187","kind":"hiring","source":"greenhouse","captured_at":"2025-11-21T05:45:00Z","summary":"Opened 3 platform roles"}
+{"signal_id":"sig_00832","account_id":"acct_0187","kind":"job_change","source":"clearbit","captured_at":"2026-03-24T23:41:00Z","summary":"Leadership change: Head of Data"}
+{"signal_id":"sig_00833","account_id":"acct_0187","kind":"hiring","source":"greenhouse","captured_at":"2026-04-11T10:47:00Z","summary":"Backfilling security"}
+{"signal_id":"sig_00834","account_id":"acct_0188","kind":"hiring","source":"careers-page","captured_at":"2025-12-03T08:11:00Z","summary":"Opened 5 data roles"}
+{"signal_id":"sig_00835","account_id":"acct_0188","kind":"internal_note","source":"email-thread","captured_at":"2026-04-16T12:56:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00836","account_id":"acct_0188","kind":"hiring","source":"lever","captured_at":"2026-03-21T08:58:00Z","summary":"Backfilling sales engineering"}
+{"signal_id":"sig_00837","account_id":"acct_0188","kind":"hiring","source":"careers-page","captured_at":"2026-03-25T20:08:00Z","summary":"Backfilling data"}
+{"signal_id":"sig_00838","account_id":"acct_0188","kind":"internal_note","source":"rep-note","captured_at":"2026-02-25T17:52:00Z","summary":"Rep flagged budget approved"}
+{"signal_id":"sig_00839","account_id":"acct_0188","kind":"job_change","source":"crunchbase","captured_at":"2025-06-10T13:29:00Z","summary":"Head of Data joined from competitor"}
+{"signal_id":"sig_00840","account_id":"acct_0188","kind":"job_change","source":"crunchbase","captured_at":"2026-01-01T07:58:00Z","summary":"Director of RevOps joined from competitor","seniority":"VP+"}
+{"signal_id":"sig_00841","account_id":"acct_0189","kind":"hiring","source":"careers-page","captured_at":"2026-03-14T16:54:00Z","summary":"Opened 6 sales engineering roles"}
+{"signal_id":"sig_00842","account_id":"acct_0189","kind":"job_change","source":"linkedin","captured_at":"2026-05-15T20:01:00Z","summary":"CTO joined from competitor"}
+{"signal_id":"sig_00843","account_id":"acct_0189","kind":"infra_shift","source":"dns-records","captured_at":"2026-04-30T04:59:00Z","summary":"Adopted Databricks"}
+{"signal_id":"sig_00844","account_id":"acct_0189","kind":"infra_shift","source":"dns-records","captured_at":"2026-04-27T13:27:00Z","summary":"Detected pgvector in stack"}
+{"signal_id":"sig_00845","account_id":"acct_0189","kind":"job_change","source":"linkedin","captured_at":"2026-04-13T17:40:00Z","summary":"Leadership change: VP Sales"}
+{"signal_id":"sig_00846","account_id":"acct_0189","kind":"hiring","source":"careers-page","captured_at":"2026-03-24T13:04:00Z","summary":"Backfilling growth"}
+{"signal_id":"sig_00847","account_id":"acct_0189","kind":"internal_note","source":"rep-note","captured_at":"2026-03-25T22:01:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00848","account_id":"acct_0189","kind":"job_change","source":"crunchbase","captured_at":"2025-09-25T14:08:00Z","summary":"Leadership change: VP Sales","seniority":"Director"}
+{"signal_id":"sig_00849","account_id":"acct_0189","kind":"job_change","source":"clearbit","captured_at":"2026-05-04T07:27:00Z","summary":"Head of Data joined from competitor"}
+{"signal_id":"sig_00850","account_id":"acct_0190","kind":"hiring","source":"lever","captured_at":"2025-11-10T10:41:00Z","summary":"Backfilling data"}
+{"signal_id":"sig_00851","account_id":"acct_0190","kind":"infra_shift","source":"wappalyzer","captured_at":"2026-05-01T13:35:00Z","summary":"Migrated to Kubernetes"}
+{"signal_id":"sig_00852","account_id":"acct_0190","kind":"infra_shift","source":"builtwith","captured_at":"2025-01-18T13:42:00Z","summary":"Detected pgvector in stack"}
+{"signal_id":"sig_00853","account_id":"acct_0190","kind":"job_change","source":"linkedin","captured_at":"2025-11-01T14:45:00Z","summary":"New VP Engineering hired"}
+{"signal_id":"sig_00854","account_id":"acct_0190","kind":"infra_shift","source":"wappalyzer","captured_at":"2026-01-17T09:50:00Z","summary":"Migrated to Kubernetes"}
+{"signal_id":"sig_00855","account_id":"acct_0190","kind":"hiring","source":"greenhouse","captured_at":"2026-03-22T04:41:00Z","summary":"Hiring spike in growth"}
+{"signal_id":"sig_00856","account_id":"acct_0190","kind":"infra_shift","source":"builtwith","captured_at":"2026-05-13T14:54:00Z","summary":"Migrated to dbt"}
+{"signal_id":"sig_00857","account_id":"acct_0190","kind":"hiring","source":"lever","captured_at":"2025-12-23T05:09:00Z","summary":"Hiring spike in sales engineering"}
+{"signal_id":"sig_00858","account_id":"acct_0191","kind":"internal_note","source":"call-log","captured_at":"2025-10-12T04:14:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00859","account_id":"acct_0191","kind":"hiring","source":"careers-page","captured_at":"2025-04-20T13:08:00Z","summary":"Opened 3 platform roles"}
+{"signal_id":"sig_00860","account_id":"acct_0191","kind":"job_change","source":"crunchbase","captured_at":"2026-05-10T17:53:00Z","summary":"New VP Sales hired"}
+{"signal_id":"sig_00861","account_id":"acct_0191","kind":"internal_note","source":"call-log","captured_at":"2026-03-27T08:05:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00862","account_id":"acct_0191","kind":"hiring","source":"greenhouse","captured_at":"2025-11-01T04:18:00Z","summary":"Backfilling growth"}
+{"signal_id":"sig_00863","account_id":"acct_0191","kind":"infra_shift","source":"dns-records","captured_at":"2026-04-20T09:28:00Z","summary":"Adopted pgvector"}
+{"signal_id":"sig_00864","account_id":"acct_0191","kind":"infra_shift","source":"dns-records","captured_at":"2026-04-26T23:42:00Z","summary":"Detected Segment in stack"}
+{"signal_id":"sig_00865","account_id":"acct_0191","kind":"internal_note","source":"rep-note","captured_at":"2026-04-16T15:35:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00866","account_id":"acct_0192","kind":"internal_note","source":"rep-note","captured_at":"2026-01-27T21:54:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00867","account_id":"acct_0192","kind":"internal_note","source":"rep-note","captured_at":"2026-04-02T22:16:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00868","account_id":"acct_0192","kind":"infra_shift","source":"dns-records","captured_at":"2026-04-30T04:44:00Z","summary":"Migrated to Kubernetes"}
+{"signal_id":"sig_00869","account_id":"acct_0192","kind":"infra_shift","source":"dns-records","captured_at":"2025-04-18T09:52:00Z","summary":"Migrated to Segment"}
+{"signal_id":"sig_00870","account_id":"acct_0192","kind":"hiring","source":"greenhouse","captured_at":"2026-03-30T11:43:00Z","summary":"Opened 6 sales engineering roles"}
+{"signal_id":"sig_00871","account_id":"acct_0192","kind":"job_change","source":"linkedin","captured_at":"2026-03-30T01:48:00Z","summary":"Leadership change: VP Engineering","seniority":"VP+"}
+{"signal_id":"sig_00872","account_id":"acct_0192","kind":"job_change","source":"clearbit","captured_at":"2026-05-22T14:51:00Z","summary":"Director of RevOps joined from competitor","seniority":"Director"}
+{"signal_id":"sig_00873","account_id":"acct_0192","kind":"infra_shift","source":"dns-records","captured_at":"2026-05-08T10:41:00Z","summary":"Adopted Databricks"}
+{"signal_id":"sig_00874","account_id":"acct_0192","kind":"job_change","source":"clearbit","captured_at":"2025-11-24T17:47:00Z","summary":"New VP Sales hired"}
+{"signal_id":"sig_00875","account_id":"acct_0193","kind":"job_change","source":"linkedin","captured_at":"2026-02-15T18:13:00Z","summary":"New VP Engineering hired","seniority":"Director"}
+{"signal_id":"sig_00876","account_id":"acct_0193","kind":"job_change","source":"crunchbase","captured_at":"2026-05-13T16:14:00Z","summary":"New VP Sales hired"}
+{"signal_id":"sig_00877","account_id":"acct_0193","kind":"infra_shift","source":"dns-records","captured_at":"2025-08-19T00:37:00Z","summary":"Adopted Databricks"}
+{"signal_id":"sig_00878","account_id":"acct_0193","kind":"internal_note","source":"rep-note","captured_at":"2026-02-07T07:52:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00879","account_id":"acct_0193","kind":"internal_note","source":"email-thread","captured_at":"2026-02-28T03:41:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00880","account_id":"acct_0194","kind":"infra_shift","source":"dns-records","captured_at":"2025-12-15T10:14:00Z","summary":"Adopted Segment"}
+{"signal_id":"sig_00881","account_id":"acct_0194","kind":"job_change","source":"clearbit","captured_at":"2025-10-18T15:33:00Z","summary":"New VP Engineering hired"}
+{"signal_id":"sig_00882","account_id":"acct_0194","kind":"job_change","source":"linkedin","captured_at":"2026-04-28T08:02:00Z","summary":"Head of Data joined from competitor"}
+{"signal_id":"sig_00883","account_id":"acct_0194","kind":"job_change","source":"crunchbase","captured_at":"2025-05-03T18:44:00Z","summary":"New VP Sales hired","seniority":"Director"}
+{"signal_id":"sig_00884","account_id":"acct_0195","kind":"internal_note","source":"email-thread","captured_at":"2025-08-12T09:01:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00885","account_id":"acct_0195","kind":"hiring","source":"lever","captured_at":"2026-02-20T18:01:00Z","summary":"Opened 4 growth roles"}
+{"signal_id":"sig_00886","account_id":"acct_0195","kind":"infra_shift","source":"dns-records","captured_at":"2026-03-11T10:05:00Z","summary":"Migrated to Snowflake"}
+{"signal_id":"sig_00887","account_id":"acct_0195","kind":"internal_note","source":"call-log","captured_at":"2026-01-17T19:18:00Z","summary":"Rep flagged budget approved"}
+{"signal_id":"sig_00888","account_id":"acct_0195","kind":"infra_shift","source":"dns-records","captured_at":"2026-05-02T13:24:00Z","summary":"Adopted pgvector"}
+{"signal_id":"sig_00889","account_id":"acct_0195","kind":"hiring","source":"lever","captured_at":"2025-02-12T12:28:00Z","summary":"Hiring spike in growth"}
+{"signal_id":"sig_00890","account_id":"acct_0196","kind":"internal_note","source":"rep-note","captured_at":"2026-05-18T22:14:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00891","account_id":"acct_0196","kind":"job_change","source":"linkedin","captured_at":"2026-01-30T02:47:00Z","summary":"New VP Engineering hired"}
+{"signal_id":"sig_00892","account_id":"acct_0196","kind":"internal_note","source":"rep-note","captured_at":"2025-05-15T11:08:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00893","account_id":"acct_0196","kind":"internal_note","source":"call-log","captured_at":"2026-04-03T21:33:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00894","account_id":"acct_0197","kind":"hiring","source":"greenhouse","captured_at":"2025-04-22T18:29:00Z","summary":"Opened 2 security roles"}
+{"signal_id":"sig_00895","account_id":"acct_0197","kind":"hiring","source":"greenhouse","captured_at":"2025-10-17T17:51:00Z","summary":"Opened 5 data roles"}
+{"signal_id":"sig_00896","account_id":"acct_0198","kind":"job_change","source":"clearbit","captured_at":"2025-05-12T22:24:00Z","summary":"VP Sales joined from competitor","seniority":"Director"}
+{"signal_id":"sig_00897","account_id":"acct_0198","kind":"hiring","source":"lever","captured_at":"2025-04-15T18:27:00Z","summary":"Hiring spike in security"}
+{"signal_id":"sig_00898","account_id":"acct_0198","kind":"hiring","source":"lever","captured_at":"2026-02-23T14:13:00Z","summary":"Opened 8 growth roles"}
+{"signal_id":"sig_00899","account_id":"acct_0198","kind":"internal_note","source":"call-log","captured_at":"2026-01-12T13:23:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00900","account_id":"acct_0198","kind":"internal_note","source":"email-thread","captured_at":"2025-12-08T20:24:00Z","summary":"Asked for pricing"}
+{"signal_id":"sig_00901","account_id":"acct_0198","kind":"hiring","source":"careers-page","captured_at":"2025-02-15T12:56:00Z","summary":"Hiring spike in platform"}
+{"signal_id":"sig_00902","account_id":"acct_0198","kind":"infra_shift","source":"wappalyzer","captured_at":"2026-05-22T14:41:00Z","summary":"Detected Snowflake in stack"}
+{"signal_id":"sig_00903","account_id":"acct_0199","kind":"job_change","source":"clearbit","captured_at":"2025-11-15T11:42:00Z","summary":"New Director of RevOps hired","seniority":"VP+"}
+{"signal_id":"sig_00904","account_id":"acct_0199","kind":"hiring","source":"careers-page","captured_at":"2026-03-09T04:00:00Z","summary":"Hiring spike in data"}
+{"signal_id":"sig_00905","account_id":"acct_0199","kind":"job_change","source":"crunchbase","captured_at":"2026-03-15T06:09:00Z","summary":"New VP Sales hired"}
+{"signal_id":"sig_00906","account_id":"acct_0199","kind":"infra_shift","source":"wappalyzer","captured_at":"2026-05-04T00:41:00Z","summary":"Detected Snowflake in stack"}
+{"signal_id":"sig_00907","account_id":"acct_0199","kind":"job_change","source":"linkedin","captured_at":"2026-03-13T15:40:00Z","summary":"Leadership change: VP Sales","seniority":"VP+"}
+{"signal_id":"sig_00908","account_id":"acct_0199","kind":"hiring","source":"careers-page","captured_at":"2026-05-19T23:54:00Z","summary":"Backfilling platform"}
+{"signal_id":"sig_00909","account_id":"acct_0199","kind":"internal_note","source":"rep-note","captured_at":"2025-12-01T14:34:00Z","summary":"Champion identified"}
+{"signal_id":"sig_00910","account_id":"acct_0199","kind":"infra_shift","source":"wappalyzer","captured_at":"2026-05-21T04:14:00Z","summary":"Migrated to Segment"}

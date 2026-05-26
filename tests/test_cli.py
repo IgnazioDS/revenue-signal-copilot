@@ -70,6 +70,16 @@ class CliTests(unittest.TestCase):
         self.assertEqual(payload[0]["account_id"], "acct-001")
         self.assertIn("signals", payload[0])
 
+    def test_score_lists_top_accounts_with_traces(self) -> None:
+        output = run(["score", "--top", "3"])
+        self.assertIn("high-priority", output)
+        # Each ranked account carries a defensible "why" line.
+        self.assertEqual(output.count("/100 on"), 3)
+
+    def test_score_default_reports_evidence(self) -> None:
+        output = run(["score"])
+        self.assertIn("evidence points", output)
+
 
 if __name__ == "__main__":
     unittest.main()
