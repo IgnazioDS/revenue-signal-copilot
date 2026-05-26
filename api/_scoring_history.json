@@ -1,0 +1,20 @@
+{
+  "system": "revenue-signal-copilot",
+  "schema_version": 1,
+  "runs": [
+    {
+      "run_id": "rsc-20260526T060000Z",
+      "generated_at": "2026-05-26T06:00:00Z",
+      "as_of": "2026-05-26T06:00:00Z",
+      "metrics": {
+        "accounts_total": 200,
+        "accounts_scored_24h": 200,
+        "signals_detected_24h": 7,
+        "high_priority_accounts": 44
+      },
+      "top_account_id": "acct_0085",
+      "top_account_name": "Quantloop Works",
+      "calibration_precision": 0.6
+    }
+  ]
+}

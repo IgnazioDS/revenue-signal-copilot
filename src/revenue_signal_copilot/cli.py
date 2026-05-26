@@ -64,7 +64,39 @@ def build_parser() -> argparse.ArgumentParser:
         default="text",
         help="Output format.",
     )
+
+    # Public-benchmark scoring (synthetic fixture). Distinct from score-csv,
+    # which scores a user-provided CSV through the copilot MVP engine.
+    benchmark_parser = subparsers.add_parser(
+        "score", help="Score the public synthetic fixture and print the top accounts."
+    )
+    benchmark_parser.add_argument(
+        "--top", type=int, default=10, help="How many top accounts to print (default 10)."
+    )
     return parser
+
+
+def _format_scoring(top: int) -> str:
+    # Imported lazily so the lightweight metadata commands carry no fixture or
+    # scoring-engine import cost.
+    from .scoring_runner import run as run_scoring
+
+    artifact = run_scoring(write=False)
+    metrics = artifact["metrics"]
+    calibration = artifact["calibration"]
+    lines = [
+        f"Revenue Signal Copilot scoring ({artifact['fixture']}, "
+        f"{artifact['dataset_kind']})",
+        f"{metrics['high_priority_accounts']} high-priority of "
+        f"{metrics['accounts_total']} accounts; "
+        f"precision@{calibration['k']}={calibration['precision']} "
+        f"(baseline {calibration['baseline_win_rate']})",
+        "",
+    ]
+    for row in artifact["ranked_accounts"][:top]:
+        lines.append(f"{row['rank']:>2}. [{row['score']:>3}] {row['name']} ({row['priority']})")
+        lines.append(f"    {row['why']}")
+    return "\n".join(lines)
 
 
 def run(argv: list[str] | None = None) -> str:
@@ -117,6 +149,8 @@ def run(argv: list[str] | None = None) -> str:
                     )
                 return build_account_brief(scorecard)
         raise ValueError(f"Unknown account_id: {args.account_id}")
+    if args.command == "score":
+        return _format_scoring(args.top)
     raise ValueError(f"Unsupported command: {args.command}")
 
 

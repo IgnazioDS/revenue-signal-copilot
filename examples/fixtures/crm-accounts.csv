@@ -1,0 +1,201 @@
+account_id,name,industry,employee_count,region,created_at
+acct_0000,Novavale Software,Media,50,LATAM,2022-10-03T00:00:00Z
+acct_0001,Deltapeak Analytics,Fintech,3000,LATAM,2022-05-13T00:00:00Z
+acct_0002,Deltagrove Analytics,Real Estate,500,NA,2022-12-29T00:00:00Z
+acct_0003,Summitvale Capital,Energy,240,APAC,2022-06-13T00:00:00Z
+acct_0004,Cedarfield Labs,Media,500,APAC,2023-05-09T00:00:00Z
+acct_0005,Falconloop Software,EdTech,120,LATAM,2021-09-23T00:00:00Z
+acct_0006,Onyxstone Logistics,Manufacturing,500,APAC,2021-09-05T00:00:00Z
+acct_0007,Deltafield Labs,Manufacturing,25,NA,2021-01-25T00:00:00Z
+acct_0008,Bluepeak Works,Healthcare,500,NA,2021-11-07T00:00:00Z
+acct_0009,Falconwind Software,Fintech,240,LATAM,2025-02-07T00:00:00Z
+acct_0010,Silvervale Dynamics,Retail,1200,LATAM,2025-02-13T00:00:00Z
+acct_0011,Deltafork Capital,Real Estate,1200,APAC,2024-12-27T00:00:00Z
+acct_0012,Orbitwind Systems,Healthcare,240,LATAM,2023-12-30T00:00:00Z
+acct_0013,Novaline Media,Healthcare,25,NA,2020-11-09T00:00:00Z
+acct_0014,Ridgefield Health,Energy,50,EMEA,2022-01-06T00:00:00Z
+acct_0015,Silverfork Capital,Logistics,25,LATAM,2022-11-05T00:00:00Z
+acct_0016,Northfield Group,Logistics,50,NA,2023-05-27T00:00:00Z
+acct_0017,Crestgate Capital,EdTech,50,NA,2023-05-13T00:00:00Z
+acct_0018,Crestfield Logistics,Energy,50,LATAM,2022-11-06T00:00:00Z
+acct_0019,Aspenwind Dynamics,Real Estate,120,LATAM,2023-05-12T00:00:00Z
+acct_0020,Quantwave Industries,EdTech,3000,EMEA,2023-10-10T00:00:00Z
+acct_0021,Crestloop Media,Fintech,50,LATAM,2024-10-05T00:00:00Z
+acct_0022,Ironpeak Health,EdTech,120,APAC,2023-11-11T00:00:00Z
+acct_0023,Silverfield Capital,Manufacturing,500,EMEA,2021-11-07T00:00:00Z
+acct_0024,Silverwind Media,Manufacturing,3000,EMEA,2024-05-03T00:00:00Z
+acct_0025,Summitriver Works,Healthcare,500,EMEA,2020-06-22T00:00:00Z
+acct_0026,Cobaltgate Logistics,SaaS,1200,NA,2025-05-07T00:00:00Z
+acct_0027,Bluevale Industries,Manufacturing,120,LATAM,2025-04-01T00:00:00Z
+acct_0028,Vertexpeak Software,Real Estate,25,NA,2024-02-26T00:00:00Z
+acct_0029,Deltapeak Networks,EdTech,120,NA,2021-03-01T00:00:00Z
+acct_0030,Atlasloop Group,Logistics,1200,EMEA,2022-04-25T00:00:00Z
+acct_0031,Crestshore Dynamics,Healthcare,1200,APAC,2022-09-08T00:00:00Z
+acct_0032,Northline Capital,Energy,120,EMEA,2023-07-04T00:00:00Z
+acct_0033,Northpeak Analytics,Retail,240,EMEA,2020-09-12T00:00:00Z
+acct_0034,Crestgate Labs,Logistics,3000,NA,2022-11-22T00:00:00Z
+acct_0035,Cedarpeak Software,Real Estate,3000,EMEA,2022-11-28T00:00:00Z
+acct_0036,Harborwind Robotics,Media,1200,APAC,2023-03-20T00:00:00Z
+acct_0037,Graniteloop Systems,Fintech,120,EMEA,2021-09-26T00:00:00Z
+acct_0038,Ironfield Dynamics,Real Estate,120,APAC,2022-04-29T00:00:00Z
+acct_0039,Birchfork Logistics,Fintech,240,APAC,2022-02-22T00:00:00Z
+acct_0040,Falconspark Foods,Logistics,240,APAC,2024-12-17T00:00:00Z
+acct_0041,Falconvale Networks,EdTech,25,LATAM,2022-03-28T00:00:00Z
+acct_0042,Birchgrove Networks,Real Estate,240,LATAM,2023-09-22T00:00:00Z
+acct_0043,Creststone Networks,SaaS,25,APAC,2024-03-16T00:00:00Z
+acct_0044,Granitefork Works,Real Estate,25,APAC,2022-08-17T00:00:00Z
+acct_0045,Maplepeak Analytics,Retail,120,EMEA,2024-03-04T00:00:00Z
+acct_0046,Maplepeak Retail,Retail,1200,APAC,2023-05-07T00:00:00Z
+acct_0047,Orbitfield Media,Logistics,120,LATAM,2022-03-18T00:00:00Z
+acct_0048,Bluegate Group,Real Estate,1200,APAC,2022-12-11T00:00:00Z
+acct_0049,Blueline Works,EdTech,3000,APAC,2022-10-31T00:00:00Z
+acct_0050,Mapleloop Health,Retail,50,LATAM,2021-04-23T00:00:00Z
+acct_0051,Atlasgrove Capital,EdTech,50,NA,2023-05-17T00:00:00Z
+acct_0052,Deltastone Systems,Retail,25,APAC,2021-08-09T00:00:00Z
+acct_0053,Cedarfork Industries,Media,500,LATAM,2020-12-08T00:00:00Z
+acct_0054,Quantpeak Logistics,Healthcare,1200,APAC,2020-12-06T00:00:00Z
+acct_0055,Ironline Media,Media,500,EMEA,2020-09-17T00:00:00Z
+acct_0056,Novafork Labs,Real Estate,500,EMEA,2024-05-30T00:00:00Z
+acct_0057,Bluestone Capital,Logistics,3000,LATAM,2020-06-17T00:00:00Z
+acct_0058,Copperriver Systems,Manufacturing,3000,NA,2024-02-28T00:00:00Z
+acct_0059,Copperriver Software,EdTech,25,EMEA,2022-03-21T00:00:00Z
+acct_0060,Silverriver Labs,Manufacturing,25,LATAM,2025-01-15T00:00:00Z
+acct_0061,Northgrove Foods,Real Estate,500,APAC,2020-12-25T00:00:00Z
+acct_0062,Cobaltbridge Labs,EdTech,25,APAC,2024-12-10T00:00:00Z
+acct_0063,Northfield Industries,Manufacturing,1200,NA,2023-08-23T00:00:00Z
+acct_0064,Ironbridge Robotics,Logistics,25,EMEA,2024-11-08T00:00:00Z
+acct_0065,Cedarfield Systems,Media,50,EMEA,2022-08-29T00:00:00Z
+acct_0066,Novaspark Labs,EdTech,120,LATAM,2023-03-11T00:00:00Z
+acct_0067,Mapleriver Robotics,Retail,120,APAC,2021-08-18T00:00:00Z
+acct_0068,Copperfield Industries,Fintech,240,LATAM,2022-05-22T00:00:00Z
+acct_0069,Ironshore Logistics,Logistics,1200,NA,2023-02-06T00:00:00Z
+acct_0070,Orbitwind Retail,Retail,3000,NA,2020-11-18T00:00:00Z
+acct_0071,Crestwind Systems,Media,3000,NA,2020-06-02T00:00:00Z
+acct_0072,Ironfield Group,Energy,500,NA,2022-06-19T00:00:00Z
+acct_0073,Harborshore Robotics,Retail,1200,NA,2020-11-25T00:00:00Z
+acct_0074,Crestvale Software,Logistics,240,LATAM,2024-07-31T00:00:00Z
+acct_0075,Novafield Logistics,Healthcare,1200,EMEA,2021-11-03T00:00:00Z
+acct_0076,Granitefield Industries,Media,1200,EMEA,2023-08-08T00:00:00Z
+acct_0077,Northfork Group,Healthcare,240,LATAM,2022-06-08T00:00:00Z
+acct_0078,Orbitgrove Health,Manufacturing,120,NA,2022-10-04T00:00:00Z
+acct_0079,Northspark Capital,Manufacturing,1200,NA,2023-09-13T00:00:00Z
+acct_0080,Cedarpeak Analytics,Fintech,3000,EMEA,2025-01-19T00:00:00Z
+acct_0081,Silvervale Industries,Energy,25,LATAM,2020-11-29T00:00:00Z
+acct_0082,Pinepoint Retail,SaaS,120,NA,2024-04-17T00:00:00Z
+acct_0083,Aspenline Dynamics,Fintech,120,EMEA,2022-02-07T00:00:00Z
+acct_0084,Onyxshore Dynamics,Healthcare,500,LATAM,2022-01-24T00:00:00Z
+acct_0085,Quantloop Works,EdTech,50,LATAM,2024-05-13T00:00:00Z
+acct_0086,Birchpoint Dynamics,Manufacturing,240,EMEA,2021-02-25T00:00:00Z
+acct_0087,Cedarriver Industries,Manufacturing,1200,LATAM,2020-08-13T00:00:00Z
+acct_0088,Copperwave Systems,Manufacturing,240,LATAM,2023-06-26T00:00:00Z
+acct_0089,Harborstone Group,EdTech,3000,NA,2022-09-11T00:00:00Z
+acct_0090,Novagrove Health,Healthcare,240,NA,2024-03-07T00:00:00Z
+acct_0091,Quantshore Retail,Fintech,3000,LATAM,2022-06-11T00:00:00Z
+acct_0092,Onyxgrove Robotics,EdTech,3000,APAC,2020-12-25T00:00:00Z
+acct_0093,Cobaltvale Robotics,SaaS,1200,EMEA,2020-05-25T00:00:00Z
+acct_0094,Ironwave Health,SaaS,3000,LATAM,2023-04-27T00:00:00Z
+acct_0095,Falconwave Health,Energy,3000,EMEA,2021-05-27T00:00:00Z
+acct_0096,Birchspark Capital,Media,500,EMEA,2023-01-26T00:00:00Z
+acct_0097,Onyxwind Networks,Fintech,3000,APAC,2024-08-03T00:00:00Z
+acct_0098,Crestvale Dynamics,Manufacturing,3000,EMEA,2021-10-30T00:00:00Z
+acct_0099,Northline Works,Real Estate,120,NA,2024-07-22T00:00:00Z
+acct_0100,Cedarwave Group,Real Estate,3000,EMEA,2025-05-24T00:00:00Z
+acct_0101,Novagate Foods,Healthcare,3000,EMEA,2020-10-16T00:00:00Z
+acct_0102,Ironpeak Dynamics,Fintech,25,APAC,2023-11-21T00:00:00Z
+acct_0103,Orbitline Analytics,Real Estate,1200,NA,2020-05-30T00:00:00Z
+acct_0104,Cobaltwind Industries,Energy,1200,LATAM,2024-12-08T00:00:00Z
+acct_0105,Ridgewave Analytics,Real Estate,500,APAC,2025-04-18T00:00:00Z
+acct_0106,Pineline Foods,Healthcare,240,EMEA,2021-07-29T00:00:00Z
+acct_0107,Ridgestone Retail,Logistics,3000,LATAM,2024-03-26T00:00:00Z
+acct_0108,Cobaltfork Systems,SaaS,500,LATAM,2022-06-15T00:00:00Z
+acct_0109,Atlasloop Networks,Energy,50,APAC,2023-08-18T00:00:00Z
+acct_0110,Novavale Dynamics,Manufacturing,240,NA,2022-04-13T00:00:00Z
+acct_0111,Onyxwind Retail,Manufacturing,240,NA,2023-05-21T00:00:00Z
+acct_0112,Ridgepoint Software,Logistics,1200,EMEA,2024-10-22T00:00:00Z
+acct_0113,Silverpeak Group,Media,1200,LATAM,2021-03-19T00:00:00Z
+acct_0114,Maplegate Dynamics,Logistics,1200,LATAM,2025-05-01T00:00:00Z
+acct_0115,Pineloop Systems,Media,1200,LATAM,2024-01-26T00:00:00Z
+acct_0116,Granitepoint Health,Manufacturing,500,NA,2022-10-31T00:00:00Z
+acct_0117,Cobaltwind Foods,SaaS,3000,EMEA,2021-12-12T00:00:00Z
+acct_0118,Novapoint Media,Fintech,120,LATAM,2022-05-17T00:00:00Z
+acct_0119,Harborgrove Logistics,Manufacturing,120,LATAM,2022-04-15T00:00:00Z
+acct_0120,Quantfield Media,Logistics,120,EMEA,2024-04-12T00:00:00Z
+acct_0121,Bluestone Robotics,Media,1200,NA,2023-07-22T00:00:00Z
+acct_0122,Aspenriver Industries,Manufacturing,120,LATAM,2021-05-05T00:00:00Z
+acct_0123,Cedarvale Industries,Retail,240,LATAM,2024-11-19T00:00:00Z
+acct_0124,Birchfield Works,Logistics,50,NA,2024-08-30T00:00:00Z
+acct_0125,Novabridge Analytics,Fintech,50,EMEA,2023-02-23T00:00:00Z
+acct_0126,Deltaline Capital,SaaS,3000,LATAM,2022-01-29T00:00:00Z
+acct_0127,Aspenloop Dynamics,Logistics,25,EMEA,2025-03-21T00:00:00Z
+acct_0128,Graniteriver Health,Fintech,25,LATAM,2023-02-13T00:00:00Z
+acct_0129,Birchgrove Dynamics,Logistics,120,LATAM,2022-07-14T00:00:00Z
+acct_0130,Atlasgate Logistics,Fintech,1200,EMEA,2021-02-06T00:00:00Z
+acct_0131,Falconloop Logistics,Fintech,3000,LATAM,2022-09-11T00:00:00Z
+acct_0132,Ridgewave Retail,Retail,240,NA,2021-04-29T00:00:00Z
+acct_0133,Ridgegate Industries,Media,500,APAC,2020-12-23T00:00:00Z
+acct_0134,Ironstone Systems,Healthcare,1200,NA,2023-12-10T00:00:00Z
+acct_0135,Ridgevale Media,Retail,50,APAC,2023-09-06T00:00:00Z
+acct_0136,Crestline Works,Energy,25,LATAM,2024-04-02T00:00:00Z
+acct_0137,Orbitgrove Networks,EdTech,120,APAC,2020-10-10T00:00:00Z
+acct_0138,Silvershore Industries,Logistics,500,EMEA,2023-12-24T00:00:00Z
+acct_0139,Deltapoint Group,EdTech,120,EMEA,2023-06-04T00:00:00Z
+acct_0140,Quantshore Logistics,Real Estate,500,EMEA,2022-03-08T00:00:00Z
+acct_0141,Harborriver Logistics,Healthcare,500,EMEA,2022-03-22T00:00:00Z
+acct_0142,Bluepeak Networks,SaaS,1200,EMEA,2021-01-17T00:00:00Z
+acct_0143,Pinewind Capital,Logistics,50,EMEA,2022-09-21T00:00:00Z
+acct_0144,Silverspark Works,Real Estate,240,APAC,2023-07-22T00:00:00Z
+acct_0145,Falcongrove Group,Logistics,3000,APAC,2023-11-28T00:00:00Z
+acct_0146,Orbitgate Health,Energy,25,LATAM,2021-04-23T00:00:00Z
+acct_0147,Cobaltpeak Media,Fintech,50,NA,2022-04-05T00:00:00Z
+acct_0148,Northloop Media,Manufacturing,50,APAC,2022-01-11T00:00:00Z
+acct_0149,Deltastone Dynamics,Fintech,25,NA,2023-10-13T00:00:00Z
+acct_0150,Onyxpeak Dynamics,Retail,50,APAC,2020-09-28T00:00:00Z
+acct_0151,Ridgeriver Works,Fintech,50,NA,2022-11-08T00:00:00Z
+acct_0152,Maplespark Analytics,SaaS,240,EMEA,2021-01-04T00:00:00Z
+acct_0153,Silverpoint Dynamics,Fintech,120,LATAM,2021-12-14T00:00:00Z
+acct_0154,Quantpeak Group,Real Estate,1200,NA,2024-07-06T00:00:00Z
+acct_0155,Cedarfork Networks,Healthcare,240,LATAM,2025-03-20T00:00:00Z
+acct_0156,Maplefield Health,Fintech,500,LATAM,2024-09-26T00:00:00Z
+acct_0157,Crestgate Media,Real Estate,240,EMEA,2023-07-08T00:00:00Z
+acct_0158,Atlasriver Dynamics,EdTech,50,APAC,2024-01-13T00:00:00Z
+acct_0159,Crestwind Group,Real Estate,120,NA,2021-10-20T00:00:00Z
+acct_0160,Quantspark Foods,SaaS,1200,EMEA,2023-02-21T00:00:00Z
+acct_0161,Summitpoint Dynamics,Energy,500,NA,2022-10-07T00:00:00Z
+acct_0162,Irongrove Group,Retail,240,LATAM,2021-03-09T00:00:00Z
+acct_0163,Northwave Industries,Manufacturing,240,LATAM,2020-09-13T00:00:00Z
+acct_0164,Summitpeak Analytics,Media,3000,LATAM,2024-09-28T00:00:00Z
+acct_0165,Vertexbridge Group,Real Estate,25,APAC,2022-06-16T00:00:00Z
+acct_0166,Birchwave Networks,EdTech,240,LATAM,2025-04-07T00:00:00Z
+acct_0167,Aspenvale Systems,Retail,25,APAC,2021-05-02T00:00:00Z
+acct_0168,Summitpoint Retail,Real Estate,240,LATAM,2022-01-19T00:00:00Z
+acct_0169,Novashore Foods,Retail,3000,APAC,2020-06-14T00:00:00Z
+acct_0170,Atlaspeak Foods,Real Estate,25,EMEA,2024-09-14T00:00:00Z
+acct_0171,Northwave Dynamics,Energy,50,LATAM,2025-02-09T00:00:00Z
+acct_0172,Vertexshore Software,Energy,1200,NA,2022-06-14T00:00:00Z
+acct_0173,Copperspark Retail,Healthcare,500,APAC,2021-09-19T00:00:00Z
+acct_0174,Quantstone Group,Media,50,NA,2021-04-21T00:00:00Z
+acct_0175,Deltawind Robotics,Retail,3000,LATAM,2022-03-29T00:00:00Z
+acct_0176,Ironloop Dynamics,Fintech,50,LATAM,2022-03-23T00:00:00Z
+acct_0177,Deltapoint Health,Logistics,25,NA,2022-06-27T00:00:00Z
+acct_0178,Harborgate Analytics,Fintech,25,LATAM,2025-05-25T00:00:00Z
+acct_0179,Crestriver Robotics,Manufacturing,50,APAC,2025-04-08T00:00:00Z
+acct_0180,Ridgespark Media,Retail,50,NA,2022-12-06T00:00:00Z
+acct_0181,Vertexloop Dynamics,Energy,3000,LATAM,2024-08-10T00:00:00Z
+acct_0182,Maplestone Systems,Retail,1200,EMEA,2025-02-22T00:00:00Z
+acct_0183,Silverbridge Industries,Manufacturing,25,LATAM,2023-08-23T00:00:00Z
+acct_0184,Summitwind Foods,Manufacturing,120,LATAM,2024-08-06T00:00:00Z
+acct_0185,Onyxwave Works,Energy,50,EMEA,2023-09-30T00:00:00Z
+acct_0186,Harborbridge Robotics,SaaS,50,APAC,2020-09-13T00:00:00Z
+acct_0187,Quantloop Analytics,Retail,240,NA,2024-06-08T00:00:00Z
+acct_0188,Ridgefield Retail,EdTech,50,EMEA,2024-04-29T00:00:00Z
+acct_0189,Deltagrove Dynamics,SaaS,1200,NA,2023-09-08T00:00:00Z
+acct_0190,Cobaltgate Retail,Retail,120,LATAM,2021-05-27T00:00:00Z
+acct_0191,Birchwind Group,Fintech,120,LATAM,2023-01-27T00:00:00Z
+acct_0192,Falcongate Works,Logistics,50,EMEA,2020-07-27T00:00:00Z
+acct_0193,Harborvale Retail,Manufacturing,25,EMEA,2023-11-23T00:00:00Z
+acct_0194,Deltawave Dynamics,Fintech,1200,EMEA,2022-08-04T00:00:00Z
+acct_0195,Onyxloop Logistics,Manufacturing,3000,APAC,2023-04-25T00:00:00Z
+acct_0196,Summitline Health,EdTech,25,EMEA,2023-09-18T00:00:00Z
+acct_0197,Harborpoint Media,Fintech,1200,EMEA,2023-11-07T00:00:00Z
+acct_0198,Deltagate Software,Fintech,1200,NA,2022-10-22T00:00:00Z
+acct_0199,Onyxfield Labs,Logistics,240,NA,2022-06-04T00:00:00Z

@@ -2,13 +2,16 @@
 
 import { useState } from "react";
 import {
+  Activity,
+  Building2,
   CheckCircle2,
-  Code2,
-  GitCommit,
-  Layers,
+  Clock,
+  Radio,
   RefreshCw,
-  Star,
+  ShieldCheck,
+  Target,
 } from "lucide-react";
+import type { LucideIcon } from "lucide-react";
 import { fetchPublicStats, type PublicStats } from "@/lib/api";
 import { TopBar } from "@/components/layout/TopBar";
 import { Button } from "@/components/ui/button";
@@ -77,7 +80,7 @@ export default function TelemetryPage() {
               </div>
               <div className="flex flex-wrap items-center gap-2">
                 <Badge variant={stats?.mode === "live" ? "brand" : "muted"}>
-                  {stats?.mode ?? "showcase"}
+                  {stats?.mode ?? "live"}
                 </Badge>
                 <Badge variant="outline">
                   generated {formatRelative(stats?.generated_at)}
@@ -102,55 +105,61 @@ export default function TelemetryPage() {
             </Card>
           )}
 
-          {/* Tier-B metric grid */}
+          {/* Tier-A metric grid */}
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
             <MetricTile
-              label="Commits · total"
+              label="High-priority accounts"
               value={
                 stats
-                  ? formatNumber(stats.metrics.commits_total as number)
+                  ? formatNumber(stats.metrics.high_priority_accounts as number)
                   : "—"
               }
-              icon={GitCommit}
+              icon={Target}
               loading={loading}
             />
             <MetricTile
-              label="Commits · 30d"
-              value={
-                stats ? formatNumber(stats.metrics.commits_30d as number) : "—"
-              }
-              icon={GitCommit}
-              loading={loading}
-            />
-            <MetricTile
-              label="Lines of code"
+              label="Accounts scored · 24h"
               value={
                 stats
-                  ? formatNumber(stats.metrics.lines_of_code as number)
+                  ? formatNumber(stats.metrics.accounts_scored_24h as number)
                   : "—"
               }
-              icon={Code2}
+              icon={Activity}
               loading={loading}
             />
             <MetricTile
-              label="Repo stars"
+              label="Signals detected · 24h"
               value={
-                stats ? formatNumber(stats.metrics.repo_stars as number) : "—"
+                stats
+                  ? formatNumber(stats.metrics.signals_detected_24h as number)
+                  : "—"
               }
-              icon={Star}
+              icon={Radio}
               loading={loading}
             />
             <MetricTile
-              label="Primary language"
+              label="Accounts · total"
               value={
-                (stats?.metrics.primary_language as string | undefined) ?? "—"
+                stats
+                  ? formatNumber(stats.metrics.accounts_total as number)
+                  : "—"
               }
-              icon={Layers}
+              icon={Building2}
               loading={loading}
             />
             <MetricTile
-              label="Last commit"
-              value={formatRelative(stats?.last_commit_at)}
+              label="Uptime · 30d"
+              value={
+                stats?.uptime_pct_30d != null
+                  ? `${stats.uptime_pct_30d.toFixed(1)}%`
+                  : "—"
+              }
+              icon={ShieldCheck}
+              loading={loading}
+            />
+            <MetricTile
+              label="Last active"
+              value={formatRelative(stats?.last_active_at)}
               icon={CheckCircle2}
               loading={loading}
             />
@@ -163,7 +172,7 @@ export default function TelemetryPage() {
             <MetricTile
               label="Generated at"
               value={formatRelative(stats?.generated_at)}
-              icon={CheckCircle2}
+              icon={Clock}
               loading={loading}
             />
           </div>
@@ -187,7 +196,7 @@ export default function TelemetryPage() {
                     />
                     <DetailRow
                       label="Mode"
-                      value={stats?.mode ?? "showcase"}
+                      value={stats?.mode ?? "live"}
                     />
                     <DetailRow
                       label="Schema version"
@@ -203,9 +212,9 @@ export default function TelemetryPage() {
                       }
                     />
                     <DetailRow
-                      label="Last commit"
-                      value={formatDate(stats?.last_commit_at)}
-                      hint={stats?.last_commit_at ?? undefined}
+                      label="Last active"
+                      value={formatDate(stats?.last_active_at)}
+                      hint={stats?.last_active_at ?? undefined}
                     />
                     <DetailRow
                       label="Last deployed"
@@ -213,14 +222,18 @@ export default function TelemetryPage() {
                       hint={stats?.last_deployed_at ?? undefined}
                     />
                     <DetailRow
+                      label="Uptime · 30d"
+                      value={
+                        stats?.uptime_pct_30d != null
+                          ? `${stats.uptime_pct_30d.toFixed(1)}%`
+                          : "—"
+                      }
+                      hint="scheduled-run success"
+                    />
+                    <DetailRow
                       label="Generated at"
                       value={formatDate(stats?.generated_at)}
                       hint={stats?.generated_at}
-                    />
-                    <DetailRow
-                      label="Polling"
-                      value={`${POLL_INTERVAL_MS / 1000}s`}
-                      hint="visibility-aware"
                     />
                   </div>
                 </TabsContent>
@@ -230,7 +243,7 @@ export default function TelemetryPage() {
                     <p>
                       This endpoint runs in{" "}
                       <code className="rounded bg-surface-2 px-1 py-0.5 font-mono text-xs">
-                        mode: &quot;showcase&quot;
+                        mode: &quot;live&quot;
                       </code>{" "}
                       per the public schema at{" "}
                       <a
@@ -241,18 +254,35 @@ export default function TelemetryPage() {
                       >
                         TELEMETRY_SCHEMA.md
                       </a>
-                      . Counters are sourced from the GitHub REST API
-                      (commits, language, stars) plus a build-time line-of-code
-                      snapshot, behind a 5-minute module-scope cache.
+                      . The metrics describe a real scoring workload: the engine
+                      scores every account in a synthetic, public CRM fixture on
+                      each daily run. The numbers are reproducible, never
+                      simulated.
                     </p>
                     <p>
-                      The endpoint never returns 5xx — GitHub failures degrade
-                      to{" "}
+                      Source of truth is a git-committed artifact written by the
+                      nightly runner and read directly by this stdlib function.
+                      No database, no secrets. The endpoint never returns 5xx: a
+                      missing artifact degrades to{" "}
                       <code className="rounded bg-surface-2 px-1 py-0.5 font-mono text-xs">
                         status: &quot;degraded&quot;
                       </code>{" "}
-                      with the last cached response (or zeros) and a
-                      contract-valid envelope.
+                      with zeroed metrics and a contract-valid envelope.
+                    </p>
+                    <p>
+                      The per-account ranking and full score traces are served
+                      at{" "}
+                      <a
+                        className="text-brand underline-offset-2 hover:underline"
+                        href="/scoring"
+                      >
+                        /scoring
+                      </a>{" "}
+                      and the{" "}
+                      <code className="rounded bg-surface-2 px-1 py-0.5 font-mono text-xs">
+                        /api/scoring-latest
+                      </code>{" "}
+                      endpoint.
                     </p>
                     <CodeBlock language="bash">
                       {`curl -i https://${PROJECT.slug}.vercel.app/api/stats`}
@@ -284,7 +314,7 @@ function MetricTile({
 }: {
   label: string;
   value: string;
-  icon: typeof GitCommit;
+  icon: LucideIcon;
   loading: boolean;
 }) {
   return (

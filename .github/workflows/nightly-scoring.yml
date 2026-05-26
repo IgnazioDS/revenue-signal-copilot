@@ -1,0 +1,71 @@
+name: nightly-scoring
+
+# Daily public scoring benchmark. Scores the committed synthetic fixture as of
+# the run date, then commits the refreshed artifact back to the repo. The push
+# triggers a Vercel redeploy, and the stdlib endpoints serve the new artifact.
+# This is the "git-as-database" loop: no database, no secrets, every update is
+# an auditable git diff. The only credential is the auto-provisioned
+# GITHUB_TOKEN, scoped to contents:write below.
+
+on:
+  schedule:
+    - cron: "0 6 * * *" # 06:00 UTC daily
+  workflow_dispatch: {} # allow manual runs from the Actions tab
+
+permissions:
+  contents: write # required to commit the refreshed artifact back
+
+concurrency:
+  group: nightly-scoring
+  cancel-in-progress: false
+
+jobs:
+  score:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install package
+        run: pip install -e .
+
+      - name: Run daily scoring
+        run: python -m revenue_signal_copilot.scoring_runner
+
+      - name: Validate published artifact
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          artifact = json.loads(Path("api/_scoring_latest.json").read_text())
+          assert artifact["schema_version"] == 1, "schema_version must be 1"
+          assert artifact["mode"] == "live", "mode must be live"
+          assert artifact["dataset_kind"] == "synthetic-public", "dataset_kind mismatch"
+          assert artifact["metrics"]["accounts_total"] > 0, "no accounts scored"
+          assert artifact["ranked_accounts"], "no ranked accounts"
+          assert artifact["generated_at"].endswith("Z"), "generated_at must be ISO-Z"
+
+          history = json.loads(Path("api/_scoring_history.json").read_text())
+          assert history["runs"], "history must have at least one run"
+          assert len(history["runs"]) <= 100, "history must be trimmed to 100"
+
+          print("artifact valid:", artifact["run_id"], artifact["metrics"])
+          PY
+
+      - name: Commit refreshed artifact
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add api/_scoring_latest.json api/_scoring_history.json
+          if git diff --staged --quiet; then
+            echo "No scoring change to commit."
+          else
+            git commit -m "chore(scoring): nightly run $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
