@@ -38,6 +38,7 @@ class BuildResponseTests(unittest.TestCase):
         self.assertEqual(response["mode"], "live")
         self.assertEqual(response["schema_version"], 1)
         self.assertEqual(response["dataset_kind"], "synthetic-public")
+        self.assertEqual(response["benchmark_type"], "scoring")
         self.assertTrue(response["ranked_accounts"])  # seeded artifact has accounts
         self.assertEqual(response["ranked_accounts"][0]["rank"], 1)
 
@@ -46,6 +47,7 @@ class BuildResponseTests(unittest.TestCase):
             response = endpoint.build_response()
         self.assertEqual(response["status"], "degraded")
         self.assertEqual(response["mode"], "live")
+        self.assertEqual(response["benchmark_type"], "scoring")
         self.assertEqual(response["dataset_kind"], "synthetic-public")
         self.assertEqual(response["ranked_accounts"], [])
         self.assertEqual(response["metrics"]["accounts_total"], 0)

@@ -47,6 +47,7 @@ def _degraded_payload() -> dict[str, Any]:
     """
     return {
         "system": SYSTEM_SLUG,
+        "benchmark_type": "scoring",
         "mode": "live",
         "status": "degraded",
         "fixture": FIXTURE_ID,
