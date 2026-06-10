@@ -232,6 +232,7 @@ def build_artifact(
     timestamp = _iso(as_of)
     return {
         "system": SYSTEM_SLUG,
+        "benchmark_type": "scoring",
         "mode": "live",
         "status": "operational",
         "run_id": f"rsc-{_ensure_utc(as_of).strftime('%Y%m%dT%H%M%SZ')}",

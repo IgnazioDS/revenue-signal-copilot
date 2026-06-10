@@ -47,6 +47,7 @@ def _degraded_payload() -> dict[str, Any]:
     """
     return {
         "system": SYSTEM_SLUG,
+        "benchmark_type": "scoring",
         "mode": "live",
         "status": "degraded",
         "fixture": FIXTURE_ID,
@@ -70,9 +71,11 @@ def build_response() -> dict[str, Any]:
     artifact = _load_artifact()
     if artifact is None:
         return _degraded_payload()
-    # Serve the committed artifact verbatim; it is already schema-conformant and
-    # its generated_at reflects when the scoring actually ran.
-    return artifact
+    # Serve the committed artifact (its generated_at reflects when the scoring
+    # actually ran). benchmark_type is a constant for this endpoint, so force it
+    # on every response — conformance must never depend on an older artifact that
+    # predates the field.
+    return {**artifact, "benchmark_type": "scoring"}
 
 
 class handler(BaseHTTPRequestHandler):

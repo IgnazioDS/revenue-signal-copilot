@@ -1,5 +1,6 @@
 {
   "system": "revenue-signal-copilot",
+  "benchmark_type": "scoring",
   "mode": "live",
   "status": "operational",
   "run_id": "rsc-20260528T100929Z",
