@@ -14,12 +14,17 @@ by the fleet contract:
   https://github.com/IgnazioDS/IgnazioDS/blob/main/TELEMETRY_SCHEMA.md
 
 Source of truth is the git-committed artifact written by the nightly runner
-(``_scoring_latest.json`` + ``_scoring_history.json``). No database, no secrets.
+(``_scoring_latest.json`` + ``_scoring_history.json``). Because the default
+branch is ruleset-protected, the runner publishes to the unprotected
+``telemetry`` branch; this endpoint reads the freshest copy from there at
+request time (deployed runtime only) and falls back to the copy committed on
+main. No database, no secrets.
 """
 from __future__ import annotations
 
 import json
 import os
+import urllib.request
 from datetime import datetime, timedelta, timezone
 from http.server import BaseHTTPRequestHandler
 from pathlib import Path
@@ -27,6 +32,12 @@ from typing import Any
 
 SYSTEM_SLUG = "revenue-signal-copilot"
 SCHEMA_VERSION = 1
+
+# The nightly cron publishes here because main is ruleset-protected.
+_TELEMETRY_RAW_BASE = (
+    "https://raw.githubusercontent.com/IgnazioDS/revenue-signal-copilot/telemetry/api/"
+)
+_FETCH_TIMEOUT_S = 2.5  # keep the endpoint fast; fall back to the committed copy
 
 # Sanity caps: never expose values larger than these (runaway-exposure guard).
 SAFETY_CAPS: dict[str, int] = {
@@ -71,12 +82,34 @@ def _load_json(path: Path) -> dict[str, Any] | None:
     return data if isinstance(data, dict) else None
 
 
+def _fetch_remote_json(filename: str) -> dict[str, Any] | None:
+    """Best-effort fetch of the freshest artifact from the telemetry data branch.
+
+    Returns None on any failure so the caller falls back to the committed copy.
+    Only runs in the deployed Vercel runtime; tests/local use the committed copy.
+    """
+    if not os.environ.get("VERCEL"):
+        return None
+    try:
+        req = urllib.request.Request(
+            _TELEMETRY_RAW_BASE + filename,
+            headers={"User-Agent": f"{SYSTEM_SLUG}-telemetry"},
+        )
+        with urllib.request.urlopen(req, timeout=_FETCH_TIMEOUT_S) as resp:
+            if resp.status != 200:
+                return None
+            data = json.loads(resp.read().decode("utf-8"))
+            return data if isinstance(data, dict) else None
+    except Exception:  # noqa: BLE001 - the contract forbids 5xx; fall back instead
+        return None
+
+
 def _load_scoring() -> dict[str, Any] | None:
-    return _load_json(SCORING_FILE)
+    return _fetch_remote_json("_scoring_latest.json") or _load_json(SCORING_FILE)
 
 
 def _load_history() -> dict[str, Any] | None:
-    return _load_json(HISTORY_FILE)
+    return _fetch_remote_json("_scoring_history.json") or _load_json(HISTORY_FILE)
 
 
 def _zeroed_metrics() -> dict[str, int]:

@@ -1,11 +1,15 @@
 name: nightly-scoring
 
 # Daily public scoring benchmark. Scores the committed synthetic fixture as of
-# the run date, then commits the refreshed artifact back to the repo. The push
-# triggers a Vercel redeploy, and the stdlib endpoints serve the new artifact.
-# This is the "git-as-database" loop: no database, no secrets, every update is
-# an auditable git diff. The only credential is the auto-provisioned
-# GITHUB_TOKEN, scoped to contents:write below.
+# the run date, then publishes the refreshed artifacts to the unprotected
+# `telemetry` data branch. The default branch is ruleset-protected and the
+# default GITHUB_TOKEN cannot push to it, so the auditable git-as-database loop
+# lives on `telemetry`. The live stdlib endpoints (api/stats.py,
+# api/scoring-latest.py) read the freshest artifact from that branch at request
+# time, falling back to the copy committed on main. No database, no secrets.
+#
+# History accumulates: the runner appends to the prior history, so we seed it
+# from the telemetry branch before each run.
 
 on:
   schedule:
@@ -13,7 +17,7 @@ on:
   workflow_dispatch: {} # allow manual runs from the Actions tab
 
 permissions:
-  contents: write # required to commit the refreshed artifact back
+  contents: write # push the data files to the telemetry branch
 
 concurrency:
   group: nightly-scoring
@@ -33,6 +37,14 @@ jobs:
 
       - name: Install package
         run: pip install -e .
+
+      - name: Seed accumulated history from telemetry branch
+        run: |
+          if git ls-remote --exit-code --heads origin telemetry >/dev/null 2>&1; then
+            git fetch origin telemetry --depth=1
+            git show origin/telemetry:api/_scoring_history.json \
+              > api/_scoring_history.json 2>/dev/null || true
+          fi
 
       - name: Run daily scoring
         run: python -m revenue_signal_copilot.scoring_runner
@@ -58,14 +70,30 @@ jobs:
           print("artifact valid:", artifact["run_id"], artifact["metrics"])
           PY
 
-      - name: Commit refreshed artifact
+      - name: Publish artifacts to telemetry branch
         run: |
+          day="$(date -u +%Y-%m-%dT%H:%MZ)"
+          stage="$(mktemp -d)"
+          mkdir -p "$stage/api"
+          cp api/_scoring_latest.json api/_scoring_history.json "$stage/api/"
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add api/_scoring_latest.json api/_scoring_history.json
-          if git diff --staged --quiet; then
-            echo "No scoring change to commit."
+
+          if git ls-remote --exit-code --heads origin telemetry >/dev/null 2>&1; then
+            git fetch origin telemetry --depth=1
+            git worktree add -B telemetry .telemetry origin/telemetry
           else
-            git commit -m "chore(scoring): nightly run $(date -u +%Y-%m-%dT%H:%MZ)"
-            git push
+            git worktree add --orphan -b telemetry .telemetry
+          fi
+
+          mkdir -p .telemetry/api
+          cp "$stage/api/"* .telemetry/api/
+
+          git -C .telemetry add api
+          if git -C .telemetry diff --cached --quiet; then
+            echo "No scoring change to publish."
+          else
+            git -C .telemetry commit -m "telemetry: nightly scoring ${day}"
+            git -C .telemetry push origin telemetry
           fi
