@@ -169,6 +169,20 @@
       "top_account_id": "acct_0192",
       "top_account_name": "Falcongate Works",
       "calibration_precision": 0.6
+    },
+    {
+      "run_id": "rsc-20260625T092814Z",
+      "generated_at": "2026-06-25T09:28:14Z",
+      "as_of": "2026-06-25T09:28:14Z",
+      "metrics": {
+        "accounts_total": 200,
+        "accounts_scored_24h": 200,
+        "signals_detected_24h": 3,
+        "high_priority_accounts": 9
+      },
+      "top_account_id": "acct_0085",
+      "top_account_name": "Quantloop Works",
+      "calibration_precision": 0.6
     }
   ]
 }
