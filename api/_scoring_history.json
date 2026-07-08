@@ -351,6 +351,20 @@
       "top_account_id": "acct_0187",
       "top_account_name": "Quantloop Analytics",
       "calibration_precision": 0.55
+    },
+    {
+      "run_id": "rsc-20260708T083349Z",
+      "generated_at": "2026-07-08T08:33:49Z",
+      "as_of": "2026-07-08T08:33:49Z",
+      "metrics": {
+        "accounts_total": 200,
+        "accounts_scored_24h": 200,
+        "signals_detected_24h": 1,
+        "high_priority_accounts": 2
+      },
+      "top_account_id": "acct_0085",
+      "top_account_name": "Quantloop Works",
+      "calibration_precision": 0.55
     }
   ]
 }
