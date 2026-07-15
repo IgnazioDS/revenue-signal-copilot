@@ -3,12 +3,12 @@
   "benchmark_type": "scoring",
   "mode": "live",
   "status": "operational",
-  "run_id": "rsc-20260714T081148Z",
+  "run_id": "rsc-20260715T081904Z",
   "fixture": "synthetic-crm-v1",
   "dataset_kind": "synthetic-public",
   "schema_version": 1,
-  "generated_at": "2026-07-14T08:11:48Z",
-  "as_of": "2026-07-14T08:11:48Z",
+  "generated_at": "2026-07-15T08:19:04Z",
+  "as_of": "2026-07-15T08:19:04Z",
   "metrics": {
     "accounts_total": 200,
     "accounts_scored_24h": 200,
@@ -29,10 +29,10 @@
       "account_id": "acct_0085",
       "name": "Quantloop Works",
       "industry": "EdTech",
-      "score": 71,
+      "score": 70,
       "priority": "high",
-      "evidence_points": 71.1,
-      "why": "Quantloop Works scored 71/100 on 71 evidence points: job-change event at Director about 2 months ago, job-change event about 3 months ago, internal rep note about 3 months ago, plus 5 more.",
+      "evidence_points": 69.97,
+      "why": "Quantloop Works scored 70/100 on 70 evidence points: job-change event at Director about 2 months ago, job-change event about 3 months ago, internal rep note about 3 months ago, plus 5 more.",
       "top_kinds": [
         "job_change",
         "internal_note"
@@ -43,10 +43,10 @@
           "kind": "job_change",
           "source": "linkedin",
           "captured_at": "2026-05-24T11:44:00Z",
-          "age_days": 50.9,
+          "age_days": 51.9,
           "base_points": 44.0,
-          "recency_factor": 0.4569,
-          "points": 20.1,
+          "recency_factor": 0.4499,
+          "points": 19.79,
           "reason": "job-change event at Director about 2 months ago"
         },
         {
@@ -54,10 +54,10 @@
           "kind": "job_change",
           "source": "linkedin",
           "captured_at": "2026-04-24T07:11:00Z",
-          "age_days": 81.0,
+          "age_days": 82.0,
           "base_points": 40.0,
-          "recency_factor": 0.287,
-          "points": 11.48,
+          "recency_factor": 0.2826,
+          "points": 11.3,
           "reason": "job-change event about 3 months ago"
         },
         {
@@ -65,10 +65,10 @@
           "kind": "internal_note",
           "source": "email-thread",
           "captured_at": "2026-04-26T13:00:00Z",
-          "age_days": 78.8,
+          "age_days": 79.8,
           "base_points": 26.0,
-          "recency_factor": 0.4024,
-          "points": 10.46,
+          "recency_factor": 0.3977,
+          "points": 10.34,
           "reason": "internal rep note about 3 months ago"
         },
         {
@@ -76,10 +76,10 @@
           "kind": "infra_shift",
           "source": "builtwith",
           "captured_at": "2026-05-05T03:03:00Z",
-          "age_days": 70.2,
+          "age_days": 71.2,
           "base_points": 30.0,
-          "recency_factor": 0.2962,
-          "points": 8.89,
+          "recency_factor": 0.2911,
+          "points": 8.73,
           "reason": "infrastructure shift about 2 months ago"
         },
         {
@@ -87,10 +87,10 @@
           "kind": "job_change",
           "source": "crunchbase",
           "captured_at": "2026-03-25T16:40:00Z",
-          "age_days": 110.6,
+          "age_days": 111.7,
           "base_points": 44.0,
-          "recency_factor": 0.1819,
-          "points": 8.0,
+          "recency_factor": 0.1791,
+          "points": 7.88,
           "reason": "job-change event at Director about 4 months ago"
         },
         {
@@ -98,10 +98,10 @@
           "kind": "job_change",
           "source": "crunchbase",
           "captured_at": "2026-02-17T14:37:00Z",
-          "age_days": 146.7,
+          "age_days": 147.7,
           "base_points": 52.0,
-          "recency_factor": 0.1043,
-          "points": 5.43,
+          "recency_factor": 0.1027,
+          "points": 5.34,
           "reason": "job-change event at VP+ about 5 months ago"
         },
         {
@@ -109,10 +109,10 @@
           "kind": "hiring",
           "source": "greenhouse",
           "captured_at": "2026-05-12T08:22:00Z",
-          "age_days": 63.0,
+          "age_days": 64.0,
           "base_points": 22.0,
-          "recency_factor": 0.2333,
-          "points": 5.13,
+          "recency_factor": 0.2279,
+          "points": 5.01,
           "reason": "hiring activity about 2 months ago"
         },
         {
@@ -120,10 +120,10 @@
           "kind": "job_change",
           "source": "crunchbase",
           "captured_at": "2025-11-30T14:27:00Z",
-          "age_days": 225.7,
+          "age_days": 226.7,
           "base_points": 52.0,
-          "recency_factor": 0.0309,
-          "points": 1.61,
+          "recency_factor": 0.0304,
+          "points": 1.58,
           "reason": "job-change event at VP+ about 8 months ago"
         }
       ]
@@ -133,10 +133,10 @@
       "account_id": "acct_0189",
       "name": "Deltagrove Dynamics",
       "industry": "SaaS",
-      "score": 66,
+      "score": 65,
       "priority": "watch",
-      "evidence_points": 65.82,
-      "why": "Deltagrove Dynamics scored 66/100 on 66 evidence points: job-change event about 2 months ago, job-change event about 2 months ago, job-change event about 3 months ago, plus 6 more.",
+      "evidence_points": 64.8,
+      "why": "Deltagrove Dynamics scored 65/100 on 65 evidence points: job-change event about 2 months ago, job-change event about 2 months ago, job-change event about 3 months ago, plus 6 more.",
       "top_kinds": [
         "job_change"
       ],
@@ -146,10 +146,10 @@
           "kind": "job_change",
           "source": "linkedin",
           "captured_at": "2026-05-15T20:01:00Z",
-          "age_days": 59.5,
+          "age_days": 60.5,
           "base_points": 40.0,
-          "recency_factor": 0.3999,
-          "points": 15.99,
+          "recency_factor": 0.3937,
+          "points": 15.75,
           "reason": "job-change event about 2 months ago"
         },
         {
@@ -157,10 +157,10 @@
           "kind": "job_change",
           "source": "clearbit",
           "captured_at": "2026-05-04T07:27:00Z",
-          "age_days": 71.0,
+          "age_days": 72.0,
           "base_points": 40.0,
-          "recency_factor": 0.3348,
-          "points": 13.39,
+          "recency_factor": 0.3297,
+          "points": 13.19,
           "reason": "job-change event about 2 months ago"
         },
         {
@@ -168,10 +168,10 @@
           "kind": "job_change",
           "source": "linkedin",
           "captured_at": "2026-04-13T17:40:00Z",
-          "age_days": 91.6,
+          "age_days": 92.6,
           "base_points": 40.0,
-          "recency_factor": 0.2439,
-          "points": 9.76,
+          "recency_factor": 0.2401,
+          "points": 9.61,
           "reason": "job-change event about 3 months ago"
         },
         {
@@ -179,21 +179,21 @@
           "kind": "infra_shift",
           "source": "dns-records",
           "captured_at": "2026-04-30T04:59:00Z",
-          "age_days": 75.1,
+          "age_days": 76.1,
           "base_points": 30.0,
-          "recency_factor": 0.272,
-          "points": 8.16,
-          "reason": "infrastructure shift about 2 months ago"
+          "recency_factor": 0.2673,
+          "points": 8.02,
+          "reason": "infrastructure shift about 3 months ago"
         },
         {
           "signal_id": "sig_00844",
           "kind": "infra_shift",
           "source": "dns-records",
           "captured_at": "2026-04-27T13:27:00Z",
-          "age_days": 77.8,
+          "age_days": 78.8,
           "base_points": 30.0,
-          "recency_factor": 0.2598,
-          "points": 7.79,
+          "recency_factor": 0.2553,
+          "points": 7.66,
           "reason": "infrastructure shift about 3 months ago"
         },
         {
@@ -201,10 +201,10 @@
           "kind": "internal_note",
           "source": "rep-note",
           "captured_at": "2026-03-25T22:01:00Z",
-          "age_days": 110.4,
+          "age_days": 111.4,
           "base_points": 26.0,
-          "recency_factor": 0.2792,
-          "points": 7.26,
+          "recency_factor": 0.276,
+          "points": 7.18,
           "reason": "internal rep note about 4 months ago"
         },
         {
@@ -212,10 +212,10 @@
           "kind": "hiring",
           "source": "careers-page",
           "captured_at": "2026-03-24T13:04:00Z",
-          "age_days": 111.8,
+          "age_days": 112.8,
           "base_points": 22.0,
-          "recency_factor": 0.0755,
-          "points": 1.66,
+          "recency_factor": 0.0738,
+          "points": 1.62,
           "reason": "hiring activity about 4 months ago"
         },
         {
@@ -223,10 +223,10 @@
           "kind": "hiring",
           "source": "careers-page",
           "captured_at": "2026-03-14T16:54:00Z",
-          "age_days": 121.6,
+          "age_days": 122.6,
           "base_points": 22.0,
-          "recency_factor": 0.0602,
-          "points": 1.32,
+          "recency_factor": 0.0588,
+          "points": 1.29,
           "reason": "hiring activity about 4 months ago"
         },
         {
@@ -234,10 +234,10 @@
           "kind": "job_change",
           "source": "crunchbase",
           "captured_at": "2025-09-25T14:08:00Z",
-          "age_days": 291.8,
+          "age_days": 292.8,
           "base_points": 44.0,
-          "recency_factor": 0.0112,
-          "points": 0.49,
+          "recency_factor": 0.011,
+          "points": 0.48,
           "reason": "job-change event at Director about 10 months ago"
         }
       ]
@@ -247,10 +247,10 @@
       "account_id": "acct_0192",
       "name": "Falcongate Works",
       "industry": "Logistics",
-      "score": 62,
+      "score": 61,
       "priority": "watch",
-      "evidence_points": 61.99,
-      "why": "Falcongate Works scored 62/100 on 62 evidence points: job-change event at Director about 2 months ago, job-change event at VP+ about 4 months ago, infrastructure shift about 2 months ago, plus 6 more.",
+      "evidence_points": 61.02,
+      "why": "Falcongate Works scored 61/100 on 61 evidence points: job-change event at Director about 2 months ago, job-change event at VP+ about 4 months ago, infrastructure shift about 2 months ago, plus 6 more.",
       "top_kinds": [
         "job_change",
         "infra_shift"
@@ -261,10 +261,10 @@
           "kind": "job_change",
           "source": "clearbit",
           "captured_at": "2026-05-22T14:51:00Z",
-          "age_days": 52.7,
+          "age_days": 53.7,
           "base_points": 44.0,
-          "recency_factor": 0.4439,
-          "points": 19.53,
+          "recency_factor": 0.4371,
+          "points": 19.23,
           "reason": "job-change event at Director about 2 months ago"
         },
         {
@@ -272,10 +272,10 @@
           "kind": "job_change",
           "source": "linkedin",
           "captured_at": "2026-03-30T01:48:00Z",
-          "age_days": 106.3,
+          "age_days": 107.3,
           "base_points": 52.0,
-          "recency_factor": 0.1946,
-          "points": 10.12,
+          "recency_factor": 0.1916,
+          "points": 9.96,
           "reason": "job-change event at VP+ about 4 months ago"
         },
         {
@@ -283,10 +283,10 @@
           "kind": "infra_shift",
           "source": "dns-records",
           "captured_at": "2026-05-08T10:41:00Z",
-          "age_days": 66.9,
+          "age_days": 67.9,
           "base_points": 30.0,
-          "recency_factor": 0.3137,
-          "points": 9.41,
+          "recency_factor": 0.3083,
+          "points": 9.25,
           "reason": "infrastructure shift about 2 months ago"
         },
         {
@@ -294,21 +294,21 @@
           "kind": "infra_shift",
           "source": "dns-records",
           "captured_at": "2026-04-30T04:44:00Z",
-          "age_days": 75.1,
+          "age_days": 76.1,
           "base_points": 30.0,
-          "recency_factor": 0.2719,
-          "points": 8.16,
-          "reason": "infrastructure shift about 2 months ago"
+          "recency_factor": 0.2673,
+          "points": 8.02,
+          "reason": "infrastructure shift about 3 months ago"
         },
         {
           "signal_id": "sig_00867",
           "kind": "internal_note",
           "source": "rep-note",
           "captured_at": "2026-04-02T22:16:00Z",
-          "age_days": 102.4,
+          "age_days": 103.4,
           "base_points": 26.0,
-          "recency_factor": 0.3063,
-          "points": 7.96,
+          "recency_factor": 0.3028,
+          "points": 7.87,
           "reason": "internal rep note about 3 months ago"
         },
         {
@@ -316,10 +316,10 @@
           "kind": "internal_note",
           "source": "rep-note",
           "captured_at": "2026-01-27T21:54:00Z",
-          "age_days": 167.4,
+          "age_days": 168.4,
           "base_points": 26.0,
-          "recency_factor": 0.1445,
-          "points": 3.76,
+          "recency_factor": 0.1429,
+          "points": 3.71,
           "reason": "internal rep note about 6 months ago"
         },
         {
@@ -327,10 +327,10 @@
           "kind": "hiring",
           "source": "greenhouse",
           "captured_at": "2026-03-30T11:43:00Z",
-          "age_days": 105.9,
+          "age_days": 106.9,
           "base_points": 22.0,
-          "recency_factor": 0.0867,
-          "points": 1.91,
+          "recency_factor": 0.0847,
+          "points": 1.86,
           "reason": "hiring activity about 4 months ago"
         },
         {
@@ -338,10 +338,10 @@
           "kind": "job_change",
           "source": "clearbit",
           "captured_at": "2025-11-24T17:47:00Z",
-          "age_days": 231.6,
+          "age_days": 232.6,
           "base_points": 40.0,
-          "recency_factor": 0.0282,
-          "points": 1.13,
+          "recency_factor": 0.0278,
+          "points": 1.11,
           "reason": "job-change event about 8 months ago"
         },
         {
@@ -349,7 +349,7 @@
           "kind": "infra_shift",
           "source": "dns-records",
           "captured_at": "2025-04-18T09:52:00Z",
-          "age_days": 451.9,
+          "age_days": 452.9,
           "base_points": 30.0,
           "recency_factor": 0.0004,
           "points": 0.01,
@@ -364,7 +364,7 @@
       "industry": "Media",
       "score": 58,
       "priority": "watch",
-      "evidence_points": 58.43,
+      "evidence_points": 57.57,
       "why": "Bluestone Robotics scored 58/100 on 58 evidence points: job-change event about 3 months ago, infrastructure shift about 2 months ago, internal rep note about 3 months ago, plus 6 more.",
       "top_kinds": [
         "job_change",
@@ -377,10 +377,10 @@
           "kind": "job_change",
           "source": "clearbit",
           "captured_at": "2026-04-29T11:22:00Z",
-          "age_days": 75.9,
+          "age_days": 76.9,
           "base_points": 40.0,
-          "recency_factor": 0.3108,
-          "points": 12.43,
+          "recency_factor": 0.306,
+          "points": 12.24,
           "reason": "job-change event about 3 months ago"
         },
         {
@@ -388,10 +388,10 @@
           "kind": "infra_shift",
           "source": "dns-records",
           "captured_at": "2026-05-20T08:26:00Z",
-          "age_days": 55.0,
+          "age_days": 56.0,
           "base_points": 30.0,
-          "recency_factor": 0.3856,
-          "points": 11.57,
+          "recency_factor": 0.379,
+          "points": 11.37,
           "reason": "infrastructure shift about 2 months ago"
         },
         {
@@ -399,10 +399,10 @@
           "kind": "internal_note",
           "source": "email-thread",
           "captured_at": "2026-04-28T06:17:00Z",
-          "age_days": 77.1,
+          "age_days": 78.1,
           "base_points": 26.0,
-          "recency_factor": 0.4105,
-          "points": 10.67,
+          "recency_factor": 0.4057,
+          "points": 10.55,
           "reason": "internal rep note about 3 months ago"
         },
         {
@@ -410,10 +410,10 @@
           "kind": "job_change",
           "source": "clearbit",
           "captured_at": "2026-03-29T06:00:00Z",
-          "age_days": 107.1,
+          "age_days": 108.1,
           "base_points": 44.0,
-          "recency_factor": 0.1921,
-          "points": 8.45,
+          "recency_factor": 0.1892,
+          "points": 8.32,
           "reason": "job-change event at Director about 4 months ago"
         },
         {
@@ -421,10 +421,10 @@
           "kind": "job_change",
           "source": "clearbit",
           "captured_at": "2026-03-12T13:35:00Z",
-          "age_days": 123.8,
+          "age_days": 124.8,
           "base_points": 40.0,
-          "recency_factor": 0.1486,
-          "points": 5.94,
+          "recency_factor": 0.1463,
+          "points": 5.85,
           "reason": "job-change event about 4 months ago"
         },
         {
@@ -432,10 +432,10 @@
           "kind": "internal_note",
           "source": "call-log",
           "captured_at": "2026-03-06T09:42:00Z",
-          "age_days": 129.9,
+          "age_days": 130.9,
           "base_points": 26.0,
-          "recency_factor": 0.2229,
-          "points": 5.8,
+          "recency_factor": 0.2203,
+          "points": 5.73,
           "reason": "internal rep note about 4 months ago"
         },
         {
@@ -443,10 +443,10 @@
           "kind": "internal_note",
           "source": "call-log",
           "captured_at": "2025-12-14T04:38:00Z",
-          "age_days": 212.1,
+          "age_days": 213.2,
           "base_points": 26.0,
-          "recency_factor": 0.0862,
-          "points": 2.24,
+          "recency_factor": 0.0852,
+          "points": 2.22,
           "reason": "internal rep note about 7 months ago"
         },
         {
@@ -454,10 +454,10 @@
           "kind": "hiring",
           "source": "greenhouse",
           "captured_at": "2026-03-06T23:32:00Z",
-          "age_days": 129.4,
+          "age_days": 130.4,
           "base_points": 22.0,
-          "recency_factor": 0.0503,
-          "points": 1.11,
+          "recency_factor": 0.0492,
+          "points": 1.08,
           "reason": "hiring activity about 4 months ago"
         },
         {
@@ -465,10 +465,10 @@
           "kind": "hiring",
           "source": "lever",
           "captured_at": "2025-12-26T03:27:00Z",
-          "age_days": 200.2,
+          "age_days": 201.2,
           "base_points": 22.0,
-          "recency_factor": 0.0098,
-          "points": 0.22,
+          "recency_factor": 0.0096,
+          "points": 0.21,
           "reason": "hiring activity about 7 months ago"
         }
       ]
@@ -478,10 +478,10 @@
       "account_id": "acct_0148",
       "name": "Northloop Media",
       "industry": "Manufacturing",
-      "score": 56,
+      "score": 55,
       "priority": "watch",
-      "evidence_points": 56.25,
-      "why": "Northloop Media scored 56/100 on 56 evidence points: job-change event at VP+ about 3 months ago, job-change event about 2 months ago, internal rep note about 2 months ago, plus 6 more.",
+      "evidence_points": 55.44,
+      "why": "Northloop Media scored 55/100 on 55 evidence points: job-change event at VP+ about 3 months ago, job-change event about 2 months ago, internal rep note about 2 months ago, plus 6 more.",
       "top_kinds": [
         "job_change",
         "internal_note"
@@ -492,10 +492,10 @@
           "kind": "job_change",
           "source": "clearbit",
           "captured_at": "2026-04-28T23:09:00Z",
-          "age_days": 76.4,
+          "age_days": 77.4,
           "base_points": 52.0,
-          "recency_factor": 0.3084,
-          "points": 16.04,
+          "recency_factor": 0.3036,
+          "points": 15.79,
           "reason": "job-change event at VP+ about 3 months ago"
         },
         {
@@ -503,10 +503,10 @@
           "kind": "job_change",
           "source": "linkedin",
           "captured_at": "2026-05-01T15:58:00Z",
-          "age_days": 73.7,
+          "age_days": 74.7,
           "base_points": 40.0,
-          "recency_factor": 0.3215,
-          "points": 12.86,
+          "recency_factor": 0.3165,
+          "points": 12.66,
           "reason": "job-change event about 2 months ago"
         },
         {
@@ -514,10 +514,10 @@
           "kind": "internal_note",
           "source": "call-log",
           "captured_at": "2026-05-01T10:10:00Z",
-          "age_days": 73.9,
+          "age_days": 74.9,
           "base_points": 26.0,
-          "recency_factor": 0.4257,
-          "points": 11.07,
+          "recency_factor": 0.4208,
+          "points": 10.94,
           "reason": "internal rep note about 2 months ago"
         },
         {
@@ -525,21 +525,21 @@
           "kind": "internal_note",
           "source": "call-log",
           "captured_at": "2026-04-01T10:13:00Z",
-          "age_days": 103.9,
+          "age_days": 104.9,
           "base_points": 26.0,
-          "recency_factor": 0.301,
-          "points": 7.83,
-          "reason": "internal rep note about 3 months ago"
+          "recency_factor": 0.2976,
+          "points": 7.74,
+          "reason": "internal rep note about 4 months ago"
         },
         {
           "signal_id": "sig_00630",
           "kind": "job_change",
           "source": "linkedin",
           "captured_at": "2026-03-11T16:58:00Z",
-          "age_days": 124.6,
+          "age_days": 125.6,
           "base_points": 40.0,
-          "recency_factor": 0.1466,
-          "points": 5.87,
+          "recency_factor": 0.1444,
+          "points": 5.78,
           "reason": "job-change event about 4 months ago"
         },
         {
@@ -547,10 +547,10 @@
           "kind": "job_change",
           "source": "clearbit",
           "captured_at": "2025-12-29T03:23:00Z",
-          "age_days": 197.2,
+          "age_days": 198.2,
           "base_points": 40.0,
-          "recency_factor": 0.048,
-          "points": 1.92,
+          "recency_factor": 0.0472,
+          "points": 1.89,
           "reason": "job-change event about 7 months ago"
         },
         {
@@ -558,10 +558,10 @@
           "kind": "hiring",
           "source": "careers-page",
           "captured_at": "2026-01-17T00:06:00Z",
-          "age_days": 178.3,
+          "age_days": 179.3,
           "base_points": 22.0,
-          "recency_factor": 0.0162,
-          "points": 0.36,
+          "recency_factor": 0.0159,
+          "points": 0.35,
           "reason": "hiring activity about 6 months ago"
         },
         {
@@ -569,10 +569,10 @@
           "kind": "hiring",
           "source": "careers-page",
           "captured_at": "2026-01-02T18:29:00Z",
-          "age_days": 192.6,
+          "age_days": 193.6,
           "base_points": 22.0,
-          "recency_factor": 0.0117,
-          "points": 0.26,
+          "recency_factor": 0.0114,
+          "points": 0.25,
           "reason": "hiring activity about 6 months ago"
         },
         {
@@ -580,9 +580,9 @@
           "kind": "hiring",
           "source": "careers-page",
           "captured_at": "2025-10-17T18:52:00Z",
-          "age_days": 269.6,
+          "age_days": 270.6,
           "base_points": 22.0,
-          "recency_factor": 0.002,
+          "recency_factor": 0.0019,
           "points": 0.04,
           "reason": "hiring activity about 9 months ago"
         }
@@ -593,10 +593,10 @@
       "account_id": "acct_0070",
       "name": "Orbitwind Retail",
       "industry": "Retail",
-      "score": 54,
+      "score": 53,
       "priority": "watch",
-      "evidence_points": 54.12,
-      "why": "Orbitwind Retail scored 54/100 on 54 evidence points: job-change event at VP+ about 2 months ago, job-change event at Director about 3 months ago, internal rep note about 4 months ago, plus 7 more.",
+      "evidence_points": 53.27,
+      "why": "Orbitwind Retail scored 53/100 on 53 evidence points: job-change event at VP+ about 2 months ago, job-change event at Director about 3 months ago, internal rep note about 4 months ago, plus 7 more.",
       "top_kinds": [
         "job_change",
         "internal_note"
@@ -607,10 +607,10 @@
           "kind": "job_change",
           "source": "crunchbase",
           "captured_at": "2026-05-13T06:11:00Z",
-          "age_days": 62.1,
+          "age_days": 63.1,
           "base_points": 52.0,
-          "recency_factor": 0.3843,
-          "points": 19.98,
+          "recency_factor": 0.3784,
+          "points": 19.68,
           "reason": "job-change event at VP+ about 2 months ago"
         },
         {
@@ -618,10 +618,10 @@
           "kind": "job_change",
           "source": "crunchbase",
           "captured_at": "2026-04-26T14:31:00Z",
-          "age_days": 78.7,
+          "age_days": 79.7,
           "base_points": 44.0,
-          "recency_factor": 0.2974,
-          "points": 13.08,
+          "recency_factor": 0.2928,
+          "points": 12.88,
           "reason": "job-change event at Director about 3 months ago"
         },
         {
@@ -629,10 +629,10 @@
           "kind": "internal_note",
           "source": "call-log",
           "captured_at": "2026-03-13T23:22:00Z",
-          "age_days": 122.4,
+          "age_days": 123.4,
           "base_points": 26.0,
-          "recency_factor": 0.2433,
-          "points": 6.32,
+          "recency_factor": 0.2404,
+          "points": 6.25,
           "reason": "internal rep note about 4 months ago"
         },
         {
@@ -640,10 +640,10 @@
           "kind": "hiring",
           "source": "careers-page",
           "captured_at": "2026-05-17T20:24:00Z",
-          "age_days": 57.5,
+          "age_days": 58.5,
           "base_points": 22.0,
-          "recency_factor": 0.2649,
-          "points": 5.83,
+          "recency_factor": 0.2588,
+          "points": 5.69,
           "reason": "hiring activity about 2 months ago"
         },
         {
@@ -651,10 +651,10 @@
           "kind": "internal_note",
           "source": "call-log",
           "captured_at": "2026-01-25T02:00:00Z",
-          "age_days": 170.3,
+          "age_days": 171.3,
           "base_points": 26.0,
-          "recency_factor": 0.1399,
-          "points": 3.64,
+          "recency_factor": 0.1383,
+          "points": 3.6,
           "reason": "internal rep note about 6 months ago"
         },
         {
@@ -662,10 +662,10 @@
           "kind": "job_change",
           "source": "linkedin",
           "captured_at": "2026-01-21T13:21:00Z",
-          "age_days": 173.8,
+          "age_days": 174.8,
           "base_points": 52.0,
-          "recency_factor": 0.0688,
-          "points": 3.58,
+          "recency_factor": 0.0677,
+          "points": 3.52,
           "reason": "job-change event at VP+ about 6 months ago"
         },
         {
@@ -673,10 +673,10 @@
           "kind": "hiring",
           "source": "greenhouse",
           "captured_at": "2026-03-22T01:42:00Z",
-          "age_days": 114.3,
+          "age_days": 115.3,
           "base_points": 22.0,
-          "recency_factor": 0.0713,
-          "points": 1.57,
+          "recency_factor": 0.0697,
+          "points": 1.53,
           "reason": "hiring activity about 4 months ago"
         },
         {
@@ -684,9 +684,9 @@
           "kind": "hiring",
           "source": "greenhouse",
           "captured_at": "2025-11-12T13:21:00Z",
-          "age_days": 243.8,
+          "age_days": 244.8,
           "base_points": 22.0,
-          "recency_factor": 0.0036,
+          "recency_factor": 0.0035,
           "points": 0.08,
           "reason": "hiring activity about 8 months ago"
         },
@@ -695,7 +695,7 @@
           "kind": "job_change",
           "source": "crunchbase",
           "captured_at": "2025-04-06T07:43:00Z",
-          "age_days": 464.0,
+          "age_days": 465.0,
           "base_points": 40.0,
           "recency_factor": 0.0008,
           "points": 0.03,
@@ -706,7 +706,7 @@
           "kind": "hiring",
           "source": "greenhouse",
           "captured_at": "2025-08-29T01:22:00Z",
-          "age_days": 319.3,
+          "age_days": 320.3,
           "base_points": 22.0,
           "recency_factor": 0.0006,
           "points": 0.01,
@@ -719,10 +719,10 @@
       "account_id": "acct_0010",
       "name": "Silvervale Dynamics",
       "industry": "Retail",
-      "score": 54,
+      "score": 53,
       "priority": "watch",
-      "evidence_points": 53.97,
-      "why": "Silvervale Dynamics scored 54/100 on 54 evidence points: internal rep note about 2 months ago, internal rep note about 2 months ago, job-change event about 3 months ago, plus 4 more.",
+      "evidence_points": 53.23,
+      "why": "Silvervale Dynamics scored 53/100 on 53 evidence points: internal rep note about 2 months ago, internal rep note about 3 months ago, job-change event about 3 months ago, plus 4 more.",
       "top_kinds": [
         "internal_note",
         "job_change"
@@ -733,10 +733,10 @@
           "kind": "internal_note",
           "source": "email-thread",
           "captured_at": "2026-05-03T21:41:00Z",
-          "age_days": 71.4,
+          "age_days": 72.4,
           "base_points": 26.0,
-          "recency_factor": 0.4381,
-          "points": 11.39,
+          "recency_factor": 0.4331,
+          "points": 11.26,
           "reason": "internal rep note about 2 months ago"
         },
         {
@@ -744,21 +744,21 @@
           "kind": "internal_note",
           "source": "email-thread",
           "captured_at": "2026-04-30T12:14:00Z",
-          "age_days": 74.8,
+          "age_days": 75.8,
           "base_points": 26.0,
-          "recency_factor": 0.4213,
-          "points": 10.95,
-          "reason": "internal rep note about 2 months ago"
+          "recency_factor": 0.4164,
+          "points": 10.83,
+          "reason": "internal rep note about 3 months ago"
         },
         {
           "signal_id": "sig_00043",
           "kind": "job_change",
           "source": "linkedin",
           "captured_at": "2026-04-18T15:20:00Z",
-          "age_days": 86.7,
+          "age_days": 87.7,
           "base_points": 40.0,
-          "recency_factor": 0.263,
-          "points": 10.52,
+          "recency_factor": 0.259,
+          "points": 10.36,
           "reason": "job-change event about 3 months ago"
         },
         {
@@ -766,10 +766,10 @@
           "kind": "job_change",
           "source": "crunchbase",
           "captured_at": "2026-03-30T02:42:00Z",
-          "age_days": 106.2,
+          "age_days": 107.2,
           "base_points": 40.0,
-          "recency_factor": 0.1947,
-          "points": 7.79,
+          "recency_factor": 0.1917,
+          "points": 7.67,
           "reason": "job-change event about 4 months ago"
         },
         {
@@ -777,10 +777,10 @@
           "kind": "internal_note",
           "source": "rep-note",
           "captured_at": "2026-02-17T15:04:00Z",
-          "age_days": 146.7,
+          "age_days": 147.7,
           "base_points": 26.0,
-          "recency_factor": 0.1836,
-          "points": 4.77,
+          "recency_factor": 0.1815,
+          "points": 4.72,
           "reason": "internal rep note about 5 months ago"
         },
         {
@@ -788,10 +788,10 @@
           "kind": "hiring",
           "source": "greenhouse",
           "captured_at": "2026-05-07T05:36:00Z",
-          "age_days": 68.1,
+          "age_days": 69.1,
           "base_points": 22.0,
-          "recency_factor": 0.2073,
-          "points": 4.56,
+          "recency_factor": 0.2025,
+          "points": 4.46,
           "reason": "hiring activity about 2 months ago"
         },
         {
@@ -799,10 +799,10 @@
           "kind": "job_change",
           "source": "clearbit",
           "captured_at": "2026-02-14T15:20:00Z",
-          "age_days": 149.7,
+          "age_days": 150.7,
           "base_points": 40.0,
-          "recency_factor": 0.0997,
-          "points": 3.99,
+          "recency_factor": 0.0981,
+          "points": 3.93,
           "reason": "job-change event about 5 months ago"
         }
       ]
@@ -812,10 +812,10 @@
       "account_id": "acct_0028",
       "name": "Vertexpeak Software",
       "industry": "Real Estate",
-      "score": 54,
+      "score": 53,
       "priority": "watch",
-      "evidence_points": 53.96,
-      "why": "Vertexpeak Software scored 54/100 on 54 evidence points: job-change event about 2 months ago, internal rep note about 3 months ago, job-change event at VP+ about 5 months ago, plus 7 more.",
+      "evidence_points": 53.17,
+      "why": "Vertexpeak Software scored 53/100 on 53 evidence points: job-change event about 2 months ago, internal rep note about 4 months ago, job-change event at VP+ about 5 months ago, plus 7 more.",
       "top_kinds": [
         "job_change",
         "internal_note"
@@ -826,10 +826,10 @@
           "kind": "job_change",
           "source": "crunchbase",
           "captured_at": "2026-05-22T15:28:00Z",
-          "age_days": 52.7,
+          "age_days": 53.7,
           "base_points": 40.0,
-          "recency_factor": 0.4441,
-          "points": 17.76,
+          "recency_factor": 0.4373,
+          "points": 17.49,
           "reason": "job-change event about 2 months ago"
         },
         {
@@ -837,21 +837,21 @@
           "kind": "internal_note",
           "source": "rep-note",
           "captured_at": "2026-04-01T06:46:00Z",
-          "age_days": 104.1,
+          "age_days": 105.1,
           "base_points": 26.0,
-          "recency_factor": 0.3005,
-          "points": 7.81,
-          "reason": "internal rep note about 3 months ago"
+          "recency_factor": 0.2971,
+          "points": 7.72,
+          "reason": "internal rep note about 4 months ago"
         },
         {
           "signal_id": "sig_00117",
           "kind": "job_change",
           "source": "clearbit",
           "captured_at": "2026-02-22T15:18:00Z",
-          "age_days": 141.7,
+          "age_days": 142.7,
           "base_points": 52.0,
-          "recency_factor": 0.1127,
-          "points": 5.86,
+          "recency_factor": 0.111,
+          "points": 5.77,
           "reason": "job-change event at VP+ about 5 months ago"
         },
         {
@@ -859,10 +859,10 @@
           "kind": "internal_note",
           "source": "email-thread",
           "captured_at": "2026-03-02T05:14:00Z",
-          "age_days": 134.1,
+          "age_days": 135.1,
           "base_points": 26.0,
-          "recency_factor": 0.2124,
-          "points": 5.52,
+          "recency_factor": 0.2099,
+          "points": 5.46,
           "reason": "internal rep note about 4 months ago"
         },
         {
@@ -870,21 +870,21 @@
           "kind": "infra_shift",
           "source": "wappalyzer",
           "captured_at": "2026-04-01T01:09:00Z",
-          "age_days": 104.3,
+          "age_days": 105.3,
           "base_points": 30.0,
-          "recency_factor": 0.1641,
-          "points": 4.92,
-          "reason": "infrastructure shift about 3 months ago"
+          "recency_factor": 0.1613,
+          "points": 4.84,
+          "reason": "infrastructure shift about 4 months ago"
         },
         {
           "signal_id": "sig_00123",
           "kind": "hiring",
           "source": "greenhouse",
           "captured_at": "2026-05-07T02:18:00Z",
-          "age_days": 68.2,
+          "age_days": 69.3,
           "base_points": 22.0,
-          "recency_factor": 0.2066,
-          "points": 4.55,
+          "recency_factor": 0.2019,
+          "points": 4.44,
           "reason": "hiring activity about 2 months ago"
         },
         {
@@ -892,10 +892,10 @@
           "kind": "internal_note",
           "source": "call-log",
           "captured_at": "2026-01-17T21:41:00Z",
-          "age_days": 177.4,
+          "age_days": 178.4,
           "base_points": 26.0,
-          "recency_factor": 0.1288,
-          "points": 3.35,
+          "recency_factor": 0.1273,
+          "points": 3.31,
           "reason": "internal rep note about 6 months ago"
         },
         {
@@ -903,10 +903,10 @@
           "kind": "internal_note",
           "source": "email-thread",
           "captured_at": "2026-01-07T07:26:00Z",
-          "age_days": 188.0,
+          "age_days": 189.0,
           "base_points": 26.0,
-          "recency_factor": 0.1139,
-          "points": 2.96,
+          "recency_factor": 0.1126,
+          "points": 2.93,
           "reason": "internal rep note about 6 months ago"
         },
         {
@@ -914,10 +914,10 @@
           "kind": "hiring",
           "source": "greenhouse",
           "captured_at": "2026-03-04T17:04:00Z",
-          "age_days": 131.6,
+          "age_days": 132.6,
           "base_points": 22.0,
-          "recency_factor": 0.0478,
-          "points": 1.05,
+          "recency_factor": 0.0467,
+          "points": 1.03,
           "reason": "hiring activity about 4 months ago"
         },
         {
@@ -925,9 +925,9 @@
           "kind": "hiring",
           "source": "lever",
           "captured_at": "2025-12-18T06:12:00Z",
-          "age_days": 208.1,
+          "age_days": 209.1,
           "base_points": 22.0,
-          "recency_factor": 0.0082,
+          "recency_factor": 0.008,
           "points": 0.18,
           "reason": "hiring activity about 7 months ago"
         }
@@ -938,10 +938,10 @@
       "account_id": "acct_0164",
       "name": "Summitpeak Analytics",
       "industry": "Media",
-      "score": 54,
+      "score": 53,
       "priority": "watch",
-      "evidence_points": 53.73,
-      "why": "Summitpeak Analytics scored 54/100 on 54 evidence points: job-change event at VP+ about 2 months ago, infrastructure shift about 2 months ago, infrastructure shift about 2 months ago, plus 6 more.",
+      "evidence_points": 52.82,
+      "why": "Summitpeak Analytics scored 53/100 on 53 evidence points: job-change event at VP+ about 2 months ago, infrastructure shift about 2 months ago, infrastructure shift about 2 months ago, plus 6 more.",
       "top_kinds": [
         "job_change",
         "infra_shift"
@@ -952,10 +952,10 @@
           "kind": "job_change",
           "source": "clearbit",
           "captured_at": "2026-05-14T09:46:00Z",
-          "age_days": 60.9,
+          "age_days": 61.9,
           "base_points": 52.0,
-          "recency_factor": 0.3912,
-          "points": 20.34,
+          "recency_factor": 0.3852,
+          "points": 20.03,
           "reason": "job-change event at VP+ about 2 months ago"
         },
         {
@@ -963,10 +963,10 @@
           "kind": "infra_shift",
           "source": "builtwith",
           "captured_at": "2026-05-18T19:33:00Z",
-          "age_days": 56.5,
+          "age_days": 57.5,
           "base_points": 30.0,
-          "recency_factor": 0.3755,
-          "points": 11.26,
+          "recency_factor": 0.369,
+          "points": 11.07,
           "reason": "infrastructure shift about 2 months ago"
         },
         {
@@ -974,10 +974,10 @@
           "kind": "infra_shift",
           "source": "builtwith",
           "captured_at": "2026-05-18T04:06:00Z",
-          "age_days": 57.2,
+          "age_days": 58.2,
           "base_points": 30.0,
-          "recency_factor": 0.3713,
-          "points": 11.14,
+          "recency_factor": 0.3649,
+          "points": 10.95,
           "reason": "infrastructure shift about 2 months ago"
         },
         {
@@ -985,10 +985,10 @@
           "kind": "hiring",
           "source": "lever",
           "captured_at": "2026-05-23T00:05:00Z",
-          "age_days": 52.3,
+          "age_days": 53.3,
           "base_points": 22.0,
-          "recency_factor": 0.2984,
-          "points": 6.57,
+          "recency_factor": 0.2916,
+          "points": 6.41,
           "reason": "hiring activity about 2 months ago"
         },
         {
@@ -996,10 +996,10 @@
           "kind": "infra_shift",
           "source": "builtwith",
           "captured_at": "2026-02-27T13:41:00Z",
-          "age_days": 136.8,
+          "age_days": 137.8,
           "base_points": 30.0,
-          "recency_factor": 0.0935,
-          "points": 2.8,
+          "recency_factor": 0.0919,
+          "points": 2.76,
           "reason": "infrastructure shift about 5 months ago"
         },
         {
@@ -1007,10 +1007,10 @@
           "kind": "internal_note",
           "source": "email-thread",
           "captured_at": "2025-10-18T23:47:00Z",
-          "age_days": 268.4,
+          "age_days": 269.4,
           "base_points": 26.0,
-          "recency_factor": 0.045,
-          "points": 1.17,
+          "recency_factor": 0.0445,
+          "points": 1.16,
           "reason": "internal rep note about 9 months ago"
         },
         {
@@ -1018,10 +1018,10 @@
           "kind": "job_change",
           "source": "crunchbase",
           "captured_at": "2025-09-23T20:03:00Z",
-          "age_days": 293.5,
+          "age_days": 294.5,
           "base_points": 40.0,
-          "recency_factor": 0.0109,
-          "points": 0.44,
+          "recency_factor": 0.0107,
+          "points": 0.43,
           "reason": "job-change event about 10 months ago"
         },
         {
@@ -1029,7 +1029,7 @@
           "kind": "hiring",
           "source": "greenhouse",
           "captured_at": "2025-08-16T02:48:00Z",
-          "age_days": 332.2,
+          "age_days": 333.2,
           "base_points": 22.0,
           "recency_factor": 0.0005,
           "points": 0.01,
@@ -1040,7 +1040,7 @@
           "kind": "job_change",
           "source": "crunchbase",
           "captured_at": "2024-12-01T13:33:00Z",
-          "age_days": 589.8,
+          "age_days": 590.8,
           "base_points": 40.0,
           "recency_factor": 0.0001,
           "points": 0.0,
@@ -1050,62 +1050,105 @@
     },
     {
       "rank": 10,
-      "account_id": "acct_0021",
-      "name": "Crestloop Media",
-      "industry": "Fintech",
+      "account_id": "acct_0059",
+      "name": "Copperriver Software",
+      "industry": "EdTech",
       "score": 52,
       "priority": "watch",
-      "evidence_points": 52.48,
-      "why": "Crestloop Media scored 52/100 on 52 evidence points: hiring activity today, job-change event at VP+ about 2 months ago, infrastructure shift about 2 months ago, plus 1 more.",
+      "evidence_points": 51.62,
+      "why": "Copperriver Software scored 52/100 on 52 evidence points: job-change event today, job-change event at Director about 5 months ago, infrastructure shift about 4 months ago, plus 5 more.",
       "top_kinds": [
-        "hiring",
         "job_change",
         "infra_shift"
       ],
       "trace": [
         {
-          "signal_id": "inj_20260714_0",
-          "kind": "hiring",
+          "signal_id": "inj_20260715_0",
+          "kind": "job_change",
           "source": "daily-injection",
-          "captured_at": "2026-07-14T07:11:48Z",
-          "age_days": 0.0,
-          "base_points": 22.0,
-          "recency_factor": 0.999,
-          "points": 21.98,
-          "reason": "hiring activity today"
+          "captured_at": "2026-07-15T02:19:04Z",
+          "age_days": 0.2,
+          "base_points": 40.0,
+          "recency_factor": 0.9962,
+          "points": 39.85,
+          "reason": "job-change event today"
         },
         {
-          "signal_id": "sig_00093",
+          "signal_id": "sig_00250",
+          "kind": "job_change",
+          "source": "crunchbase",
+          "captured_at": "2026-02-03T16:52:00Z",
+          "age_days": 161.6,
+          "base_points": 44.0,
+          "recency_factor": 0.0829,
+          "points": 3.65,
+          "reason": "job-change event at Director about 5 months ago"
+        },
+        {
+          "signal_id": "sig_00254",
+          "kind": "infra_shift",
+          "source": "wappalyzer",
+          "captured_at": "2026-03-06T20:04:00Z",
+          "age_days": 130.5,
+          "base_points": 30.0,
+          "recency_factor": 0.1042,
+          "points": 3.13,
+          "reason": "infrastructure shift about 4 months ago"
+        },
+        {
+          "signal_id": "sig_00251",
+          "kind": "internal_note",
+          "source": "call-log",
+          "captured_at": "2025-11-24T20:19:00Z",
+          "age_days": 232.5,
+          "base_points": 26.0,
+          "recency_factor": 0.0682,
+          "points": 1.77,
+          "reason": "internal rep note about 8 months ago"
+        },
+        {
+          "signal_id": "sig_00252",
+          "kind": "infra_shift",
+          "source": "dns-records",
+          "captured_at": "2026-01-10T14:36:00Z",
+          "age_days": 185.7,
+          "base_points": 30.0,
+          "recency_factor": 0.04,
+          "points": 1.2,
+          "reason": "infrastructure shift about 6 months ago"
+        },
+        {
+          "signal_id": "sig_00253",
           "kind": "job_change",
           "source": "linkedin",
-          "captured_at": "2026-05-11T10:39:00Z",
-          "age_days": 63.9,
-          "base_points": 52.0,
-          "recency_factor": 0.3737,
-          "points": 19.43,
-          "reason": "job-change event at VP+ about 2 months ago"
+          "captured_at": "2025-11-14T14:23:00Z",
+          "age_days": 242.7,
+          "base_points": 44.0,
+          "recency_factor": 0.0238,
+          "points": 1.05,
+          "reason": "job-change event at Director about 8 months ago"
         },
         {
-          "signal_id": "sig_00091",
-          "kind": "infra_shift",
-          "source": "builtwith",
-          "captured_at": "2026-05-12T00:15:00Z",
-          "age_days": 63.3,
-          "base_points": 30.0,
-          "recency_factor": 0.3337,
-          "points": 10.01,
-          "reason": "infrastructure shift about 2 months ago"
+          "signal_id": "sig_00249",
+          "kind": "job_change",
+          "source": "linkedin",
+          "captured_at": "2025-10-27T08:06:00Z",
+          "age_days": 261.0,
+          "base_points": 40.0,
+          "recency_factor": 0.0179,
+          "points": 0.72,
+          "reason": "job-change event about 9 months ago"
         },
         {
-          "signal_id": "sig_00092",
+          "signal_id": "sig_00248",
           "kind": "hiring",
           "source": "greenhouse",
-          "captured_at": "2026-03-05T06:19:00Z",
-          "age_days": 131.1,
+          "captured_at": "2026-01-02T00:46:00Z",
+          "age_days": 194.3,
           "base_points": 22.0,
-          "recency_factor": 0.0484,
-          "points": 1.06,
-          "reason": "hiring activity about 4 months ago"
+          "recency_factor": 0.0112,
+          "points": 0.25,
+          "reason": "hiring activity about 6 months ago"
         }
       ]
     },
@@ -1114,10 +1157,10 @@
       "account_id": "acct_0125",
       "name": "Novabridge Analytics",
       "industry": "Fintech",
-      "score": 52,
+      "score": 51,
       "priority": "watch",
-      "evidence_points": 51.77,
-      "why": "Novabridge Analytics scored 52/100 on 52 evidence points: job-change event at VP+ about 3 months ago, internal rep note about 2 months ago, job-change event about 3 months ago, plus 3 more.",
+      "evidence_points": 51.01,
+      "why": "Novabridge Analytics scored 51/100 on 51 evidence points: job-change event at VP+ about 3 months ago, internal rep note about 2 months ago, job-change event about 3 months ago, plus 3 more.",
       "top_kinds": [
         "job_change",
         "internal_note"
@@ -1128,10 +1171,10 @@
           "kind": "job_change",
           "source": "clearbit",
           "captured_at": "2026-04-19T12:14:00Z",
-          "age_days": 85.8,
+          "age_days": 86.8,
           "base_points": 52.0,
-          "recency_factor": 0.2666,
-          "points": 13.86,
+          "recency_factor": 0.2625,
+          "points": 13.65,
           "reason": "job-change event at VP+ about 3 months ago"
         },
         {
@@ -1139,10 +1182,10 @@
           "kind": "internal_note",
           "source": "rep-note",
           "captured_at": "2026-05-17T17:52:00Z",
-          "age_days": 57.6,
+          "age_days": 58.6,
           "base_points": 26.0,
-          "recency_factor": 0.5141,
-          "points": 13.37,
+          "recency_factor": 0.5081,
+          "points": 13.21,
           "reason": "internal rep note about 2 months ago"
         },
         {
@@ -1150,10 +1193,10 @@
           "kind": "job_change",
           "source": "clearbit",
           "captured_at": "2026-04-22T16:07:00Z",
-          "age_days": 82.7,
+          "age_days": 83.7,
           "base_points": 40.0,
-          "recency_factor": 0.2799,
-          "points": 11.2,
+          "recency_factor": 0.2756,
+          "points": 11.02,
           "reason": "job-change event about 3 months ago"
         },
         {
@@ -1161,10 +1204,10 @@
           "kind": "job_change",
           "source": "linkedin",
           "captured_at": "2026-04-04T20:24:00Z",
-          "age_days": 100.5,
+          "age_days": 101.5,
           "base_points": 40.0,
-          "recency_factor": 0.2127,
-          "points": 8.51,
+          "recency_factor": 0.2094,
+          "points": 8.38,
           "reason": "job-change event about 3 months ago"
         },
         {
@@ -1172,10 +1215,10 @@
           "kind": "infra_shift",
           "source": "dns-records",
           "captured_at": "2026-03-30T09:29:00Z",
-          "age_days": 105.9,
+          "age_days": 107.0,
           "base_points": 30.0,
-          "recency_factor": 0.1595,
-          "points": 4.78,
+          "recency_factor": 0.1567,
+          "points": 4.7,
           "reason": "infrastructure shift about 4 months ago"
         },
         {
@@ -1183,7 +1226,7 @@
           "kind": "hiring",
           "source": "careers-page",
           "captured_at": "2025-10-26T10:49:00Z",
-          "age_days": 260.9,
+          "age_days": 261.9,
           "base_points": 22.0,
           "recency_factor": 0.0024,
           "points": 0.05,
@@ -1198,7 +1241,7 @@
       "industry": "Real Estate",
       "score": 49,
       "priority": "watch",
-      "evidence_points": 49.38,
+      "evidence_points": 48.57,
       "why": "Atlaspeak Foods scored 49/100 on 49 evidence points: job-change event about 2 months ago, infrastructure shift about 2 months ago, infrastructure shift about 2 months ago, plus 4 more.",
       "top_kinds": [
         "job_change",
@@ -1210,10 +1253,10 @@
           "kind": "job_change",
           "source": "linkedin",
           "captured_at": "2026-05-08T23:53:00Z",
-          "age_days": 66.3,
+          "age_days": 67.4,
           "base_points": 40.0,
-          "recency_factor": 0.3599,
-          "points": 14.4,
+          "recency_factor": 0.3544,
+          "points": 14.17,
           "reason": "job-change event about 2 months ago"
         },
         {
@@ -1221,10 +1264,10 @@
           "kind": "infra_shift",
           "source": "builtwith",
           "captured_at": "2026-05-14T19:34:00Z",
-          "age_days": 60.5,
+          "age_days": 61.5,
           "base_points": 30.0,
-          "recency_factor": 0.3503,
-          "points": 10.51,
+          "recency_factor": 0.3443,
+          "points": 10.33,
           "reason": "infrastructure shift about 2 months ago"
         },
         {
@@ -1232,10 +1275,10 @@
           "kind": "infra_shift",
           "source": "wappalyzer",
           "captured_at": "2026-05-05T15:41:00Z",
-          "age_days": 69.7,
+          "age_days": 70.7,
           "base_points": 30.0,
-          "recency_factor": 0.2989,
-          "points": 8.97,
+          "recency_factor": 0.2938,
+          "points": 8.81,
           "reason": "infrastructure shift about 2 months ago"
         },
         {
@@ -1243,10 +1286,10 @@
           "kind": "infra_shift",
           "source": "dns-records",
           "captured_at": "2026-04-22T05:45:00Z",
-          "age_days": 83.1,
+          "age_days": 84.1,
           "base_points": 30.0,
-          "recency_factor": 0.2369,
-          "points": 7.11,
+          "recency_factor": 0.2328,
+          "points": 6.98,
           "reason": "infrastructure shift about 3 months ago"
         },
         {
@@ -1254,10 +1297,10 @@
           "kind": "job_change",
           "source": "linkedin",
           "captured_at": "2026-03-21T19:39:00Z",
-          "age_days": 114.5,
+          "age_days": 115.5,
           "base_points": 40.0,
-          "recency_factor": 0.1714,
-          "points": 6.85,
+          "recency_factor": 0.1687,
+          "points": 6.75,
           "reason": "job-change event about 4 months ago"
         },
         {
@@ -1265,10 +1308,10 @@
           "kind": "internal_note",
           "source": "email-thread",
           "captured_at": "2025-10-27T10:34:00Z",
-          "age_days": 259.9,
+          "age_days": 260.9,
           "base_points": 26.0,
-          "recency_factor": 0.0497,
-          "points": 1.29,
+          "recency_factor": 0.0491,
+          "points": 1.28,
           "reason": "internal rep note about 9 months ago"
         },
         {
@@ -1276,9 +1319,9 @@
           "kind": "infra_shift",
           "source": "builtwith",
           "captured_at": "2025-10-11T05:48:00Z",
-          "age_days": 276.1,
+          "age_days": 277.1,
           "base_points": 30.0,
-          "recency_factor": 0.0084,
+          "recency_factor": 0.0082,
           "points": 0.25,
           "reason": "infrastructure shift about 9 months ago"
         }
@@ -1289,10 +1332,10 @@
       "account_id": "acct_0030",
       "name": "Atlasloop Group",
       "industry": "Logistics",
-      "score": 49,
+      "score": 48,
       "priority": "watch",
-      "evidence_points": 48.8,
-      "why": "Atlasloop Group scored 49/100 on 49 evidence points: job-change event at Director about 2 months ago, internal rep note about 2 months ago, internal rep note about 3 months ago, plus 5 more.",
+      "evidence_points": 48.06,
+      "why": "Atlasloop Group scored 48/100 on 48 evidence points: job-change event at Director about 2 months ago, internal rep note about 2 months ago, internal rep note about 3 months ago, plus 5 more.",
       "top_kinds": [
         "job_change",
         "internal_note"
@@ -1303,10 +1346,10 @@
           "kind": "job_change",
           "source": "crunchbase",
           "captured_at": "2026-05-06T06:05:00Z",
-          "age_days": 69.1,
+          "age_days": 70.1,
           "base_points": 44.0,
-          "recency_factor": 0.345,
-          "points": 15.18,
+          "recency_factor": 0.3397,
+          "points": 14.95,
           "reason": "job-change event at Director about 2 months ago"
         },
         {
@@ -1314,10 +1357,10 @@
           "kind": "internal_note",
           "source": "rep-note",
           "captured_at": "2026-05-15T07:50:00Z",
-          "age_days": 60.0,
+          "age_days": 61.0,
           "base_points": 26.0,
-          "recency_factor": 0.4999,
-          "points": 13.0,
+          "recency_factor": 0.4941,
+          "points": 12.85,
           "reason": "internal rep note about 2 months ago"
         },
         {
@@ -1325,10 +1368,10 @@
           "kind": "internal_note",
           "source": "call-log",
           "captured_at": "2026-04-26T11:07:00Z",
-          "age_days": 78.9,
+          "age_days": 79.9,
           "base_points": 26.0,
-          "recency_factor": 0.402,
-          "points": 10.45,
+          "recency_factor": 0.3974,
+          "points": 10.33,
           "reason": "internal rep note about 3 months ago"
         },
         {
@@ -1336,10 +1379,10 @@
           "kind": "hiring",
           "source": "greenhouse",
           "captured_at": "2026-05-06T18:16:00Z",
-          "age_days": 68.6,
+          "age_days": 69.6,
           "base_points": 22.0,
-          "recency_factor": 0.205,
-          "points": 4.51,
+          "recency_factor": 0.2003,
+          "points": 4.41,
           "reason": "hiring activity about 2 months ago"
         },
         {
@@ -1347,10 +1390,10 @@
           "kind": "hiring",
           "source": "careers-page",
           "captured_at": "2026-04-26T13:49:00Z",
-          "age_days": 78.8,
+          "age_days": 79.8,
           "base_points": 22.0,
-          "recency_factor": 0.162,
-          "points": 3.57,
+          "recency_factor": 0.1583,
+          "points": 3.48,
           "reason": "hiring activity about 3 months ago"
         },
         {
@@ -1358,10 +1401,10 @@
           "kind": "hiring",
           "source": "lever",
           "captured_at": "2026-04-03T03:45:00Z",
-          "age_days": 102.2,
+          "age_days": 103.2,
           "base_points": 22.0,
-          "recency_factor": 0.0943,
-          "points": 2.08,
+          "recency_factor": 0.0922,
+          "points": 2.03,
           "reason": "hiring activity about 3 months ago"
         },
         {
@@ -1369,7 +1412,7 @@
           "kind": "hiring",
           "source": "lever",
           "captured_at": "2025-08-24T16:44:00Z",
-          "age_days": 323.6,
+          "age_days": 324.6,
           "base_points": 22.0,
           "recency_factor": 0.0006,
           "points": 0.01,
@@ -1380,7 +1423,7 @@
           "kind": "hiring",
           "source": "careers-page",
           "captured_at": "2025-03-20T06:55:00Z",
-          "age_days": 481.1,
+          "age_days": 482.1,
           "base_points": 22.0,
           "recency_factor": 0.0,
           "points": 0.0,
@@ -1395,7 +1438,7 @@
       "industry": "Fintech",
       "score": 47,
       "priority": "watch",
-      "evidence_points": 47.24,
+      "evidence_points": 46.55,
       "why": "Birchwind Group scored 47/100 on 47 evidence points: job-change event about 2 months ago, internal rep note about 3 months ago, infrastructure shift about 3 months ago, plus 5 more.",
       "top_kinds": [
         "job_change",
@@ -1408,10 +1451,10 @@
           "kind": "job_change",
           "source": "crunchbase",
           "captured_at": "2026-05-10T17:53:00Z",
-          "age_days": 64.6,
+          "age_days": 65.6,
           "base_points": 40.0,
-          "recency_factor": 0.3697,
-          "points": 14.79,
+          "recency_factor": 0.364,
+          "points": 14.56,
           "reason": "job-change event about 2 months ago"
         },
         {
@@ -1419,10 +1462,10 @@
           "kind": "internal_note",
           "source": "rep-note",
           "captured_at": "2026-04-16T15:35:00Z",
-          "age_days": 88.7,
+          "age_days": 89.7,
           "base_points": 26.0,
-          "recency_factor": 0.3589,
-          "points": 9.33,
+          "recency_factor": 0.3548,
+          "points": 9.22,
           "reason": "internal rep note about 3 months ago"
         },
         {
@@ -1430,10 +1473,10 @@
           "kind": "infra_shift",
           "source": "dns-records",
           "captured_at": "2026-04-26T23:42:00Z",
-          "age_days": 78.4,
+          "age_days": 79.4,
           "base_points": 30.0,
-          "recency_factor": 0.2572,
-          "points": 7.72,
+          "recency_factor": 0.2528,
+          "points": 7.58,
           "reason": "infrastructure shift about 3 months ago"
         },
         {
@@ -1441,10 +1484,10 @@
           "kind": "internal_note",
           "source": "call-log",
           "captured_at": "2026-03-27T08:05:00Z",
-          "age_days": 109.0,
+          "age_days": 110.0,
           "base_points": 26.0,
-          "recency_factor": 0.2839,
-          "points": 7.38,
+          "recency_factor": 0.2806,
+          "points": 7.3,
           "reason": "internal rep note about 4 months ago"
         },
         {
@@ -1452,10 +1495,10 @@
           "kind": "infra_shift",
           "source": "dns-records",
           "captured_at": "2026-04-20T09:28:00Z",
-          "age_days": 84.9,
+          "age_days": 86.0,
           "base_points": 30.0,
-          "recency_factor": 0.2295,
-          "points": 6.88,
+          "recency_factor": 0.2255,
+          "points": 6.76,
           "reason": "infrastructure shift about 3 months ago"
         },
         {
@@ -1463,10 +1506,10 @@
           "kind": "internal_note",
           "source": "call-log",
           "captured_at": "2025-10-12T04:14:00Z",
-          "age_days": 275.2,
+          "age_days": 276.2,
           "base_points": 26.0,
-          "recency_factor": 0.0416,
-          "points": 1.08,
+          "recency_factor": 0.0412,
+          "points": 1.07,
           "reason": "internal rep note about 9 months ago"
         },
         {
@@ -1474,18 +1517,18 @@
           "kind": "hiring",
           "source": "greenhouse",
           "captured_at": "2025-11-01T04:18:00Z",
-          "age_days": 255.2,
+          "age_days": 256.2,
           "base_points": 22.0,
-          "recency_factor": 0.0028,
+          "recency_factor": 0.0027,
           "points": 0.06,
-          "reason": "hiring activity about 8 months ago"
+          "reason": "hiring activity about 9 months ago"
         },
         {
           "signal_id": "sig_00859",
           "kind": "hiring",
           "source": "careers-page",
           "captured_at": "2025-04-20T13:08:00Z",
-          "age_days": 449.8,
+          "age_days": 450.8,
           "base_points": 22.0,
           "recency_factor": 0.0,
           "points": 0.0,
@@ -1498,10 +1541,10 @@
       "account_id": "acct_0108",
       "name": "Cobaltfork Systems",
       "industry": "SaaS",
-      "score": 47,
+      "score": 46,
       "priority": "watch",
-      "evidence_points": 47.08,
-      "why": "Cobaltfork Systems scored 47/100 on 47 evidence points: job-change event about 2 months ago, job-change event at Director about 2 months ago, infrastructure shift about 2 months ago, plus 1 more.",
+      "evidence_points": 46.36,
+      "why": "Cobaltfork Systems scored 46/100 on 46 evidence points: job-change event about 2 months ago, job-change event at Director about 3 months ago, infrastructure shift about 2 months ago, plus 1 more.",
       "top_kinds": [
         "job_change",
         "infra_shift"
@@ -1512,10 +1555,10 @@
           "kind": "job_change",
           "source": "crunchbase",
           "captured_at": "2026-05-22T12:24:00Z",
-          "age_days": 52.8,
+          "age_days": 53.8,
           "base_points": 40.0,
-          "recency_factor": 0.4432,
-          "points": 17.73,
+          "recency_factor": 0.4364,
+          "points": 17.46,
           "reason": "job-change event about 2 months ago"
         },
         {
@@ -1523,21 +1566,21 @@
           "kind": "job_change",
           "source": "crunchbase",
           "captured_at": "2026-04-30T10:30:00Z",
-          "age_days": 74.9,
+          "age_days": 75.9,
           "base_points": 44.0,
-          "recency_factor": 0.3154,
-          "points": 13.88,
-          "reason": "job-change event at Director about 2 months ago"
+          "recency_factor": 0.3106,
+          "points": 13.67,
+          "reason": "job-change event at Director about 3 months ago"
         },
         {
           "signal_id": "sig_00466",
           "kind": "infra_shift",
           "source": "dns-records",
           "captured_at": "2026-05-05T23:52:00Z",
-          "age_days": 69.3,
+          "age_days": 70.4,
           "base_points": 30.0,
-          "recency_factor": 0.3007,
-          "points": 9.02,
+          "recency_factor": 0.2955,
+          "points": 8.86,
           "reason": "infrastructure shift about 2 months ago"
         },
         {
@@ -1545,10 +1588,10 @@
           "kind": "internal_note",
           "source": "call-log",
           "captured_at": "2026-03-15T15:55:00Z",
-          "age_days": 120.7,
+          "age_days": 121.7,
           "base_points": 26.0,
-          "recency_factor": 0.248,
-          "points": 6.45,
+          "recency_factor": 0.2452,
+          "points": 6.37,
           "reason": "internal rep note about 4 months ago"
         }
       ]
@@ -1558,10 +1601,10 @@
       "account_id": "acct_0003",
       "name": "Summitvale Capital",
       "industry": "Energy",
-      "score": 47,
+      "score": 46,
       "priority": "watch",
-      "evidence_points": 46.77,
-      "why": "Summitvale Capital scored 47/100 on 47 evidence points: job-change event at Director about 3 months ago, job-change event at Director about 4 months ago, job-change event at VP+ about 4 months ago, plus 4 more.",
+      "evidence_points": 45.97,
+      "why": "Summitvale Capital scored 46/100 on 46 evidence points: job-change event at Director about 3 months ago, job-change event at Director about 4 months ago, job-change event at VP+ about 4 months ago, plus 4 more.",
       "top_kinds": [
         "job_change"
       ],
@@ -1571,10 +1614,10 @@
           "kind": "job_change",
           "source": "clearbit",
           "captured_at": "2026-04-22T20:59:00Z",
-          "age_days": 82.5,
+          "age_days": 83.5,
           "base_points": 44.0,
-          "recency_factor": 0.2808,
-          "points": 12.35,
+          "recency_factor": 0.2764,
+          "points": 12.16,
           "reason": "job-change event at Director about 3 months ago"
         },
         {
@@ -1582,10 +1625,10 @@
           "kind": "job_change",
           "source": "linkedin",
           "captured_at": "2026-03-27T03:15:00Z",
-          "age_days": 109.2,
+          "age_days": 110.2,
           "base_points": 44.0,
-          "recency_factor": 0.186,
-          "points": 8.18,
+          "recency_factor": 0.1831,
+          "points": 8.06,
           "reason": "job-change event at Director about 4 months ago"
         },
         {
@@ -1593,10 +1636,10 @@
           "kind": "job_change",
           "source": "crunchbase",
           "captured_at": "2026-03-11T14:30:00Z",
-          "age_days": 124.7,
+          "age_days": 125.7,
           "base_points": 52.0,
-          "recency_factor": 0.1464,
-          "points": 7.61,
+          "recency_factor": 0.1442,
+          "points": 7.5,
           "reason": "job-change event at VP+ about 4 months ago"
         },
         {
@@ -1604,10 +1647,10 @@
           "kind": "hiring",
           "source": "careers-page",
           "captured_at": "2026-05-20T15:37:00Z",
-          "age_days": 54.7,
+          "age_days": 55.7,
           "base_points": 22.0,
-          "recency_factor": 0.2826,
-          "points": 6.22,
+          "recency_factor": 0.2761,
+          "points": 6.08,
           "reason": "hiring activity about 2 months ago"
         },
         {
@@ -1615,10 +1658,10 @@
           "kind": "hiring",
           "source": "lever",
           "captured_at": "2026-05-19T10:38:00Z",
-          "age_days": 55.9,
+          "age_days": 56.9,
           "base_points": 22.0,
-          "recency_factor": 0.2749,
-          "points": 6.05,
+          "recency_factor": 0.2685,
+          "points": 5.91,
           "reason": "hiring activity about 2 months ago"
         },
         {
@@ -1626,10 +1669,10 @@
           "kind": "job_change",
           "source": "crunchbase",
           "captured_at": "2026-02-06T22:47:00Z",
-          "age_days": 157.4,
+          "age_days": 158.4,
           "base_points": 40.0,
-          "recency_factor": 0.0885,
-          "points": 3.54,
+          "recency_factor": 0.0872,
+          "points": 3.49,
           "reason": "job-change event about 5 months ago"
         },
         {
@@ -1637,10 +1680,10 @@
           "kind": "infra_shift",
           "source": "builtwith",
           "captured_at": "2026-02-27T22:41:00Z",
-          "age_days": 136.4,
+          "age_days": 137.4,
           "base_points": 30.0,
-          "recency_factor": 0.0941,
-          "points": 2.82,
+          "recency_factor": 0.0925,
+          "points": 2.77,
           "reason": "infrastructure shift about 5 months ago"
         }
       ]
@@ -1650,10 +1693,10 @@
       "account_id": "acct_0034",
       "name": "Crestgate Labs",
       "industry": "Logistics",
-      "score": 46,
+      "score": 45,
       "priority": "watch",
-      "evidence_points": 45.58,
-      "why": "Crestgate Labs scored 46/100 on 46 evidence points: job-change event at VP+ about 2 months ago, infrastructure shift about 3 months ago, infrastructure shift about 3 months ago, plus 5 more.",
+      "evidence_points": 44.84,
+      "why": "Crestgate Labs scored 45/100 on 45 evidence points: job-change event at VP+ about 2 months ago, infrastructure shift about 3 months ago, infrastructure shift about 3 months ago, plus 5 more.",
       "top_kinds": [
         "job_change",
         "infra_shift"
@@ -1664,10 +1707,10 @@
           "kind": "job_change",
           "source": "crunchbase",
           "captured_at": "2026-05-22T06:32:00Z",
-          "age_days": 53.1,
+          "age_days": 54.1,
           "base_points": 52.0,
-          "recency_factor": 0.4416,
-          "points": 22.96,
+          "recency_factor": 0.4348,
+          "points": 22.61,
           "reason": "job-change event at VP+ about 2 months ago"
         },
         {
@@ -1675,10 +1718,10 @@
           "kind": "infra_shift",
           "source": "builtwith",
           "captured_at": "2026-04-20T03:28:00Z",
-          "age_days": 85.2,
+          "age_days": 86.2,
           "base_points": 30.0,
-          "recency_factor": 0.2285,
-          "points": 6.85,
+          "recency_factor": 0.2245,
+          "points": 6.74,
           "reason": "infrastructure shift about 3 months ago"
         },
         {
@@ -1686,10 +1729,10 @@
           "kind": "infra_shift",
           "source": "builtwith",
           "captured_at": "2026-04-06T03:54:00Z",
-          "age_days": 99.2,
+          "age_days": 100.2,
           "base_points": 30.0,
-          "recency_factor": 0.1793,
-          "points": 5.38,
+          "recency_factor": 0.1762,
+          "points": 5.29,
           "reason": "infrastructure shift about 3 months ago"
         },
         {
@@ -1697,21 +1740,21 @@
           "kind": "job_change",
           "source": "clearbit",
           "captured_at": "2026-03-01T14:12:00Z",
-          "age_days": 134.7,
+          "age_days": 135.8,
           "base_points": 40.0,
-          "recency_factor": 0.1255,
-          "points": 5.02,
-          "reason": "job-change event about 4 months ago"
+          "recency_factor": 0.1236,
+          "points": 4.94,
+          "reason": "job-change event about 5 months ago"
         },
         {
           "signal_id": "sig_00157",
           "kind": "infra_shift",
           "source": "builtwith",
           "captured_at": "2026-03-16T14:18:00Z",
-          "age_days": 119.7,
+          "age_days": 120.8,
           "base_points": 30.0,
-          "recency_factor": 0.1256,
-          "points": 3.77,
+          "recency_factor": 0.1234,
+          "points": 3.7,
           "reason": "infrastructure shift about 4 months ago"
         },
         {
@@ -1719,10 +1762,10 @@
           "kind": "hiring",
           "source": "greenhouse",
           "captured_at": "2026-03-08T14:40:00Z",
-          "age_days": 127.7,
+          "age_days": 128.7,
           "base_points": 22.0,
-          "recency_factor": 0.0523,
-          "points": 1.15,
+          "recency_factor": 0.0511,
+          "points": 1.12,
           "reason": "hiring activity about 4 months ago"
         },
         {
@@ -1730,10 +1773,10 @@
           "kind": "hiring",
           "source": "careers-page",
           "captured_at": "2026-01-26T09:57:00Z",
-          "age_days": 168.9,
+          "age_days": 169.9,
           "base_points": 22.0,
-          "recency_factor": 0.0202,
-          "points": 0.44,
+          "recency_factor": 0.0197,
+          "points": 0.43,
           "reason": "hiring activity about 6 months ago"
         },
         {
@@ -1741,7 +1784,7 @@
           "kind": "hiring",
           "source": "lever",
           "captured_at": "2025-07-23T07:19:00Z",
-          "age_days": 356.0,
+          "age_days": 357.0,
           "base_points": 22.0,
           "recency_factor": 0.0003,
           "points": 0.01,
@@ -1754,10 +1797,10 @@
       "account_id": "acct_0199",
       "name": "Onyxfield Labs",
       "industry": "Logistics",
-      "score": 45,
+      "score": 44,
       "priority": "watch",
-      "evidence_points": 45.01,
-      "why": "Onyxfield Labs scored 45/100 on 45 evidence points: infrastructure shift about 2 months ago, infrastructure shift about 2 months ago, job-change event at VP+ about 4 months ago, plus 5 more.",
+      "evidence_points": 44.23,
+      "why": "Onyxfield Labs scored 44/100 on 44 evidence points: infrastructure shift about 2 months ago, infrastructure shift about 2 months ago, job-change event at VP+ about 4 months ago, plus 5 more.",
       "top_kinds": [
         "infra_shift",
         "job_change"
@@ -1768,10 +1811,10 @@
           "kind": "infra_shift",
           "source": "wappalyzer",
           "captured_at": "2026-05-21T04:14:00Z",
-          "age_days": 54.2,
+          "age_days": 55.2,
           "base_points": 30.0,
-          "recency_factor": 0.3912,
-          "points": 11.74,
+          "recency_factor": 0.3844,
+          "points": 11.53,
           "reason": "infrastructure shift about 2 months ago"
         },
         {
@@ -1779,10 +1822,10 @@
           "kind": "infra_shift",
           "source": "wappalyzer",
           "captured_at": "2026-05-04T00:41:00Z",
-          "age_days": 71.3,
+          "age_days": 72.3,
           "base_points": 30.0,
-          "recency_factor": 0.2906,
-          "points": 8.72,
+          "recency_factor": 0.2856,
+          "points": 8.57,
           "reason": "infrastructure shift about 2 months ago"
         },
         {
@@ -1790,10 +1833,10 @@
           "kind": "job_change",
           "source": "linkedin",
           "captured_at": "2026-03-13T15:40:00Z",
-          "age_days": 122.7,
+          "age_days": 123.7,
           "base_points": 52.0,
-          "recency_factor": 0.1511,
-          "points": 7.86,
+          "recency_factor": 0.1488,
+          "points": 7.74,
           "reason": "job-change event at VP+ about 4 months ago"
         },
         {
@@ -1801,10 +1844,10 @@
           "kind": "job_change",
           "source": "crunchbase",
           "captured_at": "2026-03-15T06:09:00Z",
-          "age_days": 121.1,
+          "age_days": 122.1,
           "base_points": 40.0,
-          "recency_factor": 0.1549,
-          "points": 6.2,
+          "recency_factor": 0.1525,
+          "points": 6.1,
           "reason": "job-change event about 4 months ago"
         },
         {
@@ -1812,10 +1855,10 @@
           "kind": "hiring",
           "source": "careers-page",
           "captured_at": "2026-05-19T23:54:00Z",
-          "age_days": 55.3,
+          "age_days": 56.4,
           "base_points": 22.0,
-          "recency_factor": 0.2784,
-          "points": 6.12,
+          "recency_factor": 0.272,
+          "points": 5.98,
           "reason": "hiring activity about 2 months ago"
         },
         {
@@ -1823,10 +1866,10 @@
           "kind": "internal_note",
           "source": "rep-note",
           "captured_at": "2025-12-01T14:34:00Z",
-          "age_days": 224.7,
+          "age_days": 225.7,
           "base_points": 26.0,
-          "recency_factor": 0.0746,
-          "points": 1.94,
+          "recency_factor": 0.0737,
+          "points": 1.92,
           "reason": "internal rep note about 8 months ago"
         },
         {
@@ -1834,10 +1877,10 @@
           "kind": "job_change",
           "source": "clearbit",
           "captured_at": "2025-11-15T11:42:00Z",
-          "age_days": 240.9,
+          "age_days": 241.9,
           "base_points": 52.0,
-          "recency_factor": 0.0245,
-          "points": 1.27,
+          "recency_factor": 0.0241,
+          "points": 1.25,
           "reason": "job-change event at VP+ about 8 months ago"
         },
         {
@@ -1845,10 +1888,10 @@
           "kind": "hiring",
           "source": "careers-page",
           "captured_at": "2026-03-09T04:00:00Z",
-          "age_days": 127.2,
+          "age_days": 128.2,
           "base_points": 22.0,
-          "recency_factor": 0.053,
-          "points": 1.16,
+          "recency_factor": 0.0517,
+          "points": 1.14,
           "reason": "hiring activity about 4 months ago"
         }
       ]
@@ -1858,10 +1901,10 @@
       "account_id": "acct_0141",
       "name": "Harborriver Logistics",
       "industry": "Healthcare",
-      "score": 45,
+      "score": 44,
       "priority": "watch",
-      "evidence_points": 44.63,
-      "why": "Harborriver Logistics scored 45/100 on 45 evidence points: internal rep note about 2 months ago, job-change event at VP+ about 4 months ago, internal rep note about 4 months ago, plus 6 more.",
+      "evidence_points": 43.99,
+      "why": "Harborriver Logistics scored 44/100 on 44 evidence points: internal rep note about 3 months ago, job-change event at VP+ about 4 months ago, internal rep note about 4 months ago, plus 6 more.",
       "top_kinds": [
         "internal_note",
         "job_change"
@@ -1872,21 +1915,21 @@
           "kind": "internal_note",
           "source": "email-thread",
           "captured_at": "2026-04-30T15:24:00Z",
-          "age_days": 74.7,
+          "age_days": 75.7,
           "base_points": 26.0,
-          "recency_factor": 0.4219,
-          "points": 10.97,
-          "reason": "internal rep note about 2 months ago"
+          "recency_factor": 0.417,
+          "points": 10.84,
+          "reason": "internal rep note about 3 months ago"
         },
         {
           "signal_id": "sig_00595",
           "kind": "job_change",
           "source": "clearbit",
           "captured_at": "2026-03-22T20:35:00Z",
-          "age_days": 113.5,
+          "age_days": 114.5,
           "base_points": 52.0,
-          "recency_factor": 0.1741,
-          "points": 9.05,
+          "recency_factor": 0.1714,
+          "points": 8.92,
           "reason": "job-change event at VP+ about 4 months ago"
         },
         {
@@ -1894,10 +1937,10 @@
           "kind": "internal_note",
           "source": "email-thread",
           "captured_at": "2026-03-18T23:04:00Z",
-          "age_days": 117.4,
+          "age_days": 118.4,
           "base_points": 26.0,
-          "recency_factor": 0.2577,
-          "points": 6.7,
+          "recency_factor": 0.2547,
+          "points": 6.62,
           "reason": "internal rep note about 4 months ago"
         },
         {
@@ -1905,10 +1948,10 @@
           "kind": "hiring",
           "source": "greenhouse",
           "captured_at": "2026-05-22T15:33:00Z",
-          "age_days": 52.7,
+          "age_days": 53.7,
           "base_points": 22.0,
-          "recency_factor": 0.296,
-          "points": 6.51,
+          "recency_factor": 0.2892,
+          "points": 6.36,
           "reason": "hiring activity about 2 months ago"
         },
         {
@@ -1916,10 +1959,10 @@
           "kind": "internal_note",
           "source": "rep-note",
           "captured_at": "2026-02-22T23:38:00Z",
-          "age_days": 141.4,
+          "age_days": 142.4,
           "base_points": 26.0,
-          "recency_factor": 0.1953,
-          "points": 5.08,
+          "recency_factor": 0.1931,
+          "points": 5.02,
           "reason": "internal rep note about 5 months ago"
         },
         {
@@ -1927,10 +1970,10 @@
           "kind": "internal_note",
           "source": "call-log",
           "captured_at": "2025-12-11T11:43:00Z",
-          "age_days": 214.9,
+          "age_days": 215.9,
           "base_points": 26.0,
-          "recency_factor": 0.0836,
-          "points": 2.17,
+          "recency_factor": 0.0826,
+          "points": 2.15,
           "reason": "internal rep note about 7 months ago"
         },
         {
@@ -1938,10 +1981,10 @@
           "kind": "internal_note",
           "source": "rep-note",
           "captured_at": "2025-11-20T22:48:00Z",
-          "age_days": 235.4,
+          "age_days": 236.4,
           "base_points": 26.0,
-          "recency_factor": 0.0659,
-          "points": 1.71,
+          "recency_factor": 0.0652,
+          "points": 1.69,
           "reason": "internal rep note about 8 months ago"
         },
         {
@@ -1949,10 +1992,10 @@
           "kind": "job_change",
           "source": "crunchbase",
           "captured_at": "2025-12-15T03:10:00Z",
-          "age_days": 211.2,
+          "age_days": 212.2,
           "base_points": 40.0,
-          "recency_factor": 0.0386,
-          "points": 1.55,
+          "recency_factor": 0.0381,
+          "points": 1.52,
           "reason": "job-change event about 7 months ago"
         },
         {
@@ -1960,10 +2003,10 @@
           "kind": "hiring",
           "source": "lever",
           "captured_at": "2026-02-25T17:18:00Z",
-          "age_days": 138.6,
+          "age_days": 139.6,
           "base_points": 22.0,
-          "recency_factor": 0.0406,
-          "points": 0.89,
+          "recency_factor": 0.0397,
+          "points": 0.87,
           "reason": "hiring activity about 5 months ago"
         }
       ]
@@ -1973,10 +2016,10 @@
       "account_id": "acct_0161",
       "name": "Summitpoint Dynamics",
       "industry": "Energy",
-      "score": 44,
+      "score": 43,
       "priority": "watch",
-      "evidence_points": 43.6,
-      "why": "Summitpoint Dynamics scored 44/100 on 44 evidence points: internal rep note about 2 months ago, internal rep note about 2 months ago, job-change event at VP+ about 4 months ago, plus 5 more.",
+      "evidence_points": 43.01,
+      "why": "Summitpoint Dynamics scored 43/100 on 43 evidence points: internal rep note about 2 months ago, internal rep note about 2 months ago, job-change event at VP+ about 4 months ago, plus 5 more.",
       "top_kinds": [
         "internal_note",
         "job_change"
@@ -1987,10 +2030,10 @@
           "kind": "internal_note",
           "source": "email-thread",
           "captured_at": "2026-05-22T20:36:00Z",
-          "age_days": 52.5,
+          "age_days": 53.5,
           "base_points": 26.0,
-          "recency_factor": 0.5454,
-          "points": 14.18,
+          "recency_factor": 0.5391,
+          "points": 14.02,
           "reason": "internal rep note about 2 months ago"
         },
         {
@@ -1998,10 +2041,10 @@
           "kind": "internal_note",
           "source": "call-log",
           "captured_at": "2026-05-12T22:48:00Z",
-          "age_days": 62.4,
+          "age_days": 63.4,
           "base_points": 26.0,
-          "recency_factor": 0.4864,
-          "points": 12.65,
+          "recency_factor": 0.4808,
+          "points": 12.5,
           "reason": "internal rep note about 2 months ago"
         },
         {
@@ -2009,10 +2052,10 @@
           "kind": "job_change",
           "source": "crunchbase",
           "captured_at": "2026-03-17T01:10:00Z",
-          "age_days": 119.3,
+          "age_days": 120.3,
           "base_points": 52.0,
-          "recency_factor": 0.1592,
-          "points": 8.28,
+          "recency_factor": 0.1568,
+          "points": 8.15,
           "reason": "job-change event at VP+ about 4 months ago"
         },
         {
@@ -2020,10 +2063,10 @@
           "kind": "infra_shift",
           "source": "dns-records",
           "captured_at": "2026-04-04T06:31:00Z",
-          "age_days": 101.1,
+          "age_days": 102.1,
           "base_points": 30.0,
-          "recency_factor": 0.1735,
-          "points": 5.21,
+          "recency_factor": 0.1705,
+          "points": 5.12,
           "reason": "infrastructure shift about 3 months ago"
         },
         {
@@ -2031,10 +2074,10 @@
           "kind": "job_change",
           "source": "linkedin",
           "captured_at": "2026-01-14T00:55:00Z",
-          "age_days": 181.3,
+          "age_days": 182.3,
           "base_points": 44.0,
-          "recency_factor": 0.0613,
-          "points": 2.7,
+          "recency_factor": 0.0603,
+          "points": 2.65,
           "reason": "job-change event at Director about 6 months ago"
         },
         {
@@ -2042,10 +2085,10 @@
           "kind": "job_change",
           "source": "crunchbase",
           "captured_at": "2025-09-23T09:39:00Z",
-          "age_days": 293.9,
+          "age_days": 294.9,
           "base_points": 44.0,
-          "recency_factor": 0.0108,
-          "points": 0.48,
+          "recency_factor": 0.0106,
+          "points": 0.47,
           "reason": "job-change event at Director about 10 months ago"
         },
         {
@@ -2053,9 +2096,9 @@
           "kind": "infra_shift",
           "source": "builtwith",
           "captured_at": "2025-08-21T12:20:00Z",
-          "age_days": 326.8,
+          "age_days": 327.8,
           "base_points": 30.0,
-          "recency_factor": 0.0035,
+          "recency_factor": 0.0034,
           "points": 0.1,
           "reason": "infrastructure shift about 11 months ago"
         },
@@ -2064,7 +2107,7 @@
           "kind": "hiring",
           "source": "lever",
           "captured_at": "2025-03-26T03:07:00Z",
-          "age_days": 475.2,
+          "age_days": 476.2,
           "base_points": 22.0,
           "recency_factor": 0.0,
           "points": 0.0,
@@ -2077,14 +2120,14 @@
     {
       "kind": "hiring",
       "label": "hiring activity",
-      "count": 275,
-      "share": 0.302
+      "count": 274,
+      "share": 0.3
     },
     {
       "kind": "job_change",
       "label": "job-change event",
-      "count": 264,
-      "share": 0.289
+      "count": 265,
+      "share": 0.291
     },
     {
       "kind": "infra_shift",
@@ -2100,8 +2143,8 @@
     }
   ],
   "previous_run": {
-    "run_id": "rsc-20260713T093316Z",
-    "generated_at": "2026-07-13T09:33:16Z",
+    "run_id": "rsc-20260714T081148Z",
+    "generated_at": "2026-07-14T08:11:48Z",
     "delta": {
       "high_priority_accounts": 0,
       "top_account_changed": false,
