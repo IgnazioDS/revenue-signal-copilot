@@ -589,6 +589,20 @@
       "top_account_id": "acct_0141",
       "top_account_name": "Harborriver Logistics",
       "calibration_precision": 0.55
+    },
+    {
+      "run_id": "rsc-20260725T081004Z",
+      "generated_at": "2026-07-25T08:10:04Z",
+      "as_of": "2026-07-25T08:10:04Z",
+      "metrics": {
+        "accounts_total": 200,
+        "accounts_scored_24h": 200,
+        "signals_detected_24h": 3,
+        "high_priority_accounts": 0
+      },
+      "top_account_id": "acct_0034",
+      "top_account_name": "Crestgate Labs",
+      "calibration_precision": 0.55
     }
   ]
 }
