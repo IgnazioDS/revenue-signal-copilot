@@ -645,6 +645,20 @@
       "top_account_id": "acct_0121",
       "top_account_name": "Bluestone Robotics",
       "calibration_precision": 0.55
+    },
+    {
+      "run_id": "rsc-20260729T084455Z",
+      "generated_at": "2026-07-29T08:44:55Z",
+      "as_of": "2026-07-29T08:44:55Z",
+      "metrics": {
+        "accounts_total": 200,
+        "accounts_scored_24h": 200,
+        "signals_detected_24h": 2,
+        "high_priority_accounts": 0
+      },
+      "top_account_id": "acct_0121",
+      "top_account_name": "Bluestone Robotics",
+      "calibration_precision": 0.55
     }
   ]
 }
