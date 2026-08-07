@@ -771,6 +771,20 @@
       "top_account_id": "acct_0106",
       "top_account_name": "Pineline Foods",
       "calibration_precision": 0.55
+    },
+    {
+      "run_id": "rsc-20260807T072011Z",
+      "generated_at": "2026-08-07T07:20:11Z",
+      "as_of": "2026-08-07T07:20:11Z",
+      "metrics": {
+        "accounts_total": 200,
+        "accounts_scored_24h": 200,
+        "signals_detected_24h": 1,
+        "high_priority_accounts": 0
+      },
+      "top_account_id": "acct_0085",
+      "top_account_name": "Quantloop Works",
+      "calibration_precision": 0.55
     }
   ]
 }
