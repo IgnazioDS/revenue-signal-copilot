@@ -799,6 +799,20 @@
       "top_account_id": "acct_0085",
       "top_account_name": "Quantloop Works",
       "calibration_precision": 0.6
+    },
+    {
+      "run_id": "rsc-20260809T070040Z",
+      "generated_at": "2026-08-09T07:00:40Z",
+      "as_of": "2026-08-09T07:00:40Z",
+      "metrics": {
+        "accounts_total": 200,
+        "accounts_scored_24h": 200,
+        "signals_detected_24h": 1,
+        "high_priority_accounts": 0
+      },
+      "top_account_id": "acct_0085",
+      "top_account_name": "Quantloop Works",
+      "calibration_precision": 0.5
     }
   ]
 }
