@@ -827,6 +827,20 @@
       "top_account_id": "acct_0012",
       "top_account_name": "Orbitwind Systems",
       "calibration_precision": 0.5
+    },
+    {
+      "run_id": "rsc-20260811T071212Z",
+      "generated_at": "2026-08-11T07:12:12Z",
+      "as_of": "2026-08-11T07:12:12Z",
+      "metrics": {
+        "accounts_total": 200,
+        "accounts_scored_24h": 200,
+        "signals_detected_24h": 1,
+        "high_priority_accounts": 0
+      },
+      "top_account_id": "acct_0028",
+      "top_account_name": "Vertexpeak Software",
+      "calibration_precision": 0.5
     }
   ]
 }
