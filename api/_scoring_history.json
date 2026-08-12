@@ -841,6 +841,20 @@
       "top_account_id": "acct_0028",
       "top_account_name": "Vertexpeak Software",
       "calibration_precision": 0.5
+    },
+    {
+      "run_id": "rsc-20260812T073637Z",
+      "generated_at": "2026-08-12T07:36:37Z",
+      "as_of": "2026-08-12T07:36:37Z",
+      "metrics": {
+        "accounts_total": 200,
+        "accounts_scored_24h": 200,
+        "signals_detected_24h": 1,
+        "high_priority_accounts": 0
+      },
+      "top_account_id": "acct_0085",
+      "top_account_name": "Quantloop Works",
+      "calibration_precision": 0.5
     }
   ]
 }
