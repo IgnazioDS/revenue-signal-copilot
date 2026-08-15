@@ -883,6 +883,20 @@
       "top_account_id": "acct_0087",
       "top_account_name": "Cedarriver Industries",
       "calibration_precision": 0.55
+    },
+    {
+      "run_id": "rsc-20260815T064209Z",
+      "generated_at": "2026-08-15T06:42:09Z",
+      "as_of": "2026-08-15T06:42:09Z",
+      "metrics": {
+        "accounts_total": 200,
+        "accounts_scored_24h": 200,
+        "signals_detected_24h": 1,
+        "high_priority_accounts": 0
+      },
+      "top_account_id": "acct_0007",
+      "top_account_name": "Deltafield Labs",
+      "calibration_precision": 0.5
     }
   ]
 }
