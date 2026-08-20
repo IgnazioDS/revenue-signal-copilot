@@ -953,6 +953,20 @@
       "top_account_id": "acct_0085",
       "top_account_name": "Quantloop Works",
       "calibration_precision": 0.5
+    },
+    {
+      "run_id": "rsc-20260820T065040Z",
+      "generated_at": "2026-08-20T06:50:40Z",
+      "as_of": "2026-08-20T06:50:40Z",
+      "metrics": {
+        "accounts_total": 200,
+        "accounts_scored_24h": 200,
+        "signals_detected_24h": 2,
+        "high_priority_accounts": 0
+      },
+      "top_account_id": "acct_0147",
+      "top_account_name": "Cobaltpeak Media",
+      "calibration_precision": 0.55
     }
   ]
 }
