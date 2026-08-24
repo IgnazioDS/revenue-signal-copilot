@@ -1009,6 +1009,20 @@
       "top_account_id": "acct_0127",
       "top_account_name": "Aspenloop Dynamics",
       "calibration_precision": 0.5
+    },
+    {
+      "run_id": "rsc-20260824T070330Z",
+      "generated_at": "2026-08-24T07:03:30Z",
+      "as_of": "2026-08-24T07:03:30Z",
+      "metrics": {
+        "accounts_total": 200,
+        "accounts_scored_24h": 200,
+        "signals_detected_24h": 2,
+        "high_priority_accounts": 0
+      },
+      "top_account_id": "acct_0170",
+      "top_account_name": "Atlaspeak Foods",
+      "calibration_precision": 0.5
     }
   ]
 }
