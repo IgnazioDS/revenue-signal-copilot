@@ -1079,6 +1079,20 @@
       "top_account_id": "acct_0053",
       "top_account_name": "Cedarfork Industries",
       "calibration_precision": 0.5
+    },
+    {
+      "run_id": "rsc-20260829T122927Z",
+      "generated_at": "2026-08-29T12:29:27Z",
+      "as_of": "2026-08-29T12:29:27Z",
+      "metrics": {
+        "accounts_total": 200,
+        "accounts_scored_24h": 200,
+        "signals_detected_24h": 3,
+        "high_priority_accounts": 0
+      },
+      "top_account_id": "acct_0168",
+      "top_account_name": "Summitpoint Retail",
+      "calibration_precision": 0.5
     }
   ]
 }
