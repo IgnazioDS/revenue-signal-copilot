@@ -1107,6 +1107,20 @@
       "top_account_id": "acct_0085",
       "top_account_name": "Quantloop Works",
       "calibration_precision": 0.5
+    },
+    {
+      "run_id": "rsc-20260831T130453Z",
+      "generated_at": "2026-08-31T13:04:53Z",
+      "as_of": "2026-08-31T13:04:53Z",
+      "metrics": {
+        "accounts_total": 200,
+        "accounts_scored_24h": 200,
+        "signals_detected_24h": 1,
+        "high_priority_accounts": 0
+      },
+      "top_account_id": "acct_0048",
+      "top_account_name": "Bluegate Group",
+      "calibration_precision": 0.5
     }
   ]
 }
