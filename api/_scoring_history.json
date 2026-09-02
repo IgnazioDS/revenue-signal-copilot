@@ -1135,6 +1135,20 @@
       "top_account_id": "acct_0129",
       "top_account_name": "Birchgrove Dynamics",
       "calibration_precision": 0.5
+    },
+    {
+      "run_id": "rsc-20260902T105424Z",
+      "generated_at": "2026-09-02T10:54:24Z",
+      "as_of": "2026-09-02T10:54:24Z",
+      "metrics": {
+        "accounts_total": 200,
+        "accounts_scored_24h": 200,
+        "signals_detected_24h": 2,
+        "high_priority_accounts": 0
+      },
+      "top_account_id": "acct_0191",
+      "top_account_name": "Birchwind Group",
+      "calibration_precision": 0.5
     }
   ]
 }
