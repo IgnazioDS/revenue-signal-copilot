@@ -1163,6 +1163,20 @@
       "top_account_id": "acct_0069",
       "top_account_name": "Ironshore Logistics",
       "calibration_precision": 0.5
+    },
+    {
+      "run_id": "rsc-20260904T105250Z",
+      "generated_at": "2026-09-04T10:52:50Z",
+      "as_of": "2026-09-04T10:52:50Z",
+      "metrics": {
+        "accounts_total": 200,
+        "accounts_scored_24h": 200,
+        "signals_detected_24h": 1,
+        "high_priority_accounts": 0
+      },
+      "top_account_id": "acct_0050",
+      "top_account_name": "Mapleloop Health",
+      "calibration_precision": 0.5
     }
   ]
 }
