@@ -1191,6 +1191,20 @@
       "top_account_id": "acct_0021",
       "top_account_name": "Crestloop Media",
       "calibration_precision": 0.5
+    },
+    {
+      "run_id": "rsc-20260906T103309Z",
+      "generated_at": "2026-09-06T10:33:09Z",
+      "as_of": "2026-09-06T10:33:09Z",
+      "metrics": {
+        "accounts_total": 200,
+        "accounts_scored_24h": 200,
+        "signals_detected_24h": 2,
+        "high_priority_accounts": 0
+      },
+      "top_account_id": "acct_0078",
+      "top_account_name": "Orbitgrove Health",
+      "calibration_precision": 0.55
     }
   ]
 }
