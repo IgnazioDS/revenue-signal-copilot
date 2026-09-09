@@ -1233,6 +1233,20 @@
       "top_account_id": "acct_0048",
       "top_account_name": "Bluegate Group",
       "calibration_precision": 0.5
+    },
+    {
+      "run_id": "rsc-20260909T105734Z",
+      "generated_at": "2026-09-09T10:57:34Z",
+      "as_of": "2026-09-09T10:57:34Z",
+      "metrics": {
+        "accounts_total": 200,
+        "accounts_scored_24h": 200,
+        "signals_detected_24h": 1,
+        "high_priority_accounts": 0
+      },
+      "top_account_id": "acct_0016",
+      "top_account_name": "Northfield Group",
+      "calibration_precision": 0.5
     }
   ]
 }
