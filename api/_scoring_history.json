@@ -1373,6 +1373,20 @@
       "top_account_id": "acct_0039",
       "top_account_name": "Birchfork Logistics",
       "calibration_precision": 0.5
+    },
+    {
+      "run_id": "rsc-20260919T103228Z",
+      "generated_at": "2026-09-19T10:32:28Z",
+      "as_of": "2026-09-19T10:32:28Z",
+      "metrics": {
+        "accounts_total": 200,
+        "accounts_scored_24h": 200,
+        "signals_detected_24h": 3,
+        "high_priority_accounts": 0
+      },
+      "top_account_id": "acct_0035",
+      "top_account_name": "Cedarpeak Software",
+      "calibration_precision": 0.5
     }
   ]
 }
