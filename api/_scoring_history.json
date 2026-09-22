@@ -3,20 +3,6 @@
   "schema_version": 1,
   "runs": [
     {
-      "run_id": "rsc-20260527T095948Z",
-      "generated_at": "2026-05-27T09:59:48Z",
-      "as_of": "2026-05-27T09:59:48Z",
-      "metrics": {
-        "accounts_total": 200,
-        "accounts_scored_24h": 200,
-        "signals_detected_24h": 1,
-        "high_priority_accounts": 42
-      },
-      "top_account_id": "acct_0085",
-      "top_account_name": "Quantloop Works",
-      "calibration_precision": 0.6
-    },
-    {
       "run_id": "rsc-20260528T100929Z",
       "generated_at": "2026-05-28T10:09:29Z",
       "as_of": "2026-05-28T10:09:29Z",
@@ -1400,6 +1386,20 @@
       },
       "top_account_id": "acct_0009",
       "top_account_name": "Falconwind Software",
+      "calibration_precision": 0.5
+    },
+    {
+      "run_id": "rsc-20260922T111144Z",
+      "generated_at": "2026-09-22T11:11:44Z",
+      "as_of": "2026-09-22T11:11:44Z",
+      "metrics": {
+        "accounts_total": 200,
+        "accounts_scored_24h": 200,
+        "signals_detected_24h": 3,
+        "high_priority_accounts": 0
+      },
+      "top_account_id": "acct_0092",
+      "top_account_name": "Onyxgrove Robotics",
       "calibration_precision": 0.5
     }
   ]
