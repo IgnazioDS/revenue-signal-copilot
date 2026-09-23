@@ -3,20 +3,6 @@
   "schema_version": 1,
   "runs": [
     {
-      "run_id": "rsc-20260528T100929Z",
-      "generated_at": "2026-05-28T10:09:29Z",
-      "as_of": "2026-05-28T10:09:29Z",
-      "metrics": {
-        "accounts_total": 200,
-        "accounts_scored_24h": 200,
-        "signals_detected_24h": 1,
-        "high_priority_accounts": 40
-      },
-      "top_account_id": "acct_0085",
-      "top_account_name": "Quantloop Works",
-      "calibration_precision": 0.6
-    },
-    {
       "run_id": "rsc-20260616T135000Z",
       "generated_at": "2026-06-16T13:50:00Z",
       "as_of": "2026-06-16T13:50:00Z",
@@ -1400,6 +1386,20 @@
       },
       "top_account_id": "acct_0092",
       "top_account_name": "Onyxgrove Robotics",
+      "calibration_precision": 0.5
+    },
+    {
+      "run_id": "rsc-20260923T110320Z",
+      "generated_at": "2026-09-23T11:03:20Z",
+      "as_of": "2026-09-23T11:03:20Z",
+      "metrics": {
+        "accounts_total": 200,
+        "accounts_scored_24h": 200,
+        "signals_detected_24h": 2,
+        "high_priority_accounts": 0
+      },
+      "top_account_id": "acct_0063",
+      "top_account_name": "Northfield Industries",
       "calibration_precision": 0.5
     }
   ]
