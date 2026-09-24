@@ -3,20 +3,6 @@
   "schema_version": 1,
   "runs": [
     {
-      "run_id": "rsc-20260616T135000Z",
-      "generated_at": "2026-06-16T13:50:00Z",
-      "as_of": "2026-06-16T13:50:00Z",
-      "metrics": {
-        "accounts_total": 200,
-        "accounts_scored_24h": 200,
-        "signals_detected_24h": 3,
-        "high_priority_accounts": 18
-      },
-      "top_account_id": "acct_0085",
-      "top_account_name": "Quantloop Works",
-      "calibration_precision": 0.6
-    },
-    {
       "run_id": "rsc-20260617T110318Z",
       "generated_at": "2026-06-17T11:03:18Z",
       "as_of": "2026-06-17T11:03:18Z",
@@ -1400,6 +1386,20 @@
       },
       "top_account_id": "acct_0063",
       "top_account_name": "Northfield Industries",
+      "calibration_precision": 0.5
+    },
+    {
+      "run_id": "rsc-20260924T112118Z",
+      "generated_at": "2026-09-24T11:21:18Z",
+      "as_of": "2026-09-24T11:21:18Z",
+      "metrics": {
+        "accounts_total": 200,
+        "accounts_scored_24h": 200,
+        "signals_detected_24h": 1,
+        "high_priority_accounts": 0
+      },
+      "top_account_id": "acct_0169",
+      "top_account_name": "Novashore Foods",
       "calibration_precision": 0.5
     }
   ]
