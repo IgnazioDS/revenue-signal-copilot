@@ -3,20 +3,6 @@
   "schema_version": 1,
   "runs": [
     {
-      "run_id": "rsc-20260617T110318Z",
-      "generated_at": "2026-06-17T11:03:18Z",
-      "as_of": "2026-06-17T11:03:18Z",
-      "metrics": {
-        "accounts_total": 200,
-        "accounts_scored_24h": 200,
-        "signals_detected_24h": 1,
-        "high_priority_accounts": 19
-      },
-      "top_account_id": "acct_0085",
-      "top_account_name": "Quantloop Works",
-      "calibration_precision": 0.6
-    },
-    {
       "run_id": "rsc-20260618T102459Z",
       "generated_at": "2026-06-18T10:24:59Z",
       "as_of": "2026-06-18T10:24:59Z",
@@ -1400,6 +1386,20 @@
       },
       "top_account_id": "acct_0169",
       "top_account_name": "Novashore Foods",
+      "calibration_precision": 0.5
+    },
+    {
+      "run_id": "rsc-20260925T112635Z",
+      "generated_at": "2026-09-25T11:26:35Z",
+      "as_of": "2026-09-25T11:26:35Z",
+      "metrics": {
+        "accounts_total": 200,
+        "accounts_scored_24h": 200,
+        "signals_detected_24h": 2,
+        "high_priority_accounts": 0
+      },
+      "top_account_id": "acct_0033",
+      "top_account_name": "Northpeak Analytics",
       "calibration_precision": 0.5
     }
   ]
