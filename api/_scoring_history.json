@@ -3,20 +3,6 @@
   "schema_version": 1,
   "runs": [
     {
-      "run_id": "rsc-20260618T102459Z",
-      "generated_at": "2026-06-18T10:24:59Z",
-      "as_of": "2026-06-18T10:24:59Z",
-      "metrics": {
-        "accounts_total": 200,
-        "accounts_scored_24h": 200,
-        "signals_detected_24h": 3,
-        "high_priority_accounts": 19
-      },
-      "top_account_id": "acct_0085",
-      "top_account_name": "Quantloop Works",
-      "calibration_precision": 0.6
-    },
-    {
       "run_id": "rsc-20260619T104310Z",
       "generated_at": "2026-06-19T10:43:10Z",
       "as_of": "2026-06-19T10:43:10Z",
@@ -1400,6 +1386,20 @@
       },
       "top_account_id": "acct_0033",
       "top_account_name": "Northpeak Analytics",
+      "calibration_precision": 0.5
+    },
+    {
+      "run_id": "rsc-20260926T110208Z",
+      "generated_at": "2026-09-26T11:02:08Z",
+      "as_of": "2026-09-26T11:02:08Z",
+      "metrics": {
+        "accounts_total": 200,
+        "accounts_scored_24h": 200,
+        "signals_detected_24h": 1,
+        "high_priority_accounts": 0
+      },
+      "top_account_id": "acct_0011",
+      "top_account_name": "Deltafork Capital",
       "calibration_precision": 0.5
     }
   ]
