@@ -3,20 +3,6 @@
   "schema_version": 1,
   "runs": [
     {
-      "run_id": "rsc-20260625T092814Z",
-      "generated_at": "2026-06-25T09:28:14Z",
-      "as_of": "2026-06-25T09:28:14Z",
-      "metrics": {
-        "accounts_total": 200,
-        "accounts_scored_24h": 200,
-        "signals_detected_24h": 3,
-        "high_priority_accounts": 9
-      },
-      "top_account_id": "acct_0085",
-      "top_account_name": "Quantloop Works",
-      "calibration_precision": 0.6
-    },
-    {
       "run_id": "rsc-20260626T093313Z",
       "generated_at": "2026-06-26T09:33:13Z",
       "as_of": "2026-06-26T09:33:13Z",
@@ -1400,6 +1386,20 @@
       },
       "top_account_id": "acct_0173",
       "top_account_name": "Copperspark Retail",
+      "calibration_precision": 0.5
+    },
+    {
+      "run_id": "rsc-20261003T111833Z",
+      "generated_at": "2026-10-03T11:18:33Z",
+      "as_of": "2026-10-03T11:18:33Z",
+      "metrics": {
+        "accounts_total": 200,
+        "accounts_scored_24h": 200,
+        "signals_detected_24h": 1,
+        "high_priority_accounts": 0
+      },
+      "top_account_id": "acct_0156",
+      "top_account_name": "Maplefield Health",
       "calibration_precision": 0.5
     }
   ]
