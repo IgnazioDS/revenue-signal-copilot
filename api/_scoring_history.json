@@ -3,20 +3,6 @@
   "schema_version": 1,
   "runs": [
     {
-      "run_id": "rsc-20260627T084023Z",
-      "generated_at": "2026-06-27T08:40:23Z",
-      "as_of": "2026-06-27T08:40:23Z",
-      "metrics": {
-        "accounts_total": 200,
-        "accounts_scored_24h": 200,
-        "signals_detected_24h": 3,
-        "high_priority_accounts": 9
-      },
-      "top_account_id": "acct_0010",
-      "top_account_name": "Silvervale Dynamics",
-      "calibration_precision": 0.6
-    },
-    {
       "run_id": "rsc-20260628T085711Z",
       "generated_at": "2026-06-28T08:57:11Z",
       "as_of": "2026-06-28T08:57:11Z",
@@ -1401,6 +1387,20 @@
       "top_account_id": "acct_0013",
       "top_account_name": "Novaline Media",
       "calibration_precision": 0.55
+    },
+    {
+      "run_id": "rsc-20261005T135959Z",
+      "generated_at": "2026-10-05T13:59:59Z",
+      "as_of": "2026-10-05T13:59:59Z",
+      "metrics": {
+        "accounts_total": 200,
+        "accounts_scored_24h": 200,
+        "signals_detected_24h": 2,
+        "high_priority_accounts": 0
+      },
+      "top_account_id": "acct_0075",
+      "top_account_name": "Novafield Logistics",
+      "calibration_precision": 0.5
     }
   ]
 }
