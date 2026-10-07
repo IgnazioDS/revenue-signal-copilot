@@ -3,20 +3,6 @@
   "schema_version": 1,
   "runs": [
     {
-      "run_id": "rsc-20260629T110643Z",
-      "generated_at": "2026-06-29T11:06:43Z",
-      "as_of": "2026-06-29T11:06:43Z",
-      "metrics": {
-        "accounts_total": 200,
-        "accounts_scored_24h": 200,
-        "signals_detected_24h": 2,
-        "high_priority_accounts": 6
-      },
-      "top_account_id": "acct_0085",
-      "top_account_name": "Quantloop Works",
-      "calibration_precision": 0.55
-    },
-    {
       "run_id": "rsc-20260630T094256Z",
       "generated_at": "2026-06-30T09:42:56Z",
       "as_of": "2026-06-30T09:42:56Z",
@@ -1400,6 +1386,20 @@
       },
       "top_account_id": "acct_0172",
       "top_account_name": "Vertexshore Software",
+      "calibration_precision": 0.5
+    },
+    {
+      "run_id": "rsc-20261007T125431Z",
+      "generated_at": "2026-10-07T12:54:31Z",
+      "as_of": "2026-10-07T12:54:31Z",
+      "metrics": {
+        "accounts_total": 200,
+        "accounts_scored_24h": 200,
+        "signals_detected_24h": 1,
+        "high_priority_accounts": 0
+      },
+      "top_account_id": "acct_0090",
+      "top_account_name": "Novagrove Health",
       "calibration_precision": 0.5
     }
   ]
