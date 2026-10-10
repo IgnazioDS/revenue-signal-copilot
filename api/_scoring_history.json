@@ -3,20 +3,6 @@
   "schema_version": 1,
   "runs": [
     {
-      "run_id": "rsc-20260702T091735Z",
-      "generated_at": "2026-07-02T09:17:35Z",
-      "as_of": "2026-07-02T09:17:35Z",
-      "metrics": {
-        "accounts_total": 200,
-        "accounts_scored_24h": 200,
-        "signals_detected_24h": 3,
-        "high_priority_accounts": 4
-      },
-      "top_account_id": "acct_0085",
-      "top_account_name": "Quantloop Works",
-      "calibration_precision": 0.55
-    },
-    {
       "run_id": "rsc-20260703T092333Z",
       "generated_at": "2026-07-03T09:23:33Z",
       "as_of": "2026-07-03T09:23:33Z",
@@ -1400,6 +1386,20 @@
       },
       "top_account_id": "acct_0118",
       "top_account_name": "Novapoint Media",
+      "calibration_precision": 0.5
+    },
+    {
+      "run_id": "rsc-20261010T120745Z",
+      "generated_at": "2026-10-10T12:07:45Z",
+      "as_of": "2026-10-10T12:07:45Z",
+      "metrics": {
+        "accounts_total": 200,
+        "accounts_scored_24h": 200,
+        "signals_detected_24h": 2,
+        "high_priority_accounts": 0
+      },
+      "top_account_id": "acct_0059",
+      "top_account_name": "Copperriver Software",
       "calibration_precision": 0.5
     }
   ]
