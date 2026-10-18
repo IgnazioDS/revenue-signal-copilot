@@ -3,20 +3,6 @@
   "schema_version": 1,
   "runs": [
     {
-      "run_id": "rsc-20260710T094032Z",
-      "generated_at": "2026-07-10T09:40:32Z",
-      "as_of": "2026-07-10T09:40:32Z",
-      "metrics": {
-        "accounts_total": 200,
-        "accounts_scored_24h": 200,
-        "signals_detected_24h": 3,
-        "high_priority_accounts": 2
-      },
-      "top_account_id": "acct_0085",
-      "top_account_name": "Quantloop Works",
-      "calibration_precision": 0.6
-    },
-    {
       "run_id": "rsc-20260711T080041Z",
       "generated_at": "2026-07-11T08:00:41Z",
       "as_of": "2026-07-11T08:00:41Z",
@@ -1400,6 +1386,20 @@
       },
       "top_account_id": "acct_0007",
       "top_account_name": "Deltafield Labs",
+      "calibration_precision": 0.5
+    },
+    {
+      "run_id": "rsc-20261018T103706Z",
+      "generated_at": "2026-10-18T10:37:06Z",
+      "as_of": "2026-10-18T10:37:06Z",
+      "metrics": {
+        "accounts_total": 200,
+        "accounts_scored_24h": 200,
+        "signals_detected_24h": 1,
+        "high_priority_accounts": 0
+      },
+      "top_account_id": "acct_0084",
+      "top_account_name": "Onyxshore Dynamics",
       "calibration_precision": 0.5
     }
   ]
