@@ -3,20 +3,6 @@
   "schema_version": 1,
   "runs": [
     {
-      "run_id": "rsc-20260715T081904Z",
-      "generated_at": "2026-07-15T08:19:04Z",
-      "as_of": "2026-07-15T08:19:04Z",
-      "metrics": {
-        "accounts_total": 200,
-        "accounts_scored_24h": 200,
-        "signals_detected_24h": 1,
-        "high_priority_accounts": 1
-      },
-      "top_account_id": "acct_0085",
-      "top_account_name": "Quantloop Works",
-      "calibration_precision": 0.55
-    },
-    {
       "run_id": "rsc-20260716T081849Z",
       "generated_at": "2026-07-16T08:18:49Z",
       "as_of": "2026-07-16T08:18:49Z",
@@ -1400,6 +1386,20 @@
       },
       "top_account_id": "acct_0148",
       "top_account_name": "Northloop Media",
+      "calibration_precision": 0.5
+    },
+    {
+      "run_id": "rsc-20261023T111357Z",
+      "generated_at": "2026-10-23T11:13:57Z",
+      "as_of": "2026-10-23T11:13:57Z",
+      "metrics": {
+        "accounts_total": 200,
+        "accounts_scored_24h": 200,
+        "signals_detected_24h": 2,
+        "high_priority_accounts": 0
+      },
+      "top_account_id": "acct_0067",
+      "top_account_name": "Mapleriver Robotics",
       "calibration_precision": 0.5
     }
   ]
