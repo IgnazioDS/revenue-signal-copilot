@@ -3,20 +3,6 @@
   "schema_version": 1,
   "runs": [
     {
-      "run_id": "rsc-20260725T081004Z",
-      "generated_at": "2026-07-25T08:10:04Z",
-      "as_of": "2026-07-25T08:10:04Z",
-      "metrics": {
-        "accounts_total": 200,
-        "accounts_scored_24h": 200,
-        "signals_detected_24h": 3,
-        "high_priority_accounts": 0
-      },
-      "top_account_id": "acct_0034",
-      "top_account_name": "Crestgate Labs",
-      "calibration_precision": 0.55
-    },
-    {
       "run_id": "rsc-20260726T083014Z",
       "generated_at": "2026-07-26T08:30:14Z",
       "as_of": "2026-07-26T08:30:14Z",
@@ -1400,6 +1386,20 @@
       },
       "top_account_id": "acct_0023",
       "top_account_name": "Silverfield Capital",
+      "calibration_precision": 0.5
+    },
+    {
+      "run_id": "rsc-20261102T150557Z",
+      "generated_at": "2026-11-02T15:05:57Z",
+      "as_of": "2026-11-02T15:05:57Z",
+      "metrics": {
+        "accounts_total": 200,
+        "accounts_scored_24h": 200,
+        "signals_detected_24h": 3,
+        "high_priority_accounts": 0
+      },
+      "top_account_id": "acct_0161",
+      "top_account_name": "Summitpoint Dynamics",
       "calibration_precision": 0.5
     }
   ]
