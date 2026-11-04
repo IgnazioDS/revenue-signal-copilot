@@ -3,20 +3,6 @@
   "schema_version": 1,
   "runs": [
     {
-      "run_id": "rsc-20260727T095649Z",
-      "generated_at": "2026-07-27T09:56:49Z",
-      "as_of": "2026-07-27T09:56:49Z",
-      "metrics": {
-        "accounts_total": 200,
-        "accounts_scored_24h": 200,
-        "signals_detected_24h": 2,
-        "high_priority_accounts": 0
-      },
-      "top_account_id": "acct_0006",
-      "top_account_name": "Onyxstone Logistics",
-      "calibration_precision": 0.55
-    },
-    {
       "run_id": "rsc-20260728T083850Z",
       "generated_at": "2026-07-28T08:38:50Z",
       "as_of": "2026-07-28T08:38:50Z",
@@ -1400,6 +1386,20 @@
       },
       "top_account_id": "acct_0036",
       "top_account_name": "Harborwind Robotics",
+      "calibration_precision": 0.5
+    },
+    {
+      "run_id": "rsc-20261104T135759Z",
+      "generated_at": "2026-11-04T13:57:59Z",
+      "as_of": "2026-11-04T13:57:59Z",
+      "metrics": {
+        "accounts_total": 200,
+        "accounts_scored_24h": 200,
+        "signals_detected_24h": 3,
+        "high_priority_accounts": 0
+      },
+      "top_account_id": "acct_0082",
+      "top_account_name": "Pinepoint Retail",
       "calibration_precision": 0.5
     }
   ]
