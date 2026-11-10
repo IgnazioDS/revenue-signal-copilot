@@ -3,20 +3,6 @@
   "schema_version": 1,
   "runs": [
     {
-      "run_id": "rsc-20260802T082745Z",
-      "generated_at": "2026-08-02T08:27:45Z",
-      "as_of": "2026-08-02T08:27:45Z",
-      "metrics": {
-        "accounts_total": 200,
-        "accounts_scored_24h": 200,
-        "signals_detected_24h": 1,
-        "high_priority_accounts": 1
-      },
-      "top_account_id": "acct_0141",
-      "top_account_name": "Harborriver Logistics",
-      "calibration_precision": 0.55
-    },
-    {
       "run_id": "rsc-20260803T095120Z",
       "generated_at": "2026-08-03T09:51:20Z",
       "as_of": "2026-08-03T09:51:20Z",
@@ -1400,6 +1386,20 @@
       },
       "top_account_id": "acct_0012",
       "top_account_name": "Orbitwind Systems",
+      "calibration_precision": 0.5
+    },
+    {
+      "run_id": "rsc-20261110T143249Z",
+      "generated_at": "2026-11-10T14:32:49Z",
+      "as_of": "2026-11-10T14:32:49Z",
+      "metrics": {
+        "accounts_total": 200,
+        "accounts_scored_24h": 200,
+        "signals_detected_24h": 2,
+        "high_priority_accounts": 0
+      },
+      "top_account_id": "acct_0165",
+      "top_account_name": "Vertexbridge Group",
       "calibration_precision": 0.5
     }
   ]
