@@ -3,20 +3,6 @@
   "schema_version": 1,
   "runs": [
     {
-      "run_id": "rsc-20260803T095120Z",
-      "generated_at": "2026-08-03T09:51:20Z",
-      "as_of": "2026-08-03T09:51:20Z",
-      "metrics": {
-        "accounts_total": 200,
-        "accounts_scored_24h": 200,
-        "signals_detected_24h": 1,
-        "high_priority_accounts": 0
-      },
-      "top_account_id": "acct_0085",
-      "top_account_name": "Quantloop Works",
-      "calibration_precision": 0.55
-    },
-    {
       "run_id": "rsc-20260804T084142Z",
       "generated_at": "2026-08-04T08:41:42Z",
       "as_of": "2026-08-04T08:41:42Z",
@@ -1400,6 +1386,20 @@
       },
       "top_account_id": "acct_0165",
       "top_account_name": "Vertexbridge Group",
+      "calibration_precision": 0.5
+    },
+    {
+      "run_id": "rsc-20261111T134730Z",
+      "generated_at": "2026-11-11T13:47:30Z",
+      "as_of": "2026-11-11T13:47:30Z",
+      "metrics": {
+        "accounts_total": 200,
+        "accounts_scored_24h": 200,
+        "signals_detected_24h": 2,
+        "high_priority_accounts": 0
+      },
+      "top_account_id": "acct_0068",
+      "top_account_name": "Copperfield Industries",
       "calibration_precision": 0.5
     }
   ]
