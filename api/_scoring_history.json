@@ -3,20 +3,6 @@
   "schema_version": 1,
   "runs": [
     {
-      "run_id": "rsc-20260804T084142Z",
-      "generated_at": "2026-08-04T08:41:42Z",
-      "as_of": "2026-08-04T08:41:42Z",
-      "metrics": {
-        "accounts_total": 200,
-        "accounts_scored_24h": 200,
-        "signals_detected_24h": 1,
-        "high_priority_accounts": 0
-      },
-      "top_account_id": "acct_0085",
-      "top_account_name": "Quantloop Works",
-      "calibration_precision": 0.55
-    },
-    {
       "run_id": "rsc-20260805T083954Z",
       "generated_at": "2026-08-05T08:39:54Z",
       "as_of": "2026-08-05T08:39:54Z",
@@ -1400,6 +1386,20 @@
       },
       "top_account_id": "acct_0068",
       "top_account_name": "Copperfield Industries",
+      "calibration_precision": 0.5
+    },
+    {
+      "run_id": "rsc-20261112T145032Z",
+      "generated_at": "2026-11-12T14:50:32Z",
+      "as_of": "2026-11-12T14:50:32Z",
+      "metrics": {
+        "accounts_total": 200,
+        "accounts_scored_24h": 200,
+        "signals_detected_24h": 1,
+        "high_priority_accounts": 0
+      },
+      "top_account_id": "acct_0129",
+      "top_account_name": "Birchgrove Dynamics",
       "calibration_precision": 0.5
     }
   ]
