@@ -3,20 +3,6 @@
   "schema_version": 1,
   "runs": [
     {
-      "run_id": "rsc-20260806T084111Z",
-      "generated_at": "2026-08-06T08:41:11Z",
-      "as_of": "2026-08-06T08:41:11Z",
-      "metrics": {
-        "accounts_total": 200,
-        "accounts_scored_24h": 200,
-        "signals_detected_24h": 2,
-        "high_priority_accounts": 0
-      },
-      "top_account_id": "acct_0106",
-      "top_account_name": "Pineline Foods",
-      "calibration_precision": 0.55
-    },
-    {
       "run_id": "rsc-20260807T072011Z",
       "generated_at": "2026-08-07T07:20:11Z",
       "as_of": "2026-08-07T07:20:11Z",
@@ -1400,6 +1386,20 @@
       },
       "top_account_id": "acct_0004",
       "top_account_name": "Cedarfield Labs",
+      "calibration_precision": 0.5
+    },
+    {
+      "run_id": "rsc-20261114T131107Z",
+      "generated_at": "2026-11-14T13:11:07Z",
+      "as_of": "2026-11-14T13:11:07Z",
+      "metrics": {
+        "accounts_total": 200,
+        "accounts_scored_24h": 200,
+        "signals_detected_24h": 1,
+        "high_priority_accounts": 0
+      },
+      "top_account_id": "acct_0061",
+      "top_account_name": "Northgrove Foods",
       "calibration_precision": 0.5
     }
   ]
