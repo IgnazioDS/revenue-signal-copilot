@@ -3,20 +3,6 @@
   "schema_version": 1,
   "runs": [
     {
-      "run_id": "rsc-20260808T065746Z",
-      "generated_at": "2026-08-08T06:57:46Z",
-      "as_of": "2026-08-08T06:57:46Z",
-      "metrics": {
-        "accounts_total": 200,
-        "accounts_scored_24h": 200,
-        "signals_detected_24h": 3,
-        "high_priority_accounts": 0
-      },
-      "top_account_id": "acct_0085",
-      "top_account_name": "Quantloop Works",
-      "calibration_precision": 0.6
-    },
-    {
       "run_id": "rsc-20260809T070040Z",
       "generated_at": "2026-08-09T07:00:40Z",
       "as_of": "2026-08-09T07:00:40Z",
@@ -1400,6 +1386,20 @@
       },
       "top_account_id": "acct_0121",
       "top_account_name": "Bluestone Robotics",
+      "calibration_precision": 0.5
+    },
+    {
+      "run_id": "rsc-20261116T151228Z",
+      "generated_at": "2026-11-16T15:12:28Z",
+      "as_of": "2026-11-16T15:12:28Z",
+      "metrics": {
+        "accounts_total": 200,
+        "accounts_scored_24h": 200,
+        "signals_detected_24h": 1,
+        "high_priority_accounts": 0
+      },
+      "top_account_id": "acct_0054",
+      "top_account_name": "Quantpeak Logistics",
       "calibration_precision": 0.5
     }
   ]
