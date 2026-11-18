@@ -3,20 +3,6 @@
   "schema_version": 1,
   "runs": [
     {
-      "run_id": "rsc-20260810T074635Z",
-      "generated_at": "2026-08-10T07:46:35Z",
-      "as_of": "2026-08-10T07:46:35Z",
-      "metrics": {
-        "accounts_total": 200,
-        "accounts_scored_24h": 200,
-        "signals_detected_24h": 2,
-        "high_priority_accounts": 0
-      },
-      "top_account_id": "acct_0012",
-      "top_account_name": "Orbitwind Systems",
-      "calibration_precision": 0.5
-    },
-    {
       "run_id": "rsc-20260811T071212Z",
       "generated_at": "2026-08-11T07:12:12Z",
       "as_of": "2026-08-11T07:12:12Z",
@@ -1400,6 +1386,20 @@
       },
       "top_account_id": "acct_0006",
       "top_account_name": "Onyxstone Logistics",
+      "calibration_precision": 0.5
+    },
+    {
+      "run_id": "rsc-20261118T152004Z",
+      "generated_at": "2026-11-18T15:20:04Z",
+      "as_of": "2026-11-18T15:20:04Z",
+      "metrics": {
+        "accounts_total": 200,
+        "accounts_scored_24h": 200,
+        "signals_detected_24h": 3,
+        "high_priority_accounts": 0
+      },
+      "top_account_id": "acct_0052",
+      "top_account_name": "Deltastone Systems",
       "calibration_precision": 0.5
     }
   ]
