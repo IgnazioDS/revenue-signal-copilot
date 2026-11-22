@@ -3,20 +3,6 @@
   "schema_version": 1,
   "runs": [
     {
-      "run_id": "rsc-20260814T073606Z",
-      "generated_at": "2026-08-14T07:36:06Z",
-      "as_of": "2026-08-14T07:36:06Z",
-      "metrics": {
-        "accounts_total": 200,
-        "accounts_scored_24h": 200,
-        "signals_detected_24h": 3,
-        "high_priority_accounts": 1
-      },
-      "top_account_id": "acct_0087",
-      "top_account_name": "Cedarriver Industries",
-      "calibration_precision": 0.55
-    },
-    {
       "run_id": "rsc-20260815T064209Z",
       "generated_at": "2026-08-15T06:42:09Z",
       "as_of": "2026-08-15T06:42:09Z",
@@ -1400,6 +1386,20 @@
       },
       "top_account_id": "acct_0071",
       "top_account_name": "Crestwind Systems",
+      "calibration_precision": 0.5
+    },
+    {
+      "run_id": "rsc-20261122T141720Z",
+      "generated_at": "2026-11-22T14:17:20Z",
+      "as_of": "2026-11-22T14:17:20Z",
+      "metrics": {
+        "accounts_total": 200,
+        "accounts_scored_24h": 200,
+        "signals_detected_24h": 3,
+        "high_priority_accounts": 0
+      },
+      "top_account_id": "acct_0060",
+      "top_account_name": "Silverriver Labs",
       "calibration_precision": 0.5
     }
   ]
