@@ -3,20 +3,6 @@
   "schema_version": 1,
   "runs": [
     {
-      "run_id": "rsc-20260818T064804Z",
-      "generated_at": "2026-08-18T06:48:04Z",
-      "as_of": "2026-08-18T06:48:04Z",
-      "metrics": {
-        "accounts_total": 200,
-        "accounts_scored_24h": 200,
-        "signals_detected_24h": 2,
-        "high_priority_accounts": 0
-      },
-      "top_account_id": "acct_0157",
-      "top_account_name": "Crestgate Media",
-      "calibration_precision": 0.5
-    },
-    {
       "run_id": "rsc-20260819T064916Z",
       "generated_at": "2026-08-19T06:49:16Z",
       "as_of": "2026-08-19T06:49:16Z",
@@ -1401,6 +1387,20 @@
       "top_account_id": "acct_0080",
       "top_account_name": "Cedarpeak Analytics",
       "calibration_precision": 0.5
+    },
+    {
+      "run_id": "rsc-20261126T163542Z",
+      "generated_at": "2026-11-26T16:35:42Z",
+      "as_of": "2026-11-26T16:35:42Z",
+      "metrics": {
+        "accounts_total": 200,
+        "accounts_scored_24h": 200,
+        "signals_detected_24h": 2,
+        "high_priority_accounts": 0
+      },
+      "top_account_id": "acct_0113",
+      "top_account_name": "Silverpeak Group",
+      "calibration_precision": 0.55
     }
   ]
 }
